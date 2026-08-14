@@ -2,14 +2,15 @@
   EslaM-X — GitHub Profile README
   1) Create a PUBLIC repo named exactly: EslaM-X  (same as your username)
   2) Paste this file as README.md
-  3) Upload the crowned-X logo to:  assets/x-crown-logo.jpg  in that same repo
-  4) Replace PORTFOLIO_URL below (https://eslamx.vercel.app) with your final domain.
+  3) The crowned-X logo is served from the live site: https://eslamx.vercel.app/x-crown-logo.jpg
+     (no upload needed — just keep the site deployed).
+  4) Replace PORTFOLIO_URL below (https://eslamx.vercel.app) if your domain ever changes.
 -->
 
 <div align="center">
 
 <a href="https://eslamx.vercel.app">
-  <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/x-crown-logo.jpg" width="170" alt="EslaM-X emblem — open portfolio" />
+  <img src="https://eslamx.vercel.app/x-crown-logo.jpg" width="170" alt="EslaM-X emblem — open portfolio" />
 </a>
 
 <a href="https://github.com/EslaM-X">
@@ -25,7 +26,7 @@
 <div align="center">
 
 <a href="https://eslamx.vercel.app">
-  <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/x-crown-logo.jpg" width="64" align="left" alt="" />
+  <img src="https://eslamx.vercel.app/x-crown-logo.jpg" width="64" align="left" alt="" />
 </a>
 
 ### ⚜️ ENTER THE SOVEREIGN PORTFOLIO ⚜️
@@ -38,7 +39,7 @@
 </a>
 
 <a href="https://eslamx.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2600&pause=900&color=FF6A00&center=true&vCenter=true&width=760&lines=%E2%86%92+eslamx.vercel.app+%E2%80%94+CLICK+TO+ENTER;BLACK+%26+GOLD+%C2%B7+BILINGUAL+EN+%2F+AR+%C2%B7+CINEMATIC" alt="portfolio link" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2600&pause=900&color=FF6A00&center=true&vCenter=true&width=760&lines=%E2%86%92+eslamx.vercel.app+%E2%80%94+CLICK+TO+ENTER;The+most+dangerous+mind+in+cyberspace.;I+break+the+unbreakable+just+to+prove+nothing+is+safe" alt="portfolio link" />
 </a>
 
 </div>
@@ -129,10 +130,21 @@ const eslam = {
 
 <div align="center">
 
-[![robopay](https://github-readme-stats.vercel.app/api/pin/?username=EslaM-X&repo=robopay-spot-tier1&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755)](https://github.com/EslaM-X/robopay-spot-tier1)
-[![pirc1](https://github-readme-stats.vercel.app/api/pin/?username=EslaM-X&repo=pirc1-standards-pro&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755)](https://github.com/EslaM-X/pirc1-standards-pro)
-[![mapcap](https://github-readme-stats.vercel.app/api/pin/?username=EslaM-X&repo=mapcap-ipo-frontendX&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755)](https://github.com/EslaM-X/mapcap-ipo-frontendX)
-[![agent](https://github-readme-stats.vercel.app/api/pin/?username=EslaM-X&repo=pi-local-ai-agent&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755)](https://github.com/EslaM-X/pi-local-ai-agent)
+<a href="https://github.com/EslaM-X/robopay-spot-tier1">
+  <img src="https://img.shields.io/badge/⚙️%20RoboPay%20Spot%20Tier--1-Python%20·%20MuJoCo%20·%20x402-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="34" alt="RoboPay Spot Tier-1" />
+</a>
+<a href="https://github.com/EslaM-X/pirc1-standards-pro">
+  <img src="https://img.shields.io/badge/📜%20PiRC1%20Standards%20Pro-TypeScript%20·%20Protocol-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="34" alt="PiRC1 Standards Pro" />
+</a>
+<a href="https://github.com/EslaM-X/mapcap-ipo-frontendX">
+  <img src="https://img.shields.io/badge/🏦%20MapCap%20IPO%20Platform-TS%20·%20Node%20·%20MongoDB-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="34" alt="MapCap IPO Platform" />
+</a>
+<a href="https://github.com/EslaM-X/pi-local-ai-agent">
+  <img src="https://img.shields.io/badge/🤖%20Pi%20Local%20AI%20Agent-LLM%20·%20Autonomous%20Agents-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="34" alt="Pi Local AI Agent" />
+</a>
+<a href="https://github.com/EslaM-X?tab=repositories">
+  <img src="https://img.shields.io/badge/⚜️%20EXPLORE%20ALL%2060%2B%20REPOSITORIES-0A0A0A?style=for-the-badge&logo=github&logoColor=FFB627&labelColor=0A0A0A&color=FFB627" height="34" alt="All repositories" />
+</a>
 
 </div>
 
@@ -144,12 +156,12 @@ const eslam = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EslaM-X&show_icons=true&count_private=true&include_all_commits=true&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EslaM-X&layout=compact&langs_count=8&title_color=FFB627&text_color=e6e6e6&bg_color=0a0a0a&border_color=FFB62755" alt="languages" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=EslaM-X&show_icons=true&count_private=true&include_all_commits=true&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755&cache_seconds=86400" alt="stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EslaM-X&layout=compact&langs_count=8&title_color=FFB627&text_color=e6e6e6&bg_color=0a0a0a&border_color=FFB62755&cache_seconds=86400" alt="languages" />
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=EslaM-X&background=0a0a0a&border=FFB62755&stroke=FFB62755&ring=FFB627&fire=FF6A00&currStreakLabel=FFB627&sideLabels=e6e6e6&dates=8a8a8a&currStreakNum=FFB627&sideNums=e6e6e6" alt="streak" />
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=EslaM-X&background=0a0a0a&border=FFB62755&stroke=FFB62755&ring=FFB627&fire=FF6A00&currStreakLabel=FFB627&sideLabels=e6e6e6&dates=8a8a8a&currStreakNum=FFB627&sideNums=e6e6e6&cache_seconds=86400" alt="streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=EslaM-X&bg_color=0a0a0a&color=FFB627&line=FF6A00&point=FFB627&area=true&hide_border=false&border_color=FFB62755" alt="activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=EslaM-X&bg_color=0a0a0a&color=FFB627&line=FF6A00&point=FFB627&area=true&hide_border=false&border_color=FFB62755&cache_seconds=86400" alt="activity graph" />
 
 </div>
 
@@ -159,7 +171,13 @@ const eslam = {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=EslaM-X&theme=onedark&no-frame=true&column=7&title=MultipleLang,Commits,Repositories,PullRequest,Issues,Stars,Followers" alt="trophies" />
+<img src="https://img.shields.io/badge/🏛️%20PI%20NETWORK-Founder%20Endorsed%20·%20PiRC1-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Pi Network" />
+<img src="https://img.shields.io/badge/⭐%20STELLAR-stellar--core%20Upstream%20PR-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="32" alt="Stellar" />
+<img src="https://img.shields.io/badge/🤖%20FABRIC%20FOUNDATION-RoboPay%20x402-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Fabric Foundation" />
+<img src="https://img.shields.io/badge/🔥%2044%2C000%2B-Contributions%20This%20Year-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="32" alt="Contributions" />
+<img src="https://img.shields.io/badge/📦%2060%2B-Repositories%20Shipped-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Repositories" />
+<img src="https://img.shields.io/badge/🌍%205-Global%20Organizations-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="32" alt="Organizations" />
+<img src="https://img.shields.io/badge/🛡️%2015%2B%20YEARS-Blockchain%20%26%20Security%20Research-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Research depth" />
 
 </div>
 
@@ -168,7 +186,7 @@ const eslam = {
 <div align="center">
 
 <a href="https://eslamx.vercel.app">
-  <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/x-crown-logo.jpg" width="100" alt="EslaM-X — portfolio" />
+  <img src="https://eslamx.vercel.app/x-crown-logo.jpg" width="100" alt="EslaM-X — portfolio" />
 </a>
 
 **⚜️ [ESLAM-X · eslamx.vercel.app](https://eslamx.vercel.app) ⚜️**
