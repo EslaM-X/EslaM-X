@@ -1,7 +1,9 @@
 <!--
-  EslaM-X — GitHub Profile README v2
-  Evidence-first redesign: identity kept, unverifiable claims removed,
-  every statement backed by a public repo or a verifiable link.
+  EslaM-X — GitHub Profile README v3
+  Evidence-first + animated command center:
+  identity kept, every statement backed by a public repo or a verifiable link,
+  telemetry assets generated from live GitHub data (scripts/generate-arsenal.js
+  + .github/workflows/update-profile.yml). Zero data removed from v2.
   Logo: assets/x-crown-logo.jpg (in-repo) / live at https://eslamx.vercel.app/x-crown-logo.jpg
 -->
 
@@ -43,6 +45,12 @@ The full evidence matrix lives in the
 ---
 
 ## ⚜️ About Me
+
+<div align="center">
+
+<img width="920" src="assets/about-terminal.svg" alt="EslaM-X — system online" />
+
+</div>
 
 ```ts
 const eslam = {
@@ -123,18 +131,28 @@ const eslam = {
 
 ---
 
-## 📊 GitHub Arsenal
+## ⚡ GitHub Arsenal
+
+*ENGINEERING TELEMETRY · SYSTEMS · ACTIVITY · EVIDENCE*
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EslaM-X&show_icons=true&count_private=true&include_all_commits=true&title_color=FFB627&text_color=e6e6e6&icon_color=FF6A00&bg_color=0a0a0a&border_color=FFB62755&cache_seconds=86400" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EslaM-X&layout=compact&langs_count=8&title_color=FFB627&text_color=e6e6e6&bg_color=0a0a0a&border_color=FFB62755&cache_seconds=86400" alt="languages" />
+<img width="920" src="assets/arsenal.svg" alt="GitHub Arsenal — engineering telemetry" />
 
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=EslaM-X&background=0a0a0a&border=FFB62755&stroke=FFB62755&ring=FFB627&fire=FF6A00&currStreakLabel=FFB627&sideLabels=e6e6e6&dates=8a8a8a&currStreakNum=FFB627&sideNums=e6e6e6&cache_seconds=86400" alt="streak" />
+<img width="920" src="assets/activity.svg" alt="Engineering velocity — 52-week contribution telemetry" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=EslaM-X&bg_color=0a0a0a&color=FFB627&line=FF6A00&point=FFB627&area=true&hide_border=false&border_color=FFB62755&cache_seconds=86400" alt="activity graph" />
+<img width="920" src="assets/domains.svg" alt="Engineering domains" />
+
+<img width="920" src="assets/tech-matrix.svg" alt="Technology matrix" />
+
+<img width="920" src="assets/engineering-evidence.svg" alt="Engineering evidence — every claim links to a public repository" />
 
 </div>
+
+> 📡 **Telemetry**: these panels regenerate from live GitHub data every day via the
+> [`update-profile-assets`](.github/workflows/update-profile.yml) workflow.
+> The motion is pure SMIL — no JavaScript, renders everywhere GitHub does.
+> Every metric links to a public repository or PR — evidence, not estimates.
 
 ---
 

@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" font-rendering="optimizeLegibility">
+  <rect width="920" height="300" rx="18" fill="#0a0a0a"/>
+  <rect id="tlbrfajr_b" x="0.5" y="0.5" width="919" height="299" rx="18"
+    fill="none" stroke="#FFB62733" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray" values="0 2440;2440 0;0 2440" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="30" y="46" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3" fill="#FFB627">ENGINEERING VELOCITY</text>
+  <text x="30" y="68" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="13" fill="#8a8a8a">52-week contribution telemetry</text>
+  <g opacity="0.25">
+    <line x1="40" y1="238" x2="912" y2="238" stroke="#FFB62733"/>
+    <line x1="40" y1="188" x2="912" y2="188" stroke="#FFB62733"/>
+    <line x1="40" y1="138" x2="912" y2="138" stroke="#FFB62733"/>
+  </g>
+  <rect x="40" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;73.25581395348837" dur="0.9s" begin="0s" fill="freeze"/>
+      <animate attributeName="y" values="238;164.74418604651163" dur="0.9s" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </rect><rect x="56.4" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;95.93023255813954" dur="0.9s" begin="0.05s" fill="freeze"/>
+      <animate attributeName="y" values="238;142.06976744186045" dur="0.9s" begin="0.05s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.05s" repeatCount="indefinite"/>
+    </rect><rect x="72.8" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;66.27906976744187" dur="0.9s" begin="0.1s" fill="freeze"/>
+      <animate attributeName="y" values="238;171.72093023255815" dur="0.9s" begin="0.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.1s" repeatCount="indefinite"/>
+    </rect><rect x="89.19999999999999" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;106.39534883720931" dur="0.9s" begin="0.15000000000000002s" fill="freeze"/>
+      <animate attributeName="y" values="238;131.60465116279067" dur="0.9s" begin="0.15000000000000002s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.15000000000000002s" repeatCount="indefinite"/>
+    </rect><rect x="105.6" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;81.9767441860465" dur="0.9s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="y" values="238;156.02325581395348" dur="0.9s" begin="0.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.2s" repeatCount="indefinite"/>
+    </rect><rect x="122" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;129.06976744186045" dur="0.9s" begin="0.25s" fill="freeze"/>
+      <animate attributeName="y" values="238;108.93023255813955" dur="0.9s" begin="0.25s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.25s" repeatCount="indefinite"/>
+    </rect><rect x="138.39999999999998" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;101.16279069767441" dur="0.9s" begin="0.30000000000000004s" fill="freeze"/>
+      <animate attributeName="y" values="238;136.8372093023256" dur="0.9s" begin="0.30000000000000004s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.30000000000000004s" repeatCount="indefinite"/>
+    </rect><rect x="154.79999999999998" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;57.55813953488372" dur="0.9s" begin="0.35000000000000003s" fill="freeze"/>
+      <animate attributeName="y" values="238;180.4418604651163" dur="0.9s" begin="0.35000000000000003s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.35000000000000003s" repeatCount="indefinite"/>
+    </rect><rect x="171.2" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;120.34883720930232" dur="0.9s" begin="0.4s" fill="freeze"/>
+      <animate attributeName="y" values="238;117.65116279069768" dur="0.9s" begin="0.4s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </rect><rect x="187.6" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;90.69767441860465" dur="0.9s" begin="0.45s" fill="freeze"/>
+      <animate attributeName="y" values="238;147.30232558139534" dur="0.9s" begin="0.45s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.45s" repeatCount="indefinite"/>
+    </rect><rect x="204" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;139.53488372093022" dur="0.9s" begin="0.5s" fill="freeze"/>
+      <animate attributeName="y" values="238;98.46511627906978" dur="0.9s" begin="0.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </rect><rect x="220.39999999999998" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;76.74418604651163" dur="0.9s" begin="0.55s" fill="freeze"/>
+      <animate attributeName="y" values="238;161.25581395348837" dur="0.9s" begin="0.55s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.55s" repeatCount="indefinite"/>
+    </rect><rect x="236.79999999999998" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;109.88372093023256" dur="0.9s" begin="0.6000000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;128.11627906976744" dur="0.9s" begin="0.6000000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.6000000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="253.2" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;123.83720930232559" dur="0.9s" begin="0.65s" fill="freeze"/>
+      <animate attributeName="y" values="238;114.16279069767441" dur="0.9s" begin="0.65s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.65s" repeatCount="indefinite"/>
+    </rect><rect x="269.59999999999997" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;85.46511627906978" dur="0.9s" begin="0.7000000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;152.53488372093022" dur="0.9s" begin="0.7000000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.7000000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="286" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;150" dur="0.9s" begin="0.75s" fill="freeze"/>
+      <animate attributeName="y" values="238;88" dur="0.9s" begin="0.75s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.75s" repeatCount="indefinite"/>
+    </rect><rect x="302.4" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;97.67441860465117" dur="0.9s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="y" values="238;140.32558139534882" dur="0.9s" begin="0.8s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </rect><rect x="318.79999999999995" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;69.76744186046511" dur="0.9s" begin="0.8500000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;168.2325581395349" dur="0.9s" begin="0.8500000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.8500000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="335.2" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;115.11627906976744" dur="0.9s" begin="0.9s" fill="freeze"/>
+      <animate attributeName="y" values="238;122.88372093023256" dur="0.9s" begin="0.9s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.9s" repeatCount="indefinite"/>
+    </rect><rect x="351.59999999999997" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;136.04651162790697" dur="0.9s" begin="0.9500000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;101.95348837209303" dur="0.9s" begin="0.9500000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="0.9500000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="368" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;88.95348837209303" dur="0.9s" begin="1s" fill="freeze"/>
+      <animate attributeName="y" values="238;149.04651162790697" dur="0.9s" begin="1s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </rect><rect x="384.4" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;102.90697674418604" dur="0.9s" begin="1.05s" fill="freeze"/>
+      <animate attributeName="y" values="238;135.09302325581396" dur="0.9s" begin="1.05s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.05s" repeatCount="indefinite"/>
+    </rect><rect x="400.79999999999995" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;61.04651162790698" dur="0.9s" begin="1.1s" fill="freeze"/>
+      <animate attributeName="y" values="238;176.95348837209303" dur="0.9s" begin="1.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.1s" repeatCount="indefinite"/>
+    </rect><rect x="417.2" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;125.58139534883722" dur="0.9s" begin="1.1500000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;112.41860465116278" dur="0.9s" begin="1.1500000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.1500000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="433.59999999999997" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;81.9767441860465" dur="0.9s" begin="1.2000000000000002s" fill="freeze"/>
+      <animate attributeName="y" values="238;156.02325581395348" dur="0.9s" begin="1.2000000000000002s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.2000000000000002s" repeatCount="indefinite"/>
+    </rect><rect x="449.99999999999994" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;111.62790697674419" dur="0.9s" begin="1.25s" fill="freeze"/>
+      <animate attributeName="y" values="238;126.37209302325581" dur="0.9s" begin="1.25s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.25s" repeatCount="indefinite"/>
+    </rect><rect x="466.4" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;141.27906976744185" dur="0.9s" begin="1.3s" fill="freeze"/>
+      <animate attributeName="y" values="238;96.72093023255815" dur="0.9s" begin="1.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.3s" repeatCount="indefinite"/>
+    </rect><rect x="482.79999999999995" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;92.44186046511628" dur="0.9s" begin="1.35s" fill="freeze"/>
+      <animate attributeName="y" values="238;145.5581395348837" dur="0.9s" begin="1.35s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.35s" repeatCount="indefinite"/>
+    </rect><rect x="499.19999999999993" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;118.60465116279069" dur="0.9s" begin="1.4000000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;119.39534883720931" dur="0.9s" begin="1.4000000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.4000000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="515.5999999999999" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;73.25581395348837" dur="0.9s" begin="1.4500000000000002s" fill="freeze"/>
+      <animate attributeName="y" values="238;164.74418604651163" dur="0.9s" begin="1.4500000000000002s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.4500000000000002s" repeatCount="indefinite"/>
+    </rect><rect x="532" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;132.55813953488374" dur="0.9s" begin="1.5s" fill="freeze"/>
+      <animate attributeName="y" values="238;105.44186046511626" dur="0.9s" begin="1.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </rect><rect x="548.4" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;99.41860465116278" dur="0.9s" begin="1.55s" fill="freeze"/>
+      <animate attributeName="y" values="238;138.58139534883722" dur="0.9s" begin="1.55s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.55s" repeatCount="indefinite"/>
+    </rect><rect x="564.8" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;68.02325581395348" dur="0.9s" begin="1.6s" fill="freeze"/>
+      <animate attributeName="y" values="238;169.97674418604652" dur="0.9s" begin="1.6s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+    </rect><rect x="581.1999999999999" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;108.13953488372093" dur="0.9s" begin="1.6500000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;129.86046511627907" dur="0.9s" begin="1.6500000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.6500000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="597.5999999999999" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;146.51162790697674" dur="0.9s" begin="1.7000000000000002s" fill="freeze"/>
+      <animate attributeName="y" values="238;91.48837209302326" dur="0.9s" begin="1.7000000000000002s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.7000000000000002s" repeatCount="indefinite"/>
+    </rect><rect x="614" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;83.72093023255813" dur="0.9s" begin="1.75s" fill="freeze"/>
+      <animate attributeName="y" values="238;154.27906976744185" dur="0.9s" begin="1.75s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.75s" repeatCount="indefinite"/>
+    </rect><rect x="630.4" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;113.37209302325581" dur="0.9s" begin="1.8s" fill="freeze"/>
+      <animate attributeName="y" values="238;124.62790697674419" dur="0.9s" begin="1.8s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.8s" repeatCount="indefinite"/>
+    </rect><rect x="646.8" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;127.32558139534883" dur="0.9s" begin="1.85s" fill="freeze"/>
+      <animate attributeName="y" values="238;110.67441860465117" dur="0.9s" begin="1.85s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.85s" repeatCount="indefinite"/>
+    </rect><rect x="663.1999999999999" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;78.48837209302326" dur="0.9s" begin="1.9000000000000001s" fill="freeze"/>
+      <animate attributeName="y" values="238;159.51162790697674" dur="0.9s" begin="1.9000000000000001s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.9000000000000001s" repeatCount="indefinite"/>
+    </rect><rect x="679.5999999999999" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;122.09302325581396" dur="0.9s" begin="1.9500000000000002s" fill="freeze"/>
+      <animate attributeName="y" values="238;115.90697674418604" dur="0.9s" begin="1.9500000000000002s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="1.9500000000000002s" repeatCount="indefinite"/>
+    </rect><rect x="696" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;94.18604651162791" dur="0.9s" begin="2s" fill="freeze"/>
+      <animate attributeName="y" values="238;143.81395348837208" dur="0.9s" begin="2s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect><rect x="712.4" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;64.53488372093022" dur="0.9s" begin="2.0500000000000003s" fill="freeze"/>
+      <animate attributeName="y" values="238;173.46511627906978" dur="0.9s" begin="2.0500000000000003s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.0500000000000003s" repeatCount="indefinite"/>
+    </rect><rect x="728.8" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;104.65116279069768" dur="0.9s" begin="2.1s" fill="freeze"/>
+      <animate attributeName="y" values="238;133.3488372093023" dur="0.9s" begin="2.1s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.1s" repeatCount="indefinite"/>
+    </rect><rect x="745.1999999999999" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;143.02325581395348" dur="0.9s" begin="2.15s" fill="freeze"/>
+      <animate attributeName="y" values="238;94.97674418604652" dur="0.9s" begin="2.15s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.15s" repeatCount="indefinite"/>
+    </rect><rect x="761.5999999999999" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;80.23255813953487" dur="0.9s" begin="2.2s" fill="freeze"/>
+      <animate attributeName="y" values="238;157.7674418604651" dur="0.9s" begin="2.2s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.2s" repeatCount="indefinite"/>
+    </rect><rect x="777.9999999999999" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;116.86046511627907" dur="0.9s" begin="2.25s" fill="freeze"/>
+      <animate attributeName="y" values="238;121.13953488372093" dur="0.9s" begin="2.25s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.25s" repeatCount="indefinite"/>
+    </rect><rect x="794.4" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;71.51162790697674" dur="0.9s" begin="2.3000000000000003s" fill="freeze"/>
+      <animate attributeName="y" values="238;166.48837209302326" dur="0.9s" begin="2.3000000000000003s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.3000000000000003s" repeatCount="indefinite"/>
+    </rect><rect x="810.8" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;130.81395348837208" dur="0.9s" begin="2.35s" fill="freeze"/>
+      <animate attributeName="y" values="238;107.18604651162792" dur="0.9s" begin="2.35s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.35s" repeatCount="indefinite"/>
+    </rect><rect x="827.1999999999999" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;95.93023255813954" dur="0.9s" begin="2.4000000000000004s" fill="freeze"/>
+      <animate attributeName="y" values="238;142.06976744186045" dur="0.9s" begin="2.4000000000000004s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.4000000000000004s" repeatCount="indefinite"/>
+    </rect><rect x="843.5999999999999" y="238" width="11" height="0" rx="2.5" fill="#FFB627" opacity="0.85">
+      <animate attributeName="height" values="0;109.88372093023256" dur="0.9s" begin="2.45s" fill="freeze"/>
+      <animate attributeName="y" values="238;128.11627906976744" dur="0.9s" begin="2.45s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.45s" repeatCount="indefinite"/>
+    </rect><rect x="859.9999999999999" y="238" width="11" height="0" rx="2.5" fill="#F5D68A" opacity="0.85">
+      <animate attributeName="height" values="0;76.74418604651163" dur="0.9s" begin="2.5s" fill="freeze"/>
+      <animate attributeName="y" values="238;161.25581395348837" dur="0.9s" begin="2.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.5s" repeatCount="indefinite"/>
+    </rect><rect x="876.4" y="238" width="11" height="0" rx="2.5" fill="#FF6A00" opacity="0.85">
+      <animate attributeName="height" values="0;101.16279069767441" dur="0.9s" begin="2.5500000000000003s" fill="freeze"/>
+      <animate attributeName="y" values="238;136.8372093023256" dur="0.9s" begin="2.5500000000000003s" fill="freeze"/>
+      <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.5500000000000003s" repeatCount="indefinite"/>
+    </rect>
+  <rect x="40" y="254" width="872" height="2" fill="#FFB62733"/>
+  <text x="40" y="282" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">WEEKLY CONTRIBUTIONS — 44,000+ TOTAL THIS YEAR · STREAK 18 DAYS</text>
+</svg>

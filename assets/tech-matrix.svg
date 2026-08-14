@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320" font-rendering="optimizeLegibility">
+  <rect width="920" height="320" rx="18" fill="#0a0a0a"/>
+  <rect id="y9uimxlg_b" x="0.5" y="0.5" width="919" height="319" rx="18"
+    fill="none" stroke="#FFB62733" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray" values="0 2480;2480 0;0 2480" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3" fill="#FFB627">TECHNOLOGY MATRIX</text>
+  <g opacity="0">
+      <rect x="30" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="30" y="48" width="100" height="26" rx="10" fill="#FFB6271a"/>
+      <text x="40" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FFB627">FRONTEND</text>
+      <text x="40" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Next.js</text><text x="40" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">React</text><text x="40" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">TypeScript</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.1s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.1s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="139" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="139" y="48" width="100" height="26" rx="10" fill="#FF6A001a"/>
+      <text x="149" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FF6A00">BACKEND</text>
+      <text x="149" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Node.js</text><text x="149" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Go</text><text x="149" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Python</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.22s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.22s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="248" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="248" y="48" width="100" height="26" rx="10" fill="#FFB6271a"/>
+      <text x="258" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FFB627">DATA / DB</text>
+      <text x="258" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">PostgreSQL</text><text x="258" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">MongoDB</text><text x="258" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Supabase</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.33999999999999997s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.33999999999999997s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="357" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="357" y="48" width="100" height="26" rx="10" fill="#FF6A001a"/>
+      <text x="367" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FF6A00">INFRA</text>
+      <text x="367" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Docker</text><text x="367" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">GitHub Actions</text><text x="367" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Vercel</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.45999999999999996s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.45999999999999996s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="466" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="466" y="48" width="100" height="26" rx="10" fill="#FFB6271a"/>
+      <text x="476" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FFB627">AI / ROBOTICS</text>
+      <text x="476" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">MuJoCo</text><text x="476" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">PyBullet</text><text x="476" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Agents</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.58s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.58s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="575" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="575" y="48" width="100" height="26" rx="10" fill="#FF6A001a"/>
+      <text x="585" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FF6A00">WEB3</text>
+      <text x="585" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">PiRC</text><text x="585" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Solidity</text><text x="585" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Foundry</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.7s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.7s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="684" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="684" y="48" width="100" height="26" rx="10" fill="#FFB6271a"/>
+      <text x="694" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FFB627">SECURITY</text>
+      <text x="694" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">OSINT</text><text x="694" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Threat Model</text><text x="694" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">API Security</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.82s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.82s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="793" y="48" width="100" height="230" rx="10" fill="#131313" stroke="#FFB62733"/>
+      <rect x="793" y="48" width="100" height="26" rx="10" fill="#FF6A001a"/>
+      <text x="803" y="65" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9.5" font-weight="700" letter-spacing="0.5" fill="#FF6A00">SYSTEMS</text>
+      <text x="803" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Go</text><text x="803" y="124" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">CI/CD</text><text x="803" y="148" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">Reliability</text>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.94s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 18" to="0 0" dur="0.6s" begin="0.94s" fill="freeze"/>
+    </g>
+</svg>

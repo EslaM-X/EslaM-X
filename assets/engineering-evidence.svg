@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="360" viewBox="0 0 920 360" font-rendering="optimizeLegibility">
+  <rect width="920" height="360" rx="18" fill="#0a0a0a"/>
+  <rect id="dl32t57q_b" x="0.5" y="0.5" width="919" height="359" rx="18"
+    fill="none" stroke="#FFB62733" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray" values="0 2560;2560 0;0 2560" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="30" y="30" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="3" fill="#FFB627">ENGINEERING EVIDENCE</text>
+  <g opacity="0">
+      <text x="30" y="44" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#FFB627">ROBOTICS</text>
+      <rect x="30" y="52" width="154" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="107" y="71" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Policy</text><line x1="186" y1="67" x2="200" y2="67" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0s" repeatCount="indefinite"/>
+        </line><rect x="202" y="52" width="154" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="279" y="71" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Planner</text><line x1="358" y1="67" x2="372" y2="67" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.2s" repeatCount="indefinite"/>
+        </line><rect x="374" y="52" width="154" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="451" y="71" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Controller</text><line x1="530" y1="67" x2="544" y2="67" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.4s" repeatCount="indefinite"/>
+        </line><rect x="546" y="52" width="154" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="623" y="71" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">MuJoCo ⇄ PyBullet</text><line x1="702" y1="67" x2="716" y2="67" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.6000000000000001s" repeatCount="indefinite"/>
+        </line><rect x="718" y="52" width="154" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="795" y="71" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Validation</text>
+      <text x="30" y="100" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">robot-sim-policy-lab — 18 tests · 3 physics backends · CI green</text>
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0s" fill="freeze"/>
+    </g><g opacity="0">
+      <text x="30" y="122" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#FF6A00">AI</text>
+      <rect x="30" y="130" width="154" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="107" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Planning</text><line x1="186" y1="145" x2="200" y2="145" stroke="#FF6A00" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.3s" repeatCount="indefinite"/>
+        </line><rect x="202" y="130" width="154" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="279" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Agent Router</text><line x1="358" y1="145" x2="372" y2="145" stroke="#FF6A00" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.5s" repeatCount="indefinite"/>
+        </line><rect x="374" y="130" width="154" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="451" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Research / Content / QA</text><line x1="530" y1="145" x2="544" y2="145" stroke="#FF6A00" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.7s" repeatCount="indefinite"/>
+        </line><rect x="546" y="130" width="154" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="623" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Approval Gate</text><line x1="702" y1="145" x2="716" y2="145" stroke="#FF6A00" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.9000000000000001s" repeatCount="indefinite"/>
+        </line><rect x="718" y="130" width="154" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="795" y="149" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Execution → AuditLog</text>
+      <text x="30" y="178" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">ai-agent-automation-platform — human-gated, audited orchestration</text>
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.25s" fill="freeze"/>
+    </g><g opacity="0">
+      <text x="30" y="200" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#FFB627">PRODUCTION SYSTEMS</text>
+      <rect x="30" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="82.42857142857143" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Idempotency</text><line x1="136.85714285714286" y1="223" x2="150.85714285714286" y2="223" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.6s" repeatCount="indefinite"/>
+        </line><rect x="152.85714285714286" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="205.28571428571428" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Retry</text><line x1="259.7142857142857" y1="223" x2="273.7142857142857" y2="223" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.8s" repeatCount="indefinite"/>
+        </line><rect x="275.7142857142857" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="328.14285714285717" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Circuit Breaker</text><line x1="382.57142857142856" y1="223" x2="396.57142857142856" y2="223" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="1s" repeatCount="indefinite"/>
+        </line><rect x="398.57142857142856" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="451" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">HMAC</text><line x1="505.42857142857144" y1="223" x2="519.4285714285714" y2="223" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="1.2000000000000002s" repeatCount="indefinite"/>
+        </line><rect x="521.4285714285714" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="573.8571428571429" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Rate Limit</text><line x1="628.2857142857143" y1="223" x2="642.2857142857143" y2="223" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="1.4s" repeatCount="indefinite"/>
+        </line><rect x="644.2857142857143" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="696.7142857142858" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Audit Chains</text><line x1="751.1428571428572" y1="223" x2="765.1428571428572" y2="223" stroke="#FFB627" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="1.6s" repeatCount="indefinite"/>
+        </line><rect x="767.1428571428571" y="208" width="104.85714285714286" height="30" rx="8" fill="#171717" stroke="#FFB62744"/>
+        <text x="819.5714285714286" y="227" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Webhooks</text>
+      <text x="30" y="256" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">production-systems-lab — Go · race-tested · benchmarks</text>
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.5s" fill="freeze"/>
+    </g><g opacity="0">
+      <text x="30" y="278" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="700" letter-spacing="1.5" fill="#FF6A00">SECURITY</text>
+      <rect x="30" y="286" width="268.6666666666667" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="164.33333333333334" y="305" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Secure APIs</text><line x1="300.6666666666667" y1="301" x2="314.6666666666667" y2="301" stroke="#FF6A00" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="0.8999999999999999s" repeatCount="indefinite"/>
+        </line><rect x="316.6666666666667" y="286" width="268.6666666666667" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="451" y="305" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Threat Modeling</text><line x1="587.3333333333334" y1="301" x2="601.3333333333334" y2="301" stroke="#FF6A00" stroke-width="1.5">
+          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="1.0999999999999999s" repeatCount="indefinite"/>
+        </line><rect x="603.3333333333334" y="286" width="268.6666666666667" height="30" rx="8" fill="#171717" stroke="#FF6A0044"/>
+        <text x="737.6666666666667" y="305" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" text-anchor="middle" fill="#e6e6e6">Forensics</text>
+      <text x="30" y="334" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">zero-trust design · OSINT · digital forensics</text>
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.75s" fill="freeze"/>
+    </g>
+</svg>
