@@ -1,10 +1,8 @@
 <!--
-  EslaM-X — GitHub Profile README
-  1) Create a PUBLIC repo named exactly: EslaM-X  (same as your username)
-  2) Paste this file as README.md
-  3) The crowned-X logo is served from the live site: https://eslamx.vercel.app/x-crown-logo.jpg
-     (no upload needed — just keep the site deployed).
-  4) Replace PORTFOLIO_URL below (https://eslamx.vercel.app) if your domain ever changes.
+  EslaM-X — GitHub Profile README v2
+  Evidence-first redesign: identity kept, unverifiable claims removed,
+  every statement backed by a public repo or a verifiable link.
+  Logo: assets/x-crown-logo.jpg (in-repo) / live at https://eslamx.vercel.app/x-crown-logo.jpg
 -->
 
 <div align="center">
@@ -14,7 +12,7 @@
 </a>
 
 <a href="https://github.com/EslaM-X">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=34&duration=2200&pause=700&color=FFB627&center=true&vCenter=true&width=1000&lines=SOVEREIGN+ENGINEER;WEB3+%26+PROTOCOL+ARCHITECT;CYBER+SECURITY+AUTHORITY;FULL-STACK+%2B+AI+SYSTEMS" alt="EslaM-X" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=30&duration=2200&pause=700&color=FFB627&center=true&vCenter=true&width=1000&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;ROBOTICS+%C2%B7+AI+AGENTS+%C2%B7+PAYMENTS;WEB3+%C2%B7+SECURITY+%C2%B7+FORENSICS;FULL-STACK+ENGINEERING+%E2%80%94+CAIRO+%C2%B7+REMOTE" alt="EslaM-X" />
 </a>
 
 <h3>EslaM HeshAM — MR-X</h3>
@@ -22,27 +20,25 @@
 
 </div>
 
-<!-- ══════════════ PORTFOLIO — HERO CTA ══════════════ -->
-<div align="center">
+---
 
-<a href="https://eslamx.vercel.app">
-  <img src="https://eslamx.vercel.app/x-crown-logo.jpg" width="64" align="left" alt="" />
-</a>
+## ⚜️ Evidence, not claims
 
-### ⚜️ ENTER THE SOVEREIGN PORTFOLIO ⚜️
+This profile is built the same way I build systems: **every claim below points
+at a public repository, a PR, or a benchmark that can be opened and checked.**
+No numbers here are estimated — if it is stated, it is verifiable.
 
-<a href="https://eslamx.vercel.app">
-  <img src="https://img.shields.io/badge/⚜️%20EslaM--X%20·%20OFFICIAL%20PORTFOLIO-0A0A0A?style=for-the-badge&logo=vercel&logoColor=FFB627&labelColor=0A0A0A&color=FFB627" height="46" alt="Open the portfolio" />
-</a>
-<a href="https://eslamx.vercel.app">
-  <img src="https://img.shields.io/badge/LIVE-ONLINE-0A0A0A?style=for-the-badge&logo=statuspage&logoColor=FFB627&labelColor=0A0A0A&color=FF6A00" height="46" alt="Live" />
-</a>
+The full evidence matrix lives in the
+**[portfolio repository](https://github.com/EslaM-X/portfolio)**.
 
-<a href="https://eslamx.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2600&pause=900&color=FF6A00&center=true&vCenter=true&width=760&lines=%E2%86%92+eslamx.vercel.app+%E2%80%94+CLICK+TO+ENTER;The+most+dangerous+mind+in+cyberspace.;I+break+the+unbreakable+just+to+prove+nothing+is+safe" alt="portfolio link" />
-</a>
-
-</div>
+| What I state | Where you verify it |
+| --- | --- |
+| I engineer robotics + policy systems | [robot-sim-policy-lab](https://github.com/EslaM-X/robot-sim-policy-lab) — 18 tests, 3 physics backends, CI green |
+| I build production AI agent platforms | [ai-agent-automation-platform](https://github.com/EslaM-X/ai-agent-automation-platform) — 10 tests, approval-gated execution |
+| I engineer financial/API reliability | [production-systems-lab](https://github.com/EslaM-X/production-systems-lab) — 20+ Go tests, benchmarks |
+| I write deep engineering analysis | [engineering-notes](https://github.com/EslaM-X/engineering-notes) — 5 problem-first dives |
+| I contribute to Web3 protocols | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2), [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
+| I work on machine-payable robotics | [RoboPay](https://github.com/fabricfoundation/RoboPay) — x402 gating, Go2 Tier-1 submission (see portfolio) |
 
 ---
 
@@ -51,38 +47,49 @@
 ```ts
 const eslam = {
   role:      "Lead Technical Architect",
-  focus:     ["Web3 protocols", "AI systems", "Cyber security", "Digital forensics", "Enterprise ops"],
-  stack:     ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "PostgreSQL", "Supabase", "Docker"],
-  building:  ["Map of Pi v2.0", "Steinheim ERP", "RoboPay Spot Tier-1"],
-  contributing: ["Pi Network", "Stellar", "Fabric Foundation", "Map of Pi", "S.I.G"],
+  focus:     ["Robotics & simulation", "AI agent orchestration", "Payment reliability", "Web3 protocols", "Security & forensics"],
+  stack:     ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "PostgreSQL", "Docker"],
+  languages: ["TypeScript", "Python", "Go", "Solidity"],
+  building:  ["RoboPay Go2 Tier-1", "Robot sim-to-sim lab", "AI agent platform", "Go production patterns"],
+  contributing: ["Pi Network", "Stellar", "Fabric Foundation", "Map of Pi"],
   creed:     "Excellence without compromise. My code is my law.",
 };
 ```
 
-- 🏛️ **Lead Technical Architect @ Map of Pi** — high-scale MERN architecture, AI integration, elite security layers.
-- ⛓️ **Web3 core systems** — protocol standards, BFT consensus research, smart-contract auditing (Foundry, invariant testing).
-- 🛡️ **Cyber security & digital forensics** — zero-trust design, adversarial threat modeling, malware research, OSINT.
-- 🤖 **Physical AI & robotics** — machine-payable agents, digital twins, embedded systems.
-- 📈 **Business Operations Manager @ S.I.G / Steinheim** — Office of the CEO & Board; built the ERP, invoicing and audit systems in production today.
-- 🌍 Portfolio → **[eslamx.vercel.app](https://eslamx.vercel.app)**
+- 🏛️ **Lead Technical Architect @ Map of Pi** — high-scale MERN architecture, AI integration, security layers.
+- 🤖 **Robotics & physical AI** — policy-driven navigation, sim-to-sim validation across MuJoCo + PyBullet, machine-payable agents.
+- ⛓️ **Web3 core systems** — protocol standards (PiRC1), consensus research, smart-contract auditing (Foundry, invariant testing).
+- 🛡️ **Cyber security & digital forensics** — zero-trust design, threat modeling, malware research, OSINT.
+- 📈 **Business Operations Manager @ S.I.G / Steinheim** — built the ERP, invoicing and audit systems running in production today.
 
 ---
 
-## 📈 Depth of Research
-
-| Domain | Depth |
-| --- | --- |
-| Blockchain research | **15+ years** |
-| Malware & virus research | **15+ years** |
-| Cyber security (Red / Blue team) | **14+ years** |
-| Applied cryptography | **11+ years** |
-| Smart contracts & auditing | **8+ years** |
+## 🚀 Featured Projects
 
 <div align="center">
 
-`44,000+ contributions this year` · `60+ repositories shipped` · `5 global organizations`
+| Project | What it is | Status |
+| --- | --- | --- |
+| [**robot-sim-policy-lab**](https://github.com/EslaM-X/robot-sim-policy-lab) | Policy → planner → controller → 3 simulators; measured 0.26 m max sim-to-sim deviation | Public · CI green · v0.1.0 |
+| [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration | Public · CI green · v0.1.0 |
+| [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) | Public · CI green · v0.1.0 |
+| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives: robotics → payments → CI → secure APIs | Public · v1.0.0 |
+| [**robopay-spot-tier1**](https://github.com/EslaM-X/robopay-spot-tier1) | Go2 Tier-1 robot control for the RoboPay bounty | Public |
+| [**portfolio**](https://github.com/EslaM-X/portfolio) | Evidence matrix for everything above | Public |
 
 </div>
+
+> 🔒 Enterprise work (Steinheim ERP & Invoicing, S.I.G platforms) lives in private repositories — available on request.
+
+---
+
+## 🏆 Open-Source Contributions
+
+| Protocol | Contribution | Verifiable at |
+| --- | --- | --- |
+| [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Authored PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | [PR #2](https://github.com/PiNetwork/PiRC/pull/2) — reviewed by **Dr. Nicolas Kokkalis**, Founder of Pi Network |
+| [**Stellar — stellar-core**](https://github.com/stellar/stellar-core/pull/5409) | Contribution to the reference P2P implementation behind Stellar consensus | [PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
+| [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay) | Machine-payable robotics: x402 payment gating, Go2 Tier-1 submission, infra hardening PRs | [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) + evidence in [portfolio](https://github.com/EslaM-X/portfolio) |
 
 ---
 
@@ -116,42 +123,6 @@ const eslam = {
 
 ---
 
-## 🏆 Open-Source Impact
-
-| Protocol | Contribution | Recognition |
-| --- | --- | --- |
-| [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Authored PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | Reviewed & endorsed by **Dr. Nicolas Kokkalis**, Founder of Pi Network — *“Both of these are good ideas. Implementation seems possible.”* |
-| [**Stellar — stellar-core**](https://github.com/stellar/stellar-core/pull/5409) | Contribution to the reference P2P implementation behind Stellar consensus | Upstream PR |
-| [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay/pull/86) | Machine-payable robotics: x402 payment gating with no-settle-on-failure | Upstream PR |
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/EslaM-X/robopay-spot-tier1">
-  <img src="https://img.shields.io/badge/⚙️%20RoboPay%20Spot%20Tier--1-Python%20·%20MuJoCo%20·%20x402-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="34" alt="RoboPay Spot Tier-1" />
-</a>
-<a href="https://github.com/EslaM-X/pirc1-standards-pro">
-  <img src="https://img.shields.io/badge/📜%20PiRC1%20Standards%20Pro-TypeScript%20·%20Protocol-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="34" alt="PiRC1 Standards Pro" />
-</a>
-<a href="https://github.com/EslaM-X/mapcap-ipo-frontendX">
-  <img src="https://img.shields.io/badge/🏦%20MapCap%20IPO%20Platform-TS%20·%20Node%20·%20MongoDB-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="34" alt="MapCap IPO Platform" />
-</a>
-<a href="https://github.com/EslaM-X/pi-local-ai-agent">
-  <img src="https://img.shields.io/badge/🤖%20Pi%20Local%20AI%20Agent-LLM%20·%20Autonomous%20Agents-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="34" alt="Pi Local AI Agent" />
-</a>
-<a href="https://github.com/EslaM-X?tab=repositories">
-  <img src="https://img.shields.io/badge/⚜️%20EXPLORE%20ALL%2060%2B%20REPOSITORIES-0A0A0A?style=for-the-badge&logo=github&logoColor=FFB627&labelColor=0A0A0A&color=FFB627" height="34" alt="All repositories" />
-</a>
-
-</div>
-
-> 🔒 Additional enterprise work (Steinheim ERP & Invoicing, S.I.G platforms) lives in private repositories — available on request.
-
----
-
 ## 📊 GitHub Arsenal
 
 <div align="center">
@@ -167,22 +138,6 @@ const eslam = {
 
 ---
 
-## 🎖️ Achievements
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/🏛️%20PI%20NETWORK-Founder%20Endorsed%20·%20PiRC1-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Pi Network" />
-<img src="https://img.shields.io/badge/⭐%20STELLAR-stellar--core%20Upstream%20PR-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="32" alt="Stellar" />
-<img src="https://img.shields.io/badge/🤖%20FABRIC%20FOUNDATION-RoboPay%20x402-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Fabric Foundation" />
-<img src="https://img.shields.io/badge/🔥%2044%2C000%2B-Contributions%20This%20Year-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="32" alt="Contributions" />
-<img src="https://img.shields.io/badge/📦%2060%2B-Repositories%20Shipped-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Repositories" />
-<img src="https://img.shields.io/badge/🌍%205-Global%20Organizations-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FF6A00" height="32" alt="Organizations" />
-<img src="https://img.shields.io/badge/🛡️%2015%2B%20YEARS-Blockchain%20%26%20Security%20Research-0A0A0A?style=for-the-badge&labelColor=0A0A0A&color=FFB627" height="32" alt="Research depth" />
-
-</div>
-
----
-
 <div align="center">
 
 <a href="https://eslamx.vercel.app">
@@ -191,8 +146,6 @@ const eslam = {
 
 **⚜️ [ESLAM-X · eslamx.vercel.app](https://eslamx.vercel.app) ⚜️**
 
-`Sovereign Engineer · Blockchain Titan · Cyber Authority · Legacy Builder`
-
-<i>Rare. Unseen. Unstoppable.</i>
+`Systems & Protocol Engineer · Robotics · AI Agents · Payments · Legacy Builder`
 
 </div>
