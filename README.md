@@ -60,7 +60,7 @@ const eslam = {
   languages: ["TypeScript", "Python", "Go", "Solidity"],
   building:  ["RoboPay Go2 Tier-1", "Robot sim-to-sim lab", "AI agent platform", "Go production patterns"],
   contributing: ["Pi Network", "Stellar", "Fabric Foundation", "Map of Pi"],
-  creed:     "Excellence without compromise. My code is my law.",
+  creed:     "Excellence without compromise. Evidence over claims.",
 };
 ```
 
@@ -82,7 +82,7 @@ const eslam = {
 | [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration | Public · CI green · v0.1.0 |
 | [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) | Public · CI green · v0.1.0 |
 | [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives: robotics → payments → CI → secure APIs | Public · v1.0.0 |
-| [**robopay-spot-tier1**](https://github.com/EslaM-X/robopay-spot-tier1) | Go2 Tier-1 robot control for the RoboPay bounty | Public |
+| [**robopay-spot-tier1**](https://github.com/EslaM-X/robopay-spot-tier1) | Boston Dynamics Spot Tier-1 robot control for the RoboPay bounty | Public |
 | [**portfolio**](https://github.com/EslaM-X/portfolio) | Evidence matrix for everything above | Public |
 
 </div>
@@ -95,7 +95,7 @@ const eslam = {
 
 | Protocol | Contribution | Verifiable at |
 | --- | --- | --- |
-| [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Authored PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | [PR #2](https://github.com/PiNetwork/PiRC/pull/2) — reviewed by **Dr. Nicolas Kokkalis**, Founder of Pi Network |
+| [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Proposed PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | [PR #2](https://github.com/PiNetwork/PiRC/pull/2) — received technical review and feedback from Pi Network founder Nicolas Kokkalis |
 | [**Stellar — stellar-core**](https://github.com/stellar/stellar-core/pull/5409) | Contribution to the reference P2P implementation behind Stellar consensus | [PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
 | [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay) | Machine-payable robotics: x402 payment gating, Go2 Tier-1 submission, infra hardening PRs | [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) + evidence in [portfolio](https://github.com/EslaM-X/portfolio) |
 
@@ -164,6 +164,6 @@ const eslam = {
 
 **⚜️ [ESLAM-X · eslamx.vercel.app](https://eslamx.vercel.app) ⚜️**
 
-`Systems & Protocol Engineer · Robotics · AI Agents · Payments · Legacy Builder`
+`Systems & Protocol Engineer · Robotics · AI Agents · Payments · Evidence-First Engineering`
 
 </div>
