@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320" font-rendering="optimizeLegibility">
   <rect width="920" height="320" rx="18" fill="#0a0a0a"/>
-  <rect id="t2k1k0tp_b" x="0.5" y="0.5" width="919" height="319" rx="18"
+  <rect id="e5_b" x="0.5" y="0.5" width="919" height="319" rx="18"
     fill="none" stroke="#FFB62733" stroke-width="1.5">
     <animate attributeName="stroke-dasharray" values="0 2480;2480 0;0 2480" dur="7s" repeatCount="indefinite"/>
   </rect>

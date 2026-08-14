@@ -67,8 +67,10 @@ const DEFAULT_DATA = {
   ],
 };
 
+let __idSeq = 0;
 function slug() {
-  return Math.random().toString(36).slice(2, 10);
+  __idSeq += 1;
+  return "e" + __idSeq.toString(36);
 }
 
 async function fetchData() {
@@ -132,7 +134,6 @@ function esc(s) {
 }
 
 function pulse(cx, cy, r, color, dur, delay, id) {
-  const g = slug();
   return `<g opacity="0">
     <circle cx="${cx}" cy="${cy}" r="${r}" fill="${color}" opacity="0.25">
       <animate attributeName="opacity" values="0.25;0.05;0.25" dur="${dur}" begin="${delay}s" repeatCount="indefinite"/>
@@ -144,7 +145,6 @@ function pulse(cx, cy, r, color, dur, delay, id) {
 }
 
 function drawBorder(id, w, h, r) {
-  const g = slug();
   const len = 2 * (w + h);
   return `<rect id="${id}_b" x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="${r}"
     fill="none" stroke="${C.line}" stroke-width="1.5">
@@ -266,7 +266,6 @@ function arsenal(d) {
   let tileHtml = "";
   tiles.forEach((t, i) => {
     const x = 30 + i * 296;
-    const gid = slug();
     tileHtml += `<g opacity="0">
       <rect x="${x}" y="92" width="264" height="132" rx="14" fill="${C.panel}" stroke="${C.line}"/>
       <rect x="${x}" y="92" width="6" height="132" rx="3" fill="${t.color}">
