@@ -42,5 +42,7 @@ jobs:
             echo "No asset changes — nothing to commit"
           else
             git commit -m "build: refresh profile arsenal telemetry assets"
-            git push
+            git push "https://x-access-token:${PUSH_TOKEN}@github.com/EslaM-X/EslaM-X.git" main
           fi
+        env:
+          PUSH_TOKEN: ${{ secrets.PROFILE_PUSH_TOKEN }}
