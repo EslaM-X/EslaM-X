@@ -36,11 +36,31 @@ The full evidence matrix lives in the
 | What I state | Where you verify it |
 | --- | --- |
 | I engineer robotics + policy systems | [robot-sim-policy-lab](https://github.com/EslaM-X/robot-sim-policy-lab) — 18 tests, 3 physics backends, CI green |
-| I build production AI agent platforms | [ai-agent-automation-platform](https://github.com/EslaM-X/ai-agent-automation-platform) — 10 tests, approval-gated execution |
-| I engineer financial/API reliability | [production-systems-lab](https://github.com/EslaM-X/production-systems-lab) — 20+ Go tests, benchmarks |
-| I write deep engineering analysis | [engineering-notes](https://github.com/EslaM-X/engineering-notes) — 5 problem-first dives |
+| I build production AI agent platforms | [ai-agent-automation-platform](https://github.com/EslaM-X/ai-agent-automation-platform) — 17 evaluation cases, 6 dimensions, regression gate |
+| I engineer financial/API reliability | [production-systems-lab](https://github.com/EslaM-X/production-systems-lab) — 37 Go tests, failure matrix, benchmarks |
+| I write deep engineering analysis | [engineering-notes](https://github.com/EslaM-X/engineering-notes) — 5 problem-first dives, 5 ADRs |
 | I contribute to Web3 protocols | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2), [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
 | I work on machine-payable robotics | [RoboPay](https://github.com/fabricfoundation/RoboPay) — x402 gating, Go2 Tier-1 submission (see portfolio) |
+
+---
+
+## 🧩 Engineering Evidence
+
+**Evidence over claims** — every major engineering claim is traceable to
+implementation, tests, evaluation, or reproducible artifacts.
+
+<div align="center">
+
+<img width="920" src="assets/engineering-evidence.svg" alt="Engineering Evidence — metrics, pipeline, and 4 evidence cards" />
+
+</div>
+
+> 🔧 **Single source of truth**: the numbers above are rendered from
+> [`profile-data/evidence.json`](profile-data/evidence.json). When a number
+> changes (17 → 21, 37 → 42, 5 → 6), edit that one file and the evidence
+> panel regenerates — no hunting through files. The pipeline: implementation →
+> tests → evaluation → failure analysis → architecture → decisions →
+> reproducible evidence.
 
 ---
 
@@ -79,9 +99,9 @@ const eslam = {
 | Project | What it is | Status |
 | --- | --- | --- |
 | [**robot-sim-policy-lab**](https://github.com/EslaM-X/robot-sim-policy-lab) | Policy → planner → controller → 3 simulators; measured 0.26 m max sim-to-sim deviation | Public · CI green · v0.1.0 |
-| [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration | Public · CI green · v0.1.0 |
-| [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) | Public · CI green · v0.1.0 |
-| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives: robotics → payments → CI → secure APIs | Public · v1.0.0 |
+| [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration · 17 evaluation cases · 6 dimensions · regression gate | Public · CI green · v0.3.0 |
+| [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) · 37 tests | Public · CI green |
+| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives + 5 ADRs: robotics → payments → CI → secure APIs | Public |
 | [**robopay-spot-tier1**](https://github.com/EslaM-X/robopay-spot-tier1) | Boston Dynamics Spot Tier-1 robot control for the RoboPay bounty | Public |
 | [**portfolio**](https://github.com/EslaM-X/portfolio) | Evidence matrix for everything above | Public |
 
@@ -144,8 +164,6 @@ const eslam = {
 <img width="920" src="assets/domains.svg" alt="Engineering domains" />
 
 <img width="920" src="assets/tech-matrix.svg" alt="Technology matrix" />
-
-<img width="920" src="assets/engineering-evidence.svg" alt="Engineering evidence — every claim links to a public repository" />
 
 </div>
 

@@ -27,6 +27,19 @@ const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN || "";
 const OUT = path.join(__dirname, "..", "assets");
 
 /* ------------------------------------------------------------------ */
+/* Single source of truth for the ENGINEERING EVIDENCE layer           */
+/* profile-data/evidence.json — edit ONE file, regenerate, done.       */
+/* ------------------------------------------------------------------ */
+const EVIDENCE_PATH = path.join(__dirname, "..", "profile-data", "evidence.json");
+function loadEvidence() {
+  try {
+    return JSON.parse(fs.readFileSync(EVIDENCE_PATH, "utf8"));
+  } catch (_) {
+    return null;
+  }
+}
+
+/* ------------------------------------------------------------------ */
 /* Palette — Obsidian & Molten Gold (site design system, unchanged)    */
 /* ------------------------------------------------------------------ */
 const C = {
@@ -131,6 +144,16 @@ async function fetchData() {
 /* ------------------------------------------------------------------ */
 function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+/* split a phrase into word-bounded chunks of ~2 lines */
+function splitWords(s, maxLen) {
+  const words = String(s).split(/\s+/).filter(Boolean);
+  const max = maxLen || 13;
+  if (words.length === 1) return words.length && s.length > max ? [s] : words;
+  if (s.length <= max) return words.length ? [s] : [""];
+  const half = Math.ceil(words.length / 2);
+  return [words.slice(0, half).join(" "), words.slice(half).join(" ")];
 }
 
 function pulse(cx, cy, r, color, dur, delay, id) {
@@ -414,66 +437,140 @@ function techMatrix(d) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 6) engineering-evidence.svg — evidence flows                         */
+/* 6) engineering-evidence.svg — ENGINEERING EVIDENCE layer            */
+/*    metrics + pipeline + 4 evidence cards, all read from             */
+/*    profile-data/evidence.json (single source of truth).             */
 /* ------------------------------------------------------------------ */
 function evidence(d) {
-  const w = 920, h = 360, r = 18;
+  const ev = loadEvidence();
+  const w = 920, h = 900, r = 18;
   const g = slug();
-  const rows = [
-    {
-      tag: "ROBOTICS",
-      color: C.gold,
-      nodes: ["Policy", "Planner", "Controller", "MuJoCo ⇄ PyBullet", "Validation"],
-      note: "robot-sim-policy-lab — 18 tests · 3 physics backends · CI green",
-    },
-    {
-      tag: "AI",
-      color: C.ember,
-      nodes: ["Planning", "Agent Router", "Research / Content / QA", "Approval Gate", "Execution → AuditLog"],
-      note: "ai-agent-automation-platform — human-gated, audited orchestration",
-    },
-    {
-      tag: "PRODUCTION SYSTEMS",
-      color: C.gold,
-      nodes: ["Idempotency", "Retry", "Circuit Breaker", "HMAC", "Rate Limit", "Audit Chains", "Webhooks"],
-      note: "production-systems-lab — Go · race-tested · benchmarks",
-    },
-    {
-      tag: "SECURITY",
-      color: C.ember,
-      nodes: ["Secure APIs", "Threat Modeling", "Forensics"],
-      note: "zero-trust design · OSINT · digital forensics",
-    },
+
+  const metrics = (ev && ev.metrics) || [
+    { value: "17", label: "Evaluation Cases", href: "", source: "" },
+    { value: "6", label: "Evaluation Dimensions", href: "", source: "" },
+    { value: "37", label: "Production Tests", href: "", source: "" },
+    { value: "4", label: "Architecture Maps", href: "", source: "" },
+    { value: "5", label: "Architecture Decisions", href: "", source: "" },
+    { value: "1", label: "Verified Benchmark History", href: "", source: "" },
   ];
-  let html = "";
-  rows.forEach((row, ri) => {
-    const y0 = 52 + ri * 78;
-    const n = row.nodes.length;
-    const slot = 860 / n;
-    let flow = "";
-    row.nodes.forEach((node, i) => {
-      const rx = 30 + i * slot;
-      const tw = slot - 18;
-      flow += `<rect x="${rx}" y="${y0}" width="${tw}" height="30" rx="8" fill="${C.panel2}" stroke="${row.color}44"/>
-        <text x="${rx + tw / 2}" y="${y0 + 19}" font-family="${F.mono}" font-size="10.5" text-anchor="middle" fill="${C.text}">${node}</text>`;
-      if (i < n - 1) {
-        flow += `<line x1="${rx + tw + 2}" y1="${y0 + 15}" x2="${rx + slot - 2}" y2="${y0 + 15}" stroke="${row.color}" stroke-width="1.5">
-          <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" begin="${ri * 0.3 + i * 0.2}s" repeatCount="indefinite"/>
-        </line>`;
-      }
-    });
-    html += `<g opacity="0">
-      <text x="30" y="${y0 - 8}" font-family="${F.mono}" font-size="11" font-weight="700" letter-spacing="1.5" fill="${row.color}">${row.tag}</text>
-      ${flow}
-      <text x="30" y="${y0 + 48}" font-family="${F.sans}" font-size="11" fill="${C.muted}">${row.note}</text>
-      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="${ri * 0.25}s" fill="freeze"/>
+  const pipeline = (ev && ev.pipeline) || [
+    "Implementation", "Tests", "Evaluation", "Failure Analysis", "Architecture", "Decisions", "Reproducible Evidence",
+  ];
+  const cards = (ev && ev.cards) || [];
+  const subtitle = (ev && ev.subtitle) || "Evidence over claims — every claim is traceable to a public artifact.";
+  const subLines = subtitle.length > 92
+    ? (() => {
+        const half = Math.ceil(subtitle.length / 2);
+        let cut = subtitle.indexOf(" ", half);
+        if (cut < 0) cut = half;
+        return [subtitle.slice(0, cut), subtitle.slice(cut + 1)];
+      })()
+    : [subtitle];
+
+  /* --- metrics row: big number, small label, hover reveals source --- */
+  const tileW = 135, tileGap = 6;
+  let metricHtml = "";
+  metrics.forEach((m, i) => {
+    const x = 30 + i * (tileW + tileGap);
+    const cy = 102;
+    const t = 0.15 + i * 0.12;
+    const box = `<rect x="${x}" y="${cy}" width="${tileW}" height="128" rx="10" fill="${C.panel}" stroke="${C.line}"/>
+      <rect x="${x}" y="${cy}" width="${tileW}" height="4" rx="2" fill="${C.gold}" opacity="0.9">
+        <animate attributeName="opacity" values="0.9;0.35;0.9" dur="2.6s" begin="${i * 0.3}s" repeatCount="indefinite"/>
+      </rect>`;
+    const labelParts = splitWords(m.label);
+    const labelHtml = labelParts
+      .map((part, pi) => `<text x="${x + tileW / 2}" y="${cy + 66 + pi * 12}" font-family="${F.mono}" font-size="8.5" letter-spacing="0.5" text-anchor="middle" fill="${C.muted}">${esc(part)}</text>`)
+      .join("");
+    const inner = `${box}
+      <text x="${x + tileW / 2}" y="${cy + 42}" font-family="${F.sans}" font-size="42" font-weight="800" text-anchor="middle" fill="${C.gold}">${m.value}</text>
+      ${labelHtml}
+      ${m.href ? `<text x="${x + tileW / 2}" y="${cy + 104}" font-family="${F.mono}" font-size="9" text-anchor="middle" fill="${C.ember}">VERIFY ↗</text>` : ""}`;
+    const hover = m.source
+      ? `<title>${esc(m.source)}</title>`
+      : "";
+    metricHtml += `<g opacity="0">
+      ${m.href ? `<a href="${m.href}" target="_blank">${hover}${inner}</a>` : inner}
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="${t}s" fill="freeze"/>
     </g>`;
   });
+
+  /* --- evidence pipeline: one flow, seven stages --- */
+  const pn = pipeline.length;
+  const slot = 860 / pn;
+  let pipeHtml = "";
+  pipeline.forEach((stage, i) => {
+    const rx = 30 + i * slot;
+    const tw = slot - 16;
+    const cy = 300;
+    const lines = splitWords(stage);
+    const box = `<rect x="${rx}" y="${cy}" width="${tw}" height="42" rx="8" fill="${C.panel2}" stroke="${C.gold}44"/>
+      <rect x="${rx}" y="${cy + 38}" width="${tw}" height="4" rx="2" fill="${C.ember}" opacity="0.75">
+        <animate attributeName="opacity" values="0.75;0.2;0.75" dur="2.2s" begin="${i * 0.2}s" repeatCount="indefinite"/>
+      </rect>`;
+    const textY = lines.length === 1 ? cy + 26 : cy + 22;
+    const text = lines
+      .map((ln, li) => `<text x="${rx + tw / 2}" y="${textY + li * 12}" font-family="${F.mono}" font-size="9" text-anchor="middle" fill="${C.text}">${esc(ln)}</text>`)
+      .join("");
+    if (i < pn - 1) {
+      pipeHtml += `<line x1="${rx + tw + 3}" y1="${cy + 21}" x2="${rx + slot - 3}" y2="${cy + 21}" stroke="${C.gold}" stroke-width="1.5">
+        <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" begin="${i * 0.18}s" repeatCount="indefinite"/>
+      </line>`;
+    }
+    pipeHtml += `<g opacity="0">${box}${text}
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="${0.2 + i * 0.15}s" fill="freeze"/>
+    </g>`;
+  });
+
+  /* --- 4 evidence cards: title, meta, 3 links each --- */
+  const cardW = 420, cardH = 232, cardGap = 20;
+  let cardHtml = "";
+  (cards.length ? cards : [
+    { title: "AI Agent Platform", meta: "", links: [] },
+    { title: "Robotics", meta: "", links: [] },
+    { title: "Production Systems", meta: "", links: [] },
+    { title: "Engineering Method", meta: "", links: [] },
+  ]).forEach((c, i) => {
+    const col = i % 2, row = Math.floor(i / 2);
+    const x = 30 + col * (cardW + cardGap);
+    const y = 400 + row * (cardH + 16);
+    const t = 0.3 + i * 0.12;
+    const icons = ["🤖", "🦾", "⚙️", "📐"];
+    let linksHtml = "";
+    c.links.forEach((l, j) => {
+      const lx = x + 18 + j * 134;
+      linksHtml += `<a href="${l.href}" target="_blank">
+        <title>${esc(l.href)}</title>
+        <rect x="${lx}" y="${y + 172}" width="124" height="26" rx="6" fill="${C.panel2}" stroke="${C.line}"/>
+        <text x="${lx + 62}" y="${y + 189}" font-family="${F.mono}" font-size="9" text-anchor="middle" fill="${C.gold}">${esc(l.label)} ↗</text>
+      </a>`;
+    });
+    cardHtml += `<g opacity="0">
+      <rect x="${x}" y="${y}" width="${cardW}" height="${cardH}" rx="14" fill="${C.panel}" stroke="${C.line}"/>
+      <rect x="${x}" y="${y}" width="${cardW}" height="5" rx="2.5" fill="${i % 2 ? C.ember : C.gold}" opacity="0.85">
+        <animate attributeName="opacity" values="0.85;0.3;0.85" dur="2.8s" begin="${i * 0.3}s" repeatCount="indefinite"/>
+      </rect>
+      <text x="${x + 18}" y="${y + 44}" font-size="22">${icons[i]}</text>
+      <text x="${x + 52}" y="${y + 46}" font-family="${F.mono}" font-size="13" font-weight="700" letter-spacing="1" fill="${C.text}">${esc(c.title)}</text>
+      <text x="${x + 18}" y="${y + 74}" font-family="${F.sans}" font-size="11" fill="${C.muted}">${esc(c.meta || "")}</text>
+      <line x1="${x + 18}" y1="${y + 94}" x2="${x + cardW - 18}" y2="${y + 94}" stroke="${C.line}"/>
+      ${linksHtml}
+      <animate attributeName="opacity" values="0;1" dur="0.7s" begin="${t}s" fill="freeze"/>
+    </g>`;
+  });
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" font-rendering="optimizeLegibility">
   <rect width="${w}" height="${h}" rx="${r}" fill="${C.bg}"/>
   ${drawBorder(g, w, h, r)}
-  <text x="30" y="30" font-family="${F.mono}" font-size="12" letter-spacing="3" fill="${C.gold}">ENGINEERING EVIDENCE</text>
-  ${html}
+  <text x="30" y="40" font-family="${F.display}" font-size="24" font-weight="700" letter-spacing="4" fill="${C.gold}">ENGINEERING EVIDENCE</text>
+  ${subLines.map((ln, li) => `<text x="30" y="${60 + li * 16}" font-family="${F.sans}" font-size="12.5" fill="${C.muted}">${esc(ln)}</text>`).join("")}
+  <line x1="30" y1="${60 + (subLines.length - 1) * 16 + 16}" x2="890" y2="${60 + (subLines.length - 1) * 16 + 16}" stroke="${C.line}"/>
+  ${metricHtml}
+  <text x="30" y="276" font-family="${F.mono}" font-size="11" letter-spacing="2" fill="${C.muted}">EVIDENCE PIPELINE — IMPLEMENTATION → REPRODUCIBLE EVIDENCE</text>
+  ${pipeHtml}
+  <text x="30" y="384" font-family="${F.mono}" font-size="11" letter-spacing="2" fill="${C.muted}">EVIDENCE CARDS — EVERY CLAIM LINKS TO ITS ARTIFACT</text>
+  ${cardHtml}
 </svg>`;
 }
 

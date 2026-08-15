@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ["scripts/generate-arsenal.js"]
+    paths: ["scripts/generate-arsenal.js", "profile-data/evidence.json"]
 
 permissions:
   contents: write

@@ -1,0 +1,88 @@
+{
+  "subtitle": "Evidence over claims — every major engineering claim is traceable to implementation, tests, evaluation, or reproducible artifacts.",
+  "metrics": [
+    {
+      "value": "17",
+      "label": "Evaluation Cases",
+      "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases",
+      "source": "evaluation/cases/ — 17 executable cases"
+    },
+    {
+      "value": "6",
+      "label": "Evaluation Dimensions",
+      "href": "https://github.com/EslaM-X/ai-agent-automation-platform/blob/main/benchmarks/baseline.json",
+      "source": "benchmarks/baseline.json — 6 scored dimensions"
+    },
+    {
+      "value": "37",
+      "label": "Production Tests",
+      "href": "https://github.com/EslaM-X/production-systems-lab/tree/main/reliability",
+      "source": "Go test suite — 37 tests · 9 packages"
+    },
+    {
+      "value": "4",
+      "label": "Architecture Maps",
+      "href": "https://github.com/EslaM-X/engineering-notes/tree/main/docs/diagrams",
+      "source": "docs/diagrams — 4 architecture maps"
+    },
+    {
+      "value": "5",
+      "label": "Architecture Decisions",
+      "href": "https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr",
+      "source": "docs/adr/ — 5 ADRs"
+    },
+    {
+      "value": "1",
+      "label": "Verified Benchmark History",
+      "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks/history",
+      "source": "benchmarks/history/ — 1 verified snapshot"
+    }
+  ],
+  "pipeline": [
+    "Implementation",
+    "Tests",
+    "Evaluation",
+    "Failure Analysis",
+    "Architecture",
+    "Decisions",
+    "Reproducible Evidence"
+  ],
+  "cards": [
+    {
+      "title": "AI Agent Platform",
+      "meta": "17 evaluation cases · 6 dimensions · regression gate",
+      "links": [
+        { "label": "Repository", "href": "https://github.com/EslaM-X/ai-agent-automation-platform" },
+        { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md" },
+        { "label": "Evaluation", "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases" }
+      ]
+    },
+    {
+      "title": "Robotics",
+      "meta": "Spot + Go2 · simulation · policy-driven control",
+      "links": [
+        { "label": "Spot PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" },
+        { "label": "Go2 PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/89" },
+        { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" }
+      ]
+    },
+    {
+      "title": "Production Systems",
+      "meta": "37 tests · 7 failure modes · reliability primitives",
+      "links": [
+        { "label": "Repository", "href": "https://github.com/EslaM-X/production-systems-lab" },
+        { "label": "Failure Matrix", "href": "https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md" },
+        { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/production-systems-lab.md" }
+      ]
+    },
+    {
+      "title": "Engineering Method",
+      "meta": "4 architecture maps · 5 ADRs · benchmark history",
+      "links": [
+        { "label": "Architecture", "href": "https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md" },
+        { "label": "ADRs", "href": "https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr" },
+        { "label": "Benchmarks", "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks" }
+      ]
+    }
+  ]
+}
