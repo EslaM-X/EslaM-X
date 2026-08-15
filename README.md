@@ -18,7 +18,7 @@
 </a>
 
 <h3>EslaM HeshAM — MR-X</h3>
-<p><b>Lead Technical Architect</b> · Business Operations Manager · Web3 &amp; Cyber Security · Cairo, Egypt 🇪🇬 · Remote Worldwide</p>
+<p><b>Technical Architect</b> · Business Operations Manager · Web3 &amp; Cyber Security · Cairo, Egypt 🇪🇬 · Remote Worldwide</p>
 
 </div>
 
@@ -79,19 +79,7 @@ implementation, tests, evaluation, or reproducible artifacts.
 
 </div>
 
-```ts
-const eslam = {
-  role:      "Lead Technical Architect",
-  focus:     ["Robotics & simulation", "AI agent orchestration", "Payment reliability", "Web3 protocols", "Security & forensics"],
-  stack:     ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "PostgreSQL", "Docker"],
-  languages: ["TypeScript", "Python", "Go", "Solidity"],
-  building:  ["RoboPay Go2 Tier-1", "Robot sim-to-sim lab", "AI agent platform", "Go production patterns"],
-  contributing: ["Pi Network", "Stellar", "Fabric Foundation", "Map of Pi"],
-  creed:     "Excellence without compromise. Evidence over claims.",
-};
-```
-
-- 🏛️ **Lead Technical Architect @ Map of Pi** — high-scale MERN architecture, AI integration, security layers.
+- 🏛️ **Technical Architect @ Map of Pi** — high-scale MERN architecture, AI integration, security layers.
 - 🤖 **Robotics & physical AI** — policy-driven navigation, sim-to-sim validation across MuJoCo + PyBullet, machine-payable agents.
 - ⛓️ **Web3 core systems** — protocol standards (PiRC1), consensus research, smart-contract auditing (Foundry, invariant testing).
 - 🛡️ **Cyber security & digital forensics** — zero-trust design, threat modeling, malware research, OSINT.

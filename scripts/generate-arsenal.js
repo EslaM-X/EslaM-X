@@ -236,7 +236,7 @@ function drawBorder(id, w, h, r) {
 /* 1) about-terminal.svg — animated terminal identity card             */
 /* ------------------------------------------------------------------ */
 function aboutTerminal(d) {
-  const w = 920, h = 560, r = 18;
+  const w = 920, h = 660, r = 18;
   const g = slug();
   const chips = [
     ["ARCHITECTURE", "MERN · Security"],
@@ -249,9 +249,9 @@ function aboutTerminal(d) {
   let chipHtml = "";
   chips.forEach(([t, s2], i) => {
     const cx = 40 + i * 145;
-    const cyT = 481;
+    const cyT = 585;
     chipHtml += `<g opacity="0">
-      <rect x="${cx}" y="452" width="130" height="58" rx="10" fill="${C.panel2}" stroke="${C.line}"/>
+      <rect x="${cx}" y="556" width="130" height="58" rx="10" fill="${C.panel2}" stroke="${C.line}"/>
       <circle cx="${cx + 16}" cy="${cyT - 6}" r="3.5" fill="${i % 2 ? C.ember : C.gold}">
         <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" begin="${0.4 + i * 0.18}s" repeatCount="indefinite"/>
       </circle>
@@ -263,14 +263,23 @@ function aboutTerminal(d) {
 
   const code = [
     ["const eslam = {", C.chrome, 0.2],
-    [`  role: "Lead Technical Architect",`, C.chrome, 0.45],
-    [`  focus: ["Robotics & simulation", "AI agent orchestration", "Payment reliability", "Web3 protocols", "Security & forensics"],`, C.chrome, 0.7],
-    [`  stack: ["Next.js", "React", "TypeScript", "Node.js", "MongoDB", "PostgreSQL", "Docker"],`, C.chrome, 0.95],
-    [`  languages: ["TypeScript", "Python", "Go", "Solidity"],`, C.chrome, 1.2],
-    [`  building: ["RoboPay Go2 Tier-1", "Robot sim-to-sim lab", "AI agent platform", "Go production patterns"],`, C.chrome, 1.45],
-    [`  contributing: ["Pi Network", "Stellar", "Fabric Foundation", "Map of Pi"],`, C.chrome, 1.7],
-    [`  creed: "Excellence without compromise. My code is my law.",`, C.ember, 1.95],
-    ["};", C.chrome, 2.2],
+    [`  role: "Technical Architect",`, C.chrome, 0.45],
+    [`  focus: [`, C.chrome, 0.7],
+    [`    "Robotics & Simulation",`, C.chrome, 0.85],
+    [`    "AI Agent Systems",`, C.chrome, 1.0],
+    [`    "Distributed & Production Systems",`, C.chrome, 1.15],
+    [`    "Blockchain & Protocols",`, C.chrome, 1.3],
+    [`    "Cryptography & Cybersecurity"`, C.chrome, 1.45],
+    [`  ],`, C.chrome, 1.6],
+    [`  languages: ["TypeScript", "Python", "Go", "Solidity"],`, C.chrome, 1.75],
+    [`  building: [`, C.chrome, 1.9],
+    [`    "AI Agent Platform",`, C.chrome, 2.05],
+    [`    "Robot Sim-to-Sim Lab",`, C.chrome, 2.2],
+    [`    "Production Reliability Systems",`, C.chrome, 2.35],
+    [`    "Protocol & Payment Infrastructure"`, C.chrome, 2.5],
+    [`  ],`, C.chrome, 2.65],
+    [`  creed: "Evidence over claims."`, C.ember, 2.8],
+    ["};", C.chrome, 3.0],
   ];
   const FS = 14.5;
   const CHAR_W = FS * 0.6;
@@ -291,7 +300,7 @@ function aboutTerminal(d) {
   let codeHtml = "";
   code.forEach(([txt, color, t]) => {
     wrap(txt).forEach((ln, li) => {
-      const cy = 152 + row * 30;
+      const cy = 132 + row * 23;
       const cw = ln.length * CHAR_W;
       codeHtml += `<text x="30" y="${cy}" font-family="${F.mono}" font-size="${FS}" fill="${color}" opacity="0">
       <tspan>${esc(ln)}</tspan>
