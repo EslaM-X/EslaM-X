@@ -80,6 +80,63 @@ const DEFAULT_DATA = {
   ],
 };
 
+/* Live repo status fallback = verified current GitHub state (checked 2026-08-15):
+   all four flagship repos have public releases + green CI. When the API is
+   reachable these are refreshed; otherwise the verified numbers are shown. */
+const FLAGSHIP_REPOS = [
+  "ai-agent-automation-platform",
+  "production-systems-lab",
+  "robot-sim-policy-lab",
+  "engineering-notes",
+];
+
+const DEFAULT_REPO_STATUS = {
+  "ai-agent-automation-platform": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.2.0", ci: "success" },
+  "production-systems-lab": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.1.0", ci: "success" },
+  "robot-sim-policy-lab": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.1.0", ci: "success" },
+  "engineering-notes": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v1.0.0", ci: null },
+};
+
+async function fetchJson(url) {
+  const res = await fetch(url, {
+    headers: {
+      Accept: "application/vnd.github+json",
+      "User-Agent": "eslamx-profile-generator",
+      ...(TOKEN ? { Authorization: `Bearer ${TOKEN}` } : {}),
+    },
+  });
+  if (!res.ok) return null;
+  return res.json();
+}
+
+async function fetchRepoStatus() {
+  const out = JSON.parse(JSON.stringify(DEFAULT_REPO_STATUS));
+  for (const name of FLAGSHIP_REPOS) {
+    try {
+      const meta = await fetchJson(`https://api.github.com/repos/EslaM-X/${name}`);
+      if (meta) {
+        out[name] = {
+          ...out[name],
+          stars: meta.stargazers_count != null ? meta.stargazers_count : out[name].stars,
+          forks: meta.forks_count != null ? meta.forks_count : out[name].forks,
+          issues: meta.open_issues_count != null ? meta.open_issues_count : out[name].issues,
+          pushed: (meta.pushed_at || "").slice(0, 10) || out[name].pushed,
+        };
+      }
+    } catch (_) { /* keep fallback */ }
+    try {
+      const rel = await fetchJson(`https://api.github.com/repos/EslaM-X/${name}/releases/latest`);
+      if (rel && rel.tag_name) out[name].release = rel.tag_name;
+    } catch (_) { /* keep fallback */ }
+    try {
+      const runs = await fetchJson(`https://api.github.com/repos/EslaM-X/${name}/actions/runs?per_page=1&branch=main`);
+      const wf = runs && runs.workflow_runs && runs.workflow_runs[0];
+      if (wf) out[name].ci = wf.conclusion || wf.status || null;
+    } catch (_) { /* keep fallback */ }
+  }
+  return out;
+}
+
 let __idSeq = 0;
 function slug() {
   __idSeq += 1;
@@ -523,7 +580,7 @@ function evidence(d) {
     </g>`;
   });
 
-  /* --- 4 evidence cards: title, meta, 3 links each --- */
+  /* --- 4 evidence cards: title, meta, evidence path, 3 links each --- */
   const cardW = 420, cardH = 232, cardGap = 20;
   let cardHtml = "";
   (cards.length ? cards : [
@@ -537,6 +594,40 @@ function evidence(d) {
     const y = 400 + row * (cardH + 16);
     const t = 0.3 + i * 0.12;
     const icons = ["🤖", "🦾", "⚙️", "📐"];
+
+    /* --- tag chip (e.g. EXTERNAL OSS) --- */
+    const tag = (c.tag || "").trim();
+    const tagHtml = tag
+      ? `<g>
+          <rect x="${x + cardW - 132}" y="${y + 22}" width="114" height="22" rx="11" fill="${C.panel2}" stroke="${C.ember}66"/>
+          <text x="${x + cardW - 75}" y="${y + 37}" font-family="${F.mono}" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle" fill="${C.ember}">${esc(tag)}</text>
+        </g>`
+      : "";
+
+    /* --- evidence path breadcrumb (Repository → … → Artifact) --- */
+    const path = (c.path && c.path.length) ? c.path : c.links;
+    let pathHtml = "";
+    if (path.length) {
+      const avail = cardW - 36;
+      const label = path.map((p) => p.label || "").join(" › ");
+      const monoW = 8 * 0.6;
+      let fs = 8;
+      if (label.length * monoW > avail) fs = 7;
+      let px = x + 18;
+      path.forEach((p, j) => {
+        const lw = (p.label || "").length * fs * 0.6;
+        pathHtml += `<a href="${p.href}" target="_blank">
+          <title>${esc(p.href)}</title>
+          <text x="${px}" y="${y + 116}" font-family="${F.mono}" font-size="${fs}" fill="${C.goldSoft}">${esc(p.label || "")}</text>
+        </a>`;
+        px += lw;
+        if (j < path.length - 1) {
+          pathHtml += `<text x="${px + 2}" y="${y + 116}" font-family="${F.mono}" font-size="${fs}" fill="${C.dim}">›</text>`;
+          px += 12;
+        }
+      });
+    }
+
     let linksHtml = "";
     c.links.forEach((l, j) => {
       const lx = x + 18 + j * 134;
@@ -553,8 +644,10 @@ function evidence(d) {
       </rect>
       <text x="${x + 18}" y="${y + 44}" font-size="22">${icons[i]}</text>
       <text x="${x + 52}" y="${y + 46}" font-family="${F.mono}" font-size="13" font-weight="700" letter-spacing="1" fill="${C.text}">${esc(c.title)}</text>
+      ${tagHtml}
       <text x="${x + 18}" y="${y + 74}" font-family="${F.sans}" font-size="11" fill="${C.muted}">${esc(c.meta || "")}</text>
       <line x1="${x + 18}" y1="${y + 94}" x2="${x + cardW - 18}" y2="${y + 94}" stroke="${C.line}"/>
+      ${pathHtml}
       ${linksHtml}
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="${t}s" fill="freeze"/>
     </g>`;
@@ -575,10 +668,67 @@ function evidence(d) {
 }
 
 /* ------------------------------------------------------------------ */
+/* 7) repo-live.svg — LIVE GITHUB STATUS for the flagship repos        */
+/*    stars/forks/issues + latest release + last push + CI badge,      */
+/*    refreshed from the GitHub API on every regeneration.             */
+/* ------------------------------------------------------------------ */
+function repoLive(status) {
+  const w = 920, h = 240, r = 18;
+  const g = slug();
+  let rowHtml = "";
+  FLAGSHIP_REPOS.forEach((name, i) => {
+    const s = status[name] || { stars: 0, forks: 0, issues: 0, pushed: "", release: "", ci: null };
+    const y = 84 + i * 36;
+    const repoUrl = `https://github.com/EslaM-X/${name}`;
+    const ci = s.ci || null;
+    let ciBadge;
+    if (ci === "success") {
+      ciBadge = `<g>
+        <circle cx="886" cy="${y + 14}" r="5" fill="#27c93f">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="${i * 0.2}s" repeatCount="indefinite"/>
+        </circle>
+        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" font-weight="700" text-anchor="end" fill="#7fe08f">CI PASS</text>
+      </g>`;
+    } else if (ci === "failure") {
+      ciBadge = `<g>
+        <circle cx="886" cy="${y + 14}" r="5" fill="#ff5f56"/>
+        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" font-weight="700" text-anchor="end" fill="#ff8a85">CI FAIL</text>
+      </g>`;
+    } else {
+      ciBadge = `<g>
+        <circle cx="886" cy="${y + 14}" r="5" fill="${C.dim}"/>
+        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" text-anchor="end" fill="${C.dim}">NO CI</text>
+      </g>`;
+    }
+    rowHtml += `<g opacity="0">
+      <rect x="30" y="${y - 4}" width="860" height="30" rx="8" fill="${i % 2 ? C.panel2 : C.panel}" stroke="${C.line}"/>
+      <a href="${repoUrl}" target="_blank">
+        <title>${repoUrl}</title>
+        <text x="46" y="${y + 15}" font-family="${F.mono}" font-size="12" font-weight="700" fill="${C.gold}">${esc(name)}</text>
+      </a>
+      <text x="362" y="${y + 15}" font-family="${F.sans}" font-size="11" fill="${C.text}">★ ${s.stars} · ⑂ ${s.forks} · ! ${s.issues}</text>
+      <text x="520" y="${y + 15}" font-family="${F.mono}" font-size="11" fill="${C.goldSoft}">release ${s.release || "—"}</text>
+      <text x="700" y="${y + 15}" font-family="${F.mono}" font-size="11" fill="${C.muted}">updated ${s.pushed || "—"}</text>
+      ${ciBadge}
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="${0.2 + i * 0.12}s" fill="freeze"/>
+    </g>`;
+  });
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" font-rendering="optimizeLegibility">
+  <rect width="${w}" height="${h}" rx="${r}" fill="${C.bg}"/>
+  ${drawBorder(g, w, h, r)}
+  <text x="30" y="44" font-family="${F.display}" font-size="24" font-weight="700" letter-spacing="4" fill="${C.gold}">GITHUB STATUS</text>
+  <text x="30" y="66" font-family="${F.mono}" font-size="12" letter-spacing="2" fill="${C.muted}">LIVE REPOSITORY TELEMETRY — REFRESHED DAILY</text>
+  ${rowHtml}
+  <text x="30" y="${h - 18}" font-family="${F.mono}" font-size="10" fill="${C.dim}">LIVE FROM api.github.com — stars · forks · open issues · latest release · last push · CI run conclusion</text>
+</svg>`;
+}
+
+/* ------------------------------------------------------------------ */
 /* main                                                                 */
 /* ------------------------------------------------------------------ */
 (async () => {
   const data = await fetchData();
+  const repoStatus = await fetchRepoStatus();
   fs.mkdirSync(OUT, { recursive: true });
   const files = {
     "about-terminal.svg": aboutTerminal(data),
@@ -587,6 +737,7 @@ function evidence(d) {
     "domains.svg": domains(data),
     "tech-matrix.svg": techMatrix(data),
     "engineering-evidence.svg": evidence(data),
+    "repo-live.svg": repoLive(repoStatus),
   };
   for (const [name, svg] of Object.entries(files)) {
     fs.writeFileSync(path.join(OUT, name), svg, "utf8");

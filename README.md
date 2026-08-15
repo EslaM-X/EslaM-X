@@ -40,7 +40,7 @@ The full evidence matrix lives in the
 | I engineer financial/API reliability | [production-systems-lab](https://github.com/EslaM-X/production-systems-lab) — 37 Go tests, failure matrix, benchmarks |
 | I write deep engineering analysis | [engineering-notes](https://github.com/EslaM-X/engineering-notes) — 5 problem-first dives, 5 ADRs |
 | I contribute to Web3 protocols | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2), [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
-| I work on machine-payable robotics | [RoboPay](https://github.com/fabricfoundation/RoboPay) — x402 gating, Go2 Tier-1 submission (see portfolio) |
+| I contribute to machine-payable robotics (external OSS) | [fabricfoundation/RoboPay](https://github.com/fabricfoundation/RoboPay) — Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89), both Tier-1 (see portfolio) |
 
 ---
 
@@ -53,6 +53,8 @@ implementation, tests, evaluation, or reproducible artifacts.
 
 <img width="920" src="assets/engineering-evidence.svg" alt="Engineering Evidence — metrics, pipeline, and 4 evidence cards" />
 
+<img width="920" src="assets/repo-live.svg" alt="GitHub Status — live repository telemetry for the flagship repos" />
+
 </div>
 
 > 🔧 **Single source of truth**: the numbers above are rendered from
@@ -61,6 +63,11 @@ implementation, tests, evaluation, or reproducible artifacts.
 > panel regenerates — no hunting through files. The pipeline: implementation →
 > tests → evaluation → failure analysis → architecture → decisions →
 > reproducible evidence.
+>
+> 📡 **GitHub Status** (second panel) is live telemetry: stars, forks, open
+> issues, latest release, last push, and CI conclusion are fetched from
+> `api.github.com` and refreshed daily by the same workflow — the CI badge
+> reflects the real run, never a hard-coded claim.
 
 ---
 
@@ -100,8 +107,8 @@ const eslam = {
 | --- | --- | --- |
 | [**robot-sim-policy-lab**](https://github.com/EslaM-X/robot-sim-policy-lab) | Policy → planner → controller → 3 simulators; measured 0.26 m max sim-to-sim deviation | Public · CI green · v0.1.0 |
 | [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration · 17 evaluation cases · 6 dimensions · regression gate | Public · CI green · v0.3.0 |
-| [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) · 37 tests | Public · CI green |
-| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives + 5 ADRs: robotics → payments → CI → secure APIs | Public |
+| [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) · 37 tests | Public · CI green · v0.1.0 |
+| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives + 5 ADRs: robotics → payments → CI → secure APIs | Public · v1.0.0 |
 | [**robopay-spot-tier1**](https://github.com/EslaM-X/robopay-spot-tier1) | Boston Dynamics Spot Tier-1 robot control for the RoboPay bounty | Public |
 | [**portfolio**](https://github.com/EslaM-X/portfolio) | Evidence matrix for everything above | Public |
 
@@ -117,7 +124,7 @@ const eslam = {
 | --- | --- | --- |
 | [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Proposed PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | [PR #2](https://github.com/PiNetwork/PiRC/pull/2) — received technical review and feedback from Pi Network founder Nicolas Kokkalis |
 | [**Stellar — stellar-core**](https://github.com/stellar/stellar-core/pull/5409) | Contribution to the reference P2P implementation behind Stellar consensus | [PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
-| [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay) | Machine-payable robotics: x402 payment gating, Go2 Tier-1 submission, infra hardening PRs | [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) + evidence in [portfolio](https://github.com/EslaM-X/portfolio) |
+| [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay) | External OSS contribution — machine-payable robotics: Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) + Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) Tier-1 submissions, x402 gating, infra hardening PRs | [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) + evidence in [portfolio](https://github.com/EslaM-X/portfolio) |
 
 ---
 

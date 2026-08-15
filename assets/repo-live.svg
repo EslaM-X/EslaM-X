@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="240" viewBox="0 0 920 240" font-rendering="optimizeLegibility">
+  <rect width="920" height="240" rx="18" fill="#0a0a0a"/>
+  <rect id="e7_b" x="0.5" y="0.5" width="919" height="239" rx="18"
+    fill="none" stroke="#FFB62733" stroke-width="1.5">
+    <animate attributeName="stroke-dasharray" values="0 2320;2320 0;0 2320" dur="7s" repeatCount="indefinite"/>
+  </rect>
+  <text x="30" y="44" font-family="'Cinzel', Georgia, serif" font-size="24" font-weight="700" letter-spacing="4" fill="#FFB627">GITHUB STATUS</text>
+  <text x="30" y="66" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2" fill="#8a8a8a">LIVE REPOSITORY TELEMETRY — REFRESHED DAILY</text>
+  <g opacity="0">
+      <rect x="30" y="80" width="860" height="30" rx="8" fill="#131313" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/ai-agent-automation-platform" target="_blank">
+        <title>https://github.com/EslaM-X/ai-agent-automation-platform</title>
+        <text x="46" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#FFB627">ai-agent-automation-platform</text>
+      </a>
+      <text x="362" y="99" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">★ 1 · ⑂ 0 · ! 0</text>
+      <text x="520" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#F5D68A">release v0.2.0</text>
+      <text x="700" y="99" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">updated 2026-08-15</text>
+      <g>
+        <circle cx="886" cy="98" r="5" fill="#27c93f">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+        </circle>
+        <text x="868" y="102" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" text-anchor="end" fill="#7fe08f">CI PASS</text>
+      </g>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.2s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="30" y="116" width="860" height="30" rx="8" fill="#171717" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/production-systems-lab" target="_blank">
+        <title>https://github.com/EslaM-X/production-systems-lab</title>
+        <text x="46" y="135" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#FFB627">production-systems-lab</text>
+      </a>
+      <text x="362" y="135" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">★ 1 · ⑂ 0 · ! 0</text>
+      <text x="520" y="135" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#F5D68A">release v0.1.0</text>
+      <text x="700" y="135" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">updated 2026-08-15</text>
+      <g>
+        <circle cx="886" cy="134" r="5" fill="#27c93f">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="0.2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="868" y="138" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" text-anchor="end" fill="#7fe08f">CI PASS</text>
+      </g>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.32s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="30" y="152" width="860" height="30" rx="8" fill="#131313" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/robot-sim-policy-lab" target="_blank">
+        <title>https://github.com/EslaM-X/robot-sim-policy-lab</title>
+        <text x="46" y="171" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#FFB627">robot-sim-policy-lab</text>
+      </a>
+      <text x="362" y="171" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">★ 1 · ⑂ 0 · ! 0</text>
+      <text x="520" y="171" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#F5D68A">release v0.1.0</text>
+      <text x="700" y="171" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">updated 2026-08-15</text>
+      <g>
+        <circle cx="886" cy="170" r="5" fill="#27c93f">
+          <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="0.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="868" y="174" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" font-weight="700" text-anchor="end" fill="#7fe08f">CI PASS</text>
+      </g>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.44s" fill="freeze"/>
+    </g><g opacity="0">
+      <rect x="30" y="188" width="860" height="30" rx="8" fill="#171717" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/engineering-notes" target="_blank">
+        <title>https://github.com/EslaM-X/engineering-notes</title>
+        <text x="46" y="207" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="700" fill="#FFB627">engineering-notes</text>
+      </a>
+      <text x="362" y="207" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#e6e6e6">★ 1 · ⑂ 0 · ! 0</text>
+      <text x="520" y="207" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#F5D68A">release v1.0.0</text>
+      <text x="700" y="207" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">updated 2026-08-15</text>
+      <g>
+        <circle cx="886" cy="206" r="5" fill="#5c5c5c"/>
+        <text x="868" y="210" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="end" fill="#5c5c5c">NO CI</text>
+      </g>
+      <animate attributeName="opacity" values="0;1" dur="0.6s" begin="0.56s" fill="freeze"/>
+    </g>
+  <text x="30" y="222" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" fill="#5c5c5c">LIVE FROM api.github.com — stars · forks · open issues · latest release · last push · CI run conclusion</text>
+</svg>

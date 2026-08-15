@@ -119,8 +119,22 @@
       </rect>
       <text x="48" y="444" font-size="22">🤖</text>
       <text x="82" y="446" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#e6e6e6">AI Agent Platform</text>
+      
       <text x="48" y="474" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">17 evaluation cases · 6 dimensions · regression gate</text>
       <line x1="48" y1="494" x2="432" y2="494" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/ai-agent-automation-platform" target="_blank">
+          <title>https://github.com/EslaM-X/ai-agent-automation-platform</title>
+          <text x="48" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Repository</text>
+        </a><text x="98" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/ai-agent-automation-platform/blob/main/docs/architecture.md" target="_blank">
+          <title>https://github.com/EslaM-X/ai-agent-automation-platform/blob/main/docs/architecture.md</title>
+          <text x="108" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Architecture</text>
+        </a><text x="167.6" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases" target="_blank">
+          <title>https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases</title>
+          <text x="177.6" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Evaluation</text>
+        </a><text x="227.6" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks/history" target="_blank">
+          <title>https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks/history</title>
+          <text x="237.6" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Benchmarks</text>
+        </a>
       <a href="https://github.com/EslaM-X/ai-agent-automation-platform" target="_blank">
         <title>https://github.com/EslaM-X/ai-agent-automation-platform</title>
         <rect x="48" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
@@ -142,8 +156,22 @@
       </rect>
       <text x="488" y="444" font-size="22">🦾</text>
       <text x="522" y="446" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#e6e6e6">Robotics</text>
-      <text x="488" y="474" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">Spot + Go2 · simulation · policy-driven control</text>
+      <g>
+          <rect x="758" y="422" width="114" height="22" rx="11" fill="#171717" stroke="#FF6A0066"/>
+          <text x="815" y="437" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle" fill="#FF6A00">EXTERNAL OSS</text>
+        </g>
+      <text x="488" y="474" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">Spot PR #86 + Go2 PR #89 · sim-to-sim · x402</text>
       <line x1="488" y1="494" x2="872" y2="494" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" target="_blank">
+          <title>https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md</title>
+          <text x="488" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Case Study</text>
+        </a><text x="538" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/fabricfoundation/RoboPay/pull/86" target="_blank">
+          <title>https://github.com/fabricfoundation/RoboPay/pull/86</title>
+          <text x="548" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Spot PR #86</text>
+        </a><text x="602.8" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/fabricfoundation/RoboPay/pull/89" target="_blank">
+          <title>https://github.com/fabricfoundation/RoboPay/pull/89</title>
+          <text x="612.8" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Go2 PR #89</text>
+        </a>
       <a href="https://github.com/fabricfoundation/RoboPay/pull/86" target="_blank">
         <title>https://github.com/fabricfoundation/RoboPay/pull/86</title>
         <rect x="488" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
@@ -165,8 +193,19 @@
       </rect>
       <text x="48" y="692" font-size="22">⚙️</text>
       <text x="82" y="694" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#e6e6e6">Production Systems</text>
+      
       <text x="48" y="722" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">37 tests · 7 failure modes · reliability primitives</text>
       <line x1="48" y1="742" x2="432" y2="742" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/production-systems-lab" target="_blank">
+          <title>https://github.com/EslaM-X/production-systems-lab</title>
+          <text x="48" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Repository</text>
+        </a><text x="98" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md" target="_blank">
+          <title>https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md</title>
+          <text x="108" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Failure Matrix</text>
+        </a><text x="177.2" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/production-systems-lab/tree/main/reliability" target="_blank">
+          <title>https://github.com/EslaM-X/production-systems-lab/tree/main/reliability</title>
+          <text x="187.2" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Tests</text>
+        </a>
       <a href="https://github.com/EslaM-X/production-systems-lab" target="_blank">
         <title>https://github.com/EslaM-X/production-systems-lab</title>
         <rect x="48" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
@@ -188,8 +227,19 @@
       </rect>
       <text x="488" y="692" font-size="22">📐</text>
       <text x="522" y="694" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="1" fill="#e6e6e6">Engineering Method</text>
+      
       <text x="488" y="722" font-family="'Sora', 'Segoe UI', system-ui, sans-serif" font-size="11" fill="#8a8a8a">4 architecture maps · 5 ADRs · benchmark history</text>
       <line x1="488" y1="742" x2="872" y2="742" stroke="#FFB62733"/>
+      <a href="https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md" target="_blank">
+          <title>https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md</title>
+          <text x="488" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Architecture</text>
+        </a><text x="547.6" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr" target="_blank">
+          <title>https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr</title>
+          <text x="557.6" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">ADRs</text>
+        </a><text x="578.8000000000001" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks" target="_blank">
+          <title>https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks</title>
+          <text x="588.8000000000001" y="764" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Benchmarks</text>
+        </a>
       <a href="https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md" target="_blank">
         <title>https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md</title>
         <rect x="488" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>

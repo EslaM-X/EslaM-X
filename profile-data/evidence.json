@@ -51,6 +51,12 @@
     {
       "title": "AI Agent Platform",
       "meta": "17 evaluation cases · 6 dimensions · regression gate",
+      "path": [
+        { "label": "Repository", "href": "https://github.com/EslaM-X/ai-agent-automation-platform" },
+        { "label": "Architecture", "href": "https://github.com/EslaM-X/ai-agent-automation-platform/blob/main/docs/architecture.md" },
+        { "label": "Evaluation", "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases" },
+        { "label": "Benchmarks", "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks/history" }
+      ],
       "links": [
         { "label": "Repository", "href": "https://github.com/EslaM-X/ai-agent-automation-platform" },
         { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md" },
@@ -59,7 +65,13 @@
     },
     {
       "title": "Robotics",
-      "meta": "Spot + Go2 · simulation · policy-driven control",
+      "meta": "Spot PR #86 + Go2 PR #89 · sim-to-sim · x402",
+      "tag": "EXTERNAL OSS",
+      "path": [
+        { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" },
+        { "label": "Spot PR #86", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" },
+        { "label": "Go2 PR #89", "href": "https://github.com/fabricfoundation/RoboPay/pull/89" }
+      ],
       "links": [
         { "label": "Spot PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" },
         { "label": "Go2 PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/89" },
@@ -69,6 +81,11 @@
     {
       "title": "Production Systems",
       "meta": "37 tests · 7 failure modes · reliability primitives",
+      "path": [
+        { "label": "Repository", "href": "https://github.com/EslaM-X/production-systems-lab" },
+        { "label": "Failure Matrix", "href": "https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md" },
+        { "label": "Tests", "href": "https://github.com/EslaM-X/production-systems-lab/tree/main/reliability" }
+      ],
       "links": [
         { "label": "Repository", "href": "https://github.com/EslaM-X/production-systems-lab" },
         { "label": "Failure Matrix", "href": "https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md" },
@@ -78,6 +95,11 @@
     {
       "title": "Engineering Method",
       "meta": "4 architecture maps · 5 ADRs · benchmark history",
+      "path": [
+        { "label": "Architecture", "href": "https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md" },
+        { "label": "ADRs", "href": "https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr" },
+        { "label": "Benchmarks", "href": "https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks" }
+      ],
       "links": [
         { "label": "Architecture", "href": "https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md" },
         { "label": "ADRs", "href": "https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr" },
