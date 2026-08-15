@@ -17,6 +17,7 @@
  *   domains.svg
  *   tech-matrix.svg
  *   engineering-evidence.svg
+ *   repo-live.svg
  */
 
 const fs = require("fs");
@@ -90,8 +91,18 @@ const FLAGSHIP_REPOS = [
   "engineering-notes",
 ];
 
+/* Display labels + engineering proof for the LIVE ENGINEERING STATUS panel.
+   Proof strings come from profile-data/evidence.json (flagships) so the single
+   source of truth stays authoritative; these are the matching fallbacks. */
+const FLAGSHIP_META = {
+  "ai-agent-automation-platform": { label: "AI AGENT AUTOMATION", proof: "17 cases · 6 dimensions" },
+  "production-systems-lab": { label: "PRODUCTION SYSTEMS", proof: "37 tests · 9 packages" },
+  "robot-sim-policy-lab": { label: "ROBOT SIM POLICY", proof: "18 tests · 0.26 m sim2sim" },
+  "engineering-notes": { label: "ENGINEERING NOTES", proof: "5 notes · 5 ADRs" },
+};
+
 const DEFAULT_REPO_STATUS = {
-  "ai-agent-automation-platform": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.2.0", ci: "success" },
+  "ai-agent-automation-platform": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.3.0", ci: "success" },
   "production-systems-lab": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.1.0", ci: "success" },
   "robot-sim-policy-lab": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v0.1.0", ci: "success" },
   "engineering-notes": { stars: 1, forks: 0, issues: 0, pushed: "2026-08-15", release: "v1.0.0", ci: null },
@@ -677,16 +688,21 @@ function evidence(d) {
 }
 
 /* ------------------------------------------------------------------ */
-/* 7) repo-live.svg — LIVE GITHUB STATUS for the flagship repos        */
-/*    stars/forks/issues + latest release + last push + CI badge,      */
-/*    refreshed from the GitHub API on every regeneration.             */
+/* 7) repo-live.svg — LIVE ENGINEERING STATUS for the flagship repos   */
+/*    proof-forward: display label + version + engineering proof + CI, */
+/*    with stars/forks/issues demoted to hover metadata (not hero).    */
+/*    Refreshed from the GitHub API on every regeneration.             */
 /* ------------------------------------------------------------------ */
 function repoLive(status) {
   const w = 920, h = 240, r = 18;
   const g = slug();
+  const ev = loadEvidence();
+  const fleet = {};
+  ((ev && ev.flagships) || []).forEach((f) => { if (f && f.repo) fleet[f.repo] = f; });
   let rowHtml = "";
   FLAGSHIP_REPOS.forEach((name, i) => {
     const s = status[name] || { stars: 0, forks: 0, issues: 0, pushed: "", release: "", ci: null };
+    const meta = fleet[name] || FLAGSHIP_META[name] || { label: name.toUpperCase(), proof: "" };
     const y = 84 + i * 36;
     const repoUrl = `https://github.com/EslaM-X/${name}`;
     const ci = s.ci || null;
@@ -705,19 +721,19 @@ function repoLive(status) {
       </g>`;
     } else {
       ciBadge = `<g>
-        <circle cx="886" cy="${y + 14}" r="5" fill="${C.dim}"/>
-        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" text-anchor="end" fill="${C.dim}">NO CI</text>
+        <circle cx="886" cy="${y + 14}" r="5" fill="${C.muted}"/>
+        <title>no CI workflow — documentation repository, no automated run</title>
+        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" text-anchor="end" fill="${C.muted}">NO CI</text>
       </g>`;
     }
     rowHtml += `<g opacity="0">
       <rect x="30" y="${y - 4}" width="860" height="30" rx="8" fill="${i % 2 ? C.panel2 : C.panel}" stroke="${C.line}"/>
       <a href="${repoUrl}" target="_blank">
-        <title>${repoUrl}</title>
-        <text x="46" y="${y + 15}" font-family="${F.mono}" font-size="12" font-weight="700" fill="${C.gold}">${esc(name)}</text>
+        <title>${repoUrl} — ★ ${s.stars} · ⑂ ${s.forks} · ! ${s.issues} · updated ${s.pushed || "—"}</title>
+        <text x="46" y="${y + 15}" font-family="${F.mono}" font-size="12" font-weight="700" fill="${C.gold}">${esc(meta.label)}</text>
       </a>
-      <text x="362" y="${y + 15}" font-family="${F.sans}" font-size="11" fill="${C.text}">★ ${s.stars} · ⑂ ${s.forks} · ! ${s.issues}</text>
-      <text x="520" y="${y + 15}" font-family="${F.mono}" font-size="11" fill="${C.goldSoft}">release ${s.release || "—"}</text>
-      <text x="700" y="${y + 15}" font-family="${F.mono}" font-size="11" fill="${C.muted}">updated ${s.pushed || "—"}</text>
+      <text x="248" y="${y + 15}" font-family="${F.mono}" font-size="11" fill="${C.goldSoft}">${s.release || "—"}</text>
+      <text x="334" y="${y + 15}" font-family="${F.sans}" font-size="11" fill="${C.text}">${esc(meta.proof || "")}</text>
       ${ciBadge}
       <animate attributeName="opacity" values="0;1" dur="0.6s" begin="${0.2 + i * 0.12}s" fill="freeze"/>
     </g>`;
@@ -725,10 +741,10 @@ function repoLive(status) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" font-rendering="optimizeLegibility">
   <rect width="${w}" height="${h}" rx="${r}" fill="${C.bg}"/>
   ${drawBorder(g, w, h, r)}
-  <text x="30" y="44" font-family="${F.display}" font-size="24" font-weight="700" letter-spacing="4" fill="${C.gold}">GITHUB STATUS</text>
-  <text x="30" y="66" font-family="${F.mono}" font-size="12" letter-spacing="2" fill="${C.muted}">LIVE REPOSITORY TELEMETRY — REFRESHED DAILY</text>
+  <text x="30" y="44" font-family="${F.display}" font-size="24" font-weight="700" letter-spacing="4" fill="${C.gold}">ENGINEERING STATUS</text>
+  <text x="30" y="66" font-family="${F.mono}" font-size="12" letter-spacing="2" fill="${C.muted}">LIVE REPOSITORY TELEMETRY · DAILY REFRESH</text>
   ${rowHtml}
-  <text x="30" y="${h - 18}" font-family="${F.mono}" font-size="10" fill="${C.dim}">LIVE FROM api.github.com — stars · forks · open issues · latest release · last push · CI run conclusion</text>
+  <text x="30" y="${h - 18}" font-family="${F.mono}" font-size="10" fill="${C.dim}">LIVE FROM GITHUB · DAILY REFRESH — stars · forks · issues · release · last push · CI · hover a repo for the raw telemetry</text>
 </svg>`;
 }
 

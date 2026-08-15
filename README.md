@@ -1,9 +1,12 @@
 <!--
-  EslaM-X — GitHub Profile README v3
-  Evidence-first + animated command center:
-  identity kept, every statement backed by a public repo or a verifiable link,
-  telemetry assets generated from live GitHub data (scripts/generate-arsenal.js
-  + .github/workflows/update-profile.yml). Zero data removed from v2.
+  EslaM-X — GitHub Profile README v4
+  Evidence-first + animated command center, restructured for clarity:
+  IDENTITY → ENGINEERING EVIDENCE → ABOUT ME → FLAGSHIP PROJECTS →
+  LIVE ENGINEERING STATUS → OPEN-SOURCE CONTRIBUTIONS → CASE STUDIES/CV/CONTACT
+  → GITHUB ARSENAL → LANGUAGES & TOOLS.
+  Every statement backed by a public repo or a verifiable link; telemetry
+  assets generated from live GitHub data (scripts/generate-arsenal.js +
+  .github/workflows/update-profile.yml). Zero data removed from v3.
   Logo: assets/x-crown-logo.jpg (in-repo) / live at https://eslamx.vercel.app/x-crown-logo.jpg
 -->
 
@@ -24,14 +27,12 @@
 
 ---
 
-## ⚜️ Evidence, not claims
+## ⚜️ Engineering Evidence
 
-This profile is built the same way I build systems: **every claim below points
-at a public repository, a PR, or a benchmark that can be opened and checked.**
-No numbers here are estimated — if it is stated, it is verifiable.
-
-The full evidence matrix lives in the
-**[portfolio repository](https://github.com/EslaM-X/portfolio)**.
+**Evidence over claims** — this profile is built the same way I build systems:
+**every claim below points at a public repository, a PR, or a benchmark that
+can be opened and checked.** No numbers here are estimated — if it is stated,
+it is verifiable.
 
 | What I state | Where you verify it |
 | --- | --- |
@@ -42,18 +43,11 @@ The full evidence matrix lives in the
 | I contribute to Web3 protocols | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2), [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
 | I contribute to machine-payable robotics (external OSS) | [fabricfoundation/RoboPay](https://github.com/fabricfoundation/RoboPay) — Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89), both Tier-1 (see portfolio) |
 
----
-
-## 🧩 Engineering Evidence
-
-**Evidence over claims** — every major engineering claim is traceable to
-implementation, tests, evaluation, or reproducible artifacts.
+The full evidence matrix lives in the **[portfolio repository](https://github.com/EslaM-X/portfolio)**.
 
 <div align="center">
 
 <img width="920" src="assets/engineering-evidence.svg" alt="Engineering Evidence — metrics, pipeline, and 4 evidence cards" />
-
-<img width="920" src="assets/repo-live.svg" alt="GitHub Status — live repository telemetry for the flagship repos" />
 
 </div>
 
@@ -63,11 +57,6 @@ implementation, tests, evaluation, or reproducible artifacts.
 > panel regenerates — no hunting through files. The pipeline: implementation →
 > tests → evaluation → failure analysis → architecture → decisions →
 > reproducible evidence.
->
-> 📡 **GitHub Status** (second panel) is live telemetry: stars, forks, open
-> issues, latest release, last push, and CI conclusion are fetched from
-> `api.github.com` and refreshed daily by the same workflow — the CI badge
-> reflects the real run, never a hard-coded claim.
 
 ---
 
@@ -87,7 +76,7 @@ implementation, tests, evaluation, or reproducible artifacts.
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Flagship Projects
 
 <div align="center">
 
@@ -97,12 +86,33 @@ implementation, tests, evaluation, or reproducible artifacts.
 | [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration · 17 evaluation cases · 6 dimensions · regression gate | Public · CI green · v0.3.0 |
 | [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) · 37 tests | Public · CI green · v0.1.0 |
 | [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives + 5 ADRs: robotics → payments → CI → secure APIs | Public · v1.0.0 |
-| [**robopay-spot-tier1**](https://github.com/EslaM-X/robopay-spot-tier1) | Boston Dynamics Spot Tier-1 robot control for the RoboPay bounty | Public |
-| [**portfolio**](https://github.com/EslaM-X/portfolio) | Evidence matrix for everything above | Public |
 
 </div>
 
 > 🔒 Enterprise work (Steinheim ERP & Invoicing, S.I.G platforms) lives in private repositories — available on request.
+>
+> 🔭 The rest of my public repositories — every repo I own and maintain — is browsable under [Repositories](https://github.com/EslaM-X?tab=repositories).
+
+---
+
+## 📡 Live Engineering Status
+
+**Live, not claimed** — the panel below is fetched from the GitHub API every
+day. It shows the **version, the engineering proof, and the real CI result** of
+each flagship repository. Stars/forks/issues are live metadata (hover a row);
+the CI badge reflects the real run, never a hard-coded claim.
+
+<div align="center">
+
+<img width="920" src="assets/repo-live.svg" alt="Live Engineering Status — version, proof, and CI result per flagship repo" />
+
+</div>
+
+> 🛡️ **Governed public engineering** — [20 public repositories](https://github.com/EslaM-X?tab=repositories) · protected default branches. The process — plan, prove, present, govern — is documented in the [portfolio](https://github.com/EslaM-X/portfolio/blob/main/engineering/methodology.md).
+>
+> 📡 **Daily refresh**: stars, forks, open issues, latest release, last push,
+> and the CI conclusion are fetched from `api.github.com` and regenerated by
+> the [`update-profile-assets`](.github/workflows/update-profile.yml) workflow.
 
 ---
 
@@ -116,9 +126,19 @@ implementation, tests, evaluation, or reproducible artifacts.
 
 ---
 
-## 🔗 Connect With Me
+## 📄 Case Studies · CV · Contact
 
 <div align="center">
+
+| Case Study | What it covers |
+| --- | --- |
+| [AI Agent Automation](https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md) | Human-gated agent orchestration, evaluation, regression gate |
+| [Robotics — RoboPay](https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md) | Spot + Go2 Tier-1, sim-to-sim validation, x402 |
+| [Production Systems](https://github.com/EslaM-X/portfolio/blob/main/case-studies/production-systems-lab.md) | Idempotency, replay, circuit-breakers, HMAC audit |
+| [Pi Network / PiRC](https://github.com/EslaM-X/portfolio/blob/main/case-studies/pi-network.md) | Protocol standards research, consensus |
+| [Systems Engineering](https://github.com/EslaM-X/portfolio/blob/main/case-studies/systems-engineering.md) | Methodology and evidence process |
+
+**CV:** [portfolio/CV.md](https://github.com/EslaM-X/portfolio/blob/main/CV.md)
 
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-0A0A0A?style=for-the-badge&logo=vercel&logoColor=FFB627)](https://eslamx.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=FFB627)](https://www.linkedin.com/in/eslam-hesham-359964192)
@@ -131,16 +151,6 @@ implementation, tests, evaluation, or reproducible artifacts.
 <img src="https://komarev.com/ghpvc/?username=EslaM-X&style=for-the-badge&color=FFB627&label=PROFILE+VIEWS" alt="views" />
 <img src="https://img.shields.io/github/followers/EslaM-X?style=for-the-badge&color=FFB627&labelColor=0a0a0a&logo=github" alt="followers" />
 <img src="https://img.shields.io/github/stars/EslaM-X?style=for-the-badge&color=FFB627&labelColor=0a0a0a&logo=github" alt="stars" />
-
-</div>
-
----
-
-## ⚔️ Languages & Tools
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,mongodb,postgres,supabase,tailwind,docker,git,github,go,python,solidity,linux,vercel,figma,vscode&perline=10" alt="stack" />
 
 </div>
 
@@ -166,6 +176,16 @@ implementation, tests, evaluation, or reproducible artifacts.
 > [`update-profile-assets`](.github/workflows/update-profile.yml) workflow.
 > The motion is pure SMIL — no JavaScript, renders everywhere GitHub does.
 > Every metric links to a public repository or PR — evidence, not estimates.
+
+---
+
+## ⚔️ Languages & Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,mongodb,postgres,supabase,tailwind,docker,git,github,go,python,solidity,linux,vercel,figma,vscode&perline=10" alt="stack" />
+
+</div>
 
 ---
 

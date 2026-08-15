@@ -47,6 +47,12 @@
     "Decisions",
     "Reproducible Evidence"
   ],
+  "flagships": [
+    { "repo": "ai-agent-automation-platform", "label": "AI AGENT AUTOMATION", "proof": "17 cases · 6 dimensions" },
+    { "repo": "robot-sim-policy-lab", "label": "ROBOT SIM POLICY", "proof": "18 tests · 0.26 m sim2sim" },
+    { "repo": "production-systems-lab", "label": "PRODUCTION SYSTEMS", "proof": "37 tests · 9 packages" },
+    { "repo": "engineering-notes", "label": "ENGINEERING NOTES", "proof": "5 notes · 5 ADRs" }
+  ],
   "cards": [
     {
       "title": "AI Agent Platform",
