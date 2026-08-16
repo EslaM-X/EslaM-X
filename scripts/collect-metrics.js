@@ -131,13 +131,13 @@ function renderSvg(history) {
   const rows = (history.entries || []).slice(-14);
 
   /* --- chart geometry (right side) --- */
-  const chartX = 330, chartW = 560, chartRight = chartX + chartW;
-  const baseY = 210;        /* x-axis baseline */
-  const topY = 70;          /* top of the tallest bar */
+  const chartX = 400, chartW = 490, chartRight = chartX + chartW;
+  const baseY = 215;        /* x-axis baseline */
+  const topY = 75;          /* top of the tallest bar */
   const plotH = baseY - topY;
 
   /* --- table geometry (left side) --- */
-  const tableX = 30, tableW = 290, tableH = 190, tableY = 78;
+  const tableX = 30, tableW = 340, tableH = 196, tableY = 78;
 
   /* aggregate stars/views per day — bars use TOTALS, not per-repo max */
   const days = rows.map((e) => ({
@@ -184,14 +184,14 @@ function renderSvg(history) {
 
   /* --- latest snapshot table: fixed columns + truncation --- */
   const latest = rows[rows.length - 1] || { date: "", repos: {} };
-  const col = { repoX: tableX + 16, starX: 198, forkX: 228, viewX: 258, cloneX: 288 };
+  const col = { repoX: tableX + 16, starX: 224, forkX: 262, viewX: 304, cloneX: 344, repoMax: 140 };
   let tableRows = "";
   repos.forEach((rn, i) => {
     const cur = latest.repos[rn] || { stars: 0, forks: 0, views: 0, clones: 0 };
-    const y = tableY + 44 + i * 20;
+    const y = tableY + 62 + i * 20;
     tableRows += `<a href="https://github.com/EslaM-X/${rn}" target="_blank">
       <title>${esc(rn)} — ★ ${cur.stars} · ⑂ ${cur.forks} · 👁 ${cur.views} · ⬇ ${cur.clones}</title>
-      <text x="${col.repoX}" y="${y}" font-family="monospace" font-size="10.5" fill="${C.gold}">${esc(fit(rn, 10.5, col.starX - col.repoX - 8, true))}</text>
+      <text x="${col.repoX}" y="${y}" font-family="monospace" font-size="10.5" fill="${C.gold}">${esc(fit(rn, 10.5, col.repoMax, true))}</text>
     </a>
     <text x="${col.starX}" y="${y}" font-family="monospace" font-size="10.5" fill="${C.text}" text-anchor="end">★ ${cur.stars}</text>
     <text x="${col.forkX}" y="${y}" font-family="monospace" font-size="10.5" fill="${C.text}" text-anchor="end">⑂ ${cur.forks}</text>
@@ -203,7 +203,7 @@ function renderSvg(history) {
   <rect width="${w}" height="${h}" rx="${r}" fill="${C.bg}"/>
   <rect id="m_b" x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="${r}" fill="none" stroke="${C.line}" stroke-width="1.5"/>
   <text x="30" y="40" font-family="monospace" font-size="13" font-weight="700" letter-spacing="3" fill="${C.gold}">ADOPTION TELEMETRY</text>
-  <text x="30" y="60" font-family="sans-serif" font-size="12" fill="${C.muted}">Daily stars + views across public repos · last ${rows.length || 0} day(s)</text>
+  <text x="30" y="60" font-family="sans-serif" font-size="12" fill="${C.muted}">Daily stars + views across public repos · last ${rows.length === 1 ? "1 day" : `${rows.length || 0} days`}</text>
 
   <!-- latest snapshot -->
   <rect x="${tableX}" y="${tableY}" width="${tableW}" height="${tableH}" rx="10" fill="${C.panel}" stroke="${C.line}"/>
