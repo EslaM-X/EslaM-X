@@ -75,12 +75,14 @@
       "tag": "EXTERNAL OSS",
       "path": [
         { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" },
-        { "label": "Spot PR #86", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" },
-        { "label": "Go2 PR #89", "href": "https://github.com/fabricfoundation/RoboPay/pull/89" }
+        { "label": "Go2 Archive", "href": "https://github.com/EslaM-X/robopay-go2-tier1" },
+        { "label": "Go2 PR #89", "href": "https://github.com/fabricfoundation/RoboPay/pull/89" },
+        { "label": "Spot PR #86", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" }
       ],
       "links": [
-        { "label": "Spot PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" },
+        { "label": "Go2 Archive", "href": "https://github.com/EslaM-X/robopay-go2-tier1" },
         { "label": "Go2 PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/89" },
+        { "label": "Spot PR", "href": "https://github.com/fabricfoundation/RoboPay/pull/86" },
         { "label": "Case Study", "href": "https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" }
       ]
     },

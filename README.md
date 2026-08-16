@@ -122,7 +122,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 | --- | --- | --- |
 | [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Proposed PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | [PR #2](https://github.com/PiNetwork/PiRC/pull/2) — received technical review and feedback from Pi Network founder Nicolas Kokkalis |
 | [**Stellar — stellar-core**](https://github.com/stellar/stellar-core/pull/5409) | Contribution to the reference P2P implementation behind Stellar consensus | [PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
-| [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay) | External OSS contribution — machine-payable robotics: Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) + Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) Tier-1 submissions, x402 gating, infra hardening PRs | [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) + evidence in [portfolio](https://github.com/EslaM-X/portfolio) |
+| [**Fabric Foundation — RoboPay**](https://github.com/fabricfoundation/RoboPay) | External OSS contribution — machine-payable robotics: Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) + Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) Tier-1 submissions, x402 gating, infra hardening PRs | [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89) · authorship archives: [Go2](https://github.com/EslaM-X/robopay-go2-tier1) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) + evidence in [portfolio](https://github.com/EslaM-X/portfolio) |
 
 ---
 
@@ -133,7 +133,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 | Case Study | What it covers |
 | --- | --- |
 | [AI Agent Automation](https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md) | Human-gated agent orchestration, evaluation, regression gate |
-| [Robotics — RoboPay](https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md) | Spot + Go2 Tier-1, sim-to-sim validation, x402 |
+| [Robotics — RoboPay](https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md) | Spot + Go2 Tier-1, sim-to-sim validation, x402 · authorship archives: [Go2](https://github.com/EslaM-X/robopay-go2-tier1) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) |
 | [Production Systems](https://github.com/EslaM-X/portfolio/blob/main/case-studies/production-systems-lab.md) | Idempotency, replay, circuit-breakers, HMAC audit |
 | [Pi Network / PiRC](https://github.com/EslaM-X/portfolio/blob/main/case-studies/pi-network.md) | Protocol standards research, consensus |
 | [Systems Engineering](https://github.com/EslaM-X/portfolio/blob/main/case-studies/systems-engineering.md) | Methodology and evidence process |

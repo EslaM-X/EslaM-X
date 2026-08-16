@@ -649,12 +649,15 @@ function evidence(d) {
     }
 
     let linksHtml = "";
+    const linkGap = 10;
+    const linkAvail = cardW - 36;
+    const linkChipW = Math.floor((linkAvail - linkGap * (c.links.length - 1)) / c.links.length);
     c.links.forEach((l, j) => {
-      const lx = x + 18 + j * 134;
+      const lx = x + 18 + j * (linkChipW + linkGap);
       linksHtml += `<a href="${l.href}" target="_blank">
         <title>${esc(l.href)}</title>
-        <rect x="${lx}" y="${y + 172}" width="124" height="26" rx="6" fill="${C.panel2}" stroke="${C.line}"/>
-        <text x="${lx + 62}" y="${y + 189}" font-family="${F.mono}" font-size="9" text-anchor="middle" fill="${C.gold}">${esc(l.label)} ↗</text>
+        <rect x="${lx}" y="${y + 172}" width="${linkChipW}" height="26" rx="6" fill="${C.panel2}" stroke="${C.line}"/>
+        <text x="${lx + linkChipW / 2}" y="${y + 189}" font-family="${F.mono}" font-size="9" text-anchor="middle" fill="${C.gold}">${esc(l.label)} ↗</text>
       </a>`;
     });
     cardHtml += `<g opacity="0">

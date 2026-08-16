@@ -137,16 +137,16 @@
         </a>
       <a href="https://github.com/EslaM-X/ai-agent-automation-platform" target="_blank">
         <title>https://github.com/EslaM-X/ai-agent-automation-platform</title>
-        <rect x="48" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="110" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Repository ↗</text>
+        <rect x="48" y="572" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="108.5" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Repository ↗</text>
       </a><a href="https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md" target="_blank">
         <title>https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md</title>
-        <rect x="182" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="244" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Case Study ↗</text>
+        <rect x="179" y="572" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="239.5" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Case Study ↗</text>
       </a><a href="https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases" target="_blank">
         <title>https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/evaluation/cases</title>
-        <rect x="316" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="378" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Evaluation ↗</text>
+        <rect x="310" y="572" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="370.5" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Evaluation ↗</text>
       </a>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.3s" fill="freeze"/>
     </g><g opacity="0">
@@ -165,25 +165,32 @@
       <a href="https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" target="_blank">
           <title>https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md</title>
           <text x="488" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Case Study</text>
-        </a><text x="538" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/fabricfoundation/RoboPay/pull/86" target="_blank">
-          <title>https://github.com/fabricfoundation/RoboPay/pull/86</title>
-          <text x="548" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Spot PR #86</text>
+        </a><text x="538" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/EslaM-X/robopay-go2-tier1" target="_blank">
+          <title>https://github.com/EslaM-X/robopay-go2-tier1</title>
+          <text x="548" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Go2 Archive</text>
         </a><text x="602.8" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/fabricfoundation/RoboPay/pull/89" target="_blank">
           <title>https://github.com/fabricfoundation/RoboPay/pull/89</title>
           <text x="612.8" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Go2 PR #89</text>
+        </a><text x="662.8" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#5c5c5c">›</text><a href="https://github.com/fabricfoundation/RoboPay/pull/86" target="_blank">
+          <title>https://github.com/fabricfoundation/RoboPay/pull/86</title>
+          <text x="672.8" y="516" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8" fill="#F5D68A">Spot PR #86</text>
         </a>
-      <a href="https://github.com/fabricfoundation/RoboPay/pull/86" target="_blank">
-        <title>https://github.com/fabricfoundation/RoboPay/pull/86</title>
-        <rect x="488" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="550" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Spot PR ↗</text>
+      <a href="https://github.com/EslaM-X/robopay-go2-tier1" target="_blank">
+        <title>https://github.com/EslaM-X/robopay-go2-tier1</title>
+        <rect x="488" y="572" width="88" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="532" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Go2 Archive ↗</text>
       </a><a href="https://github.com/fabricfoundation/RoboPay/pull/89" target="_blank">
         <title>https://github.com/fabricfoundation/RoboPay/pull/89</title>
-        <rect x="622" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="684" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Go2 PR ↗</text>
+        <rect x="586" y="572" width="88" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="630" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Go2 PR ↗</text>
+      </a><a href="https://github.com/fabricfoundation/RoboPay/pull/86" target="_blank">
+        <title>https://github.com/fabricfoundation/RoboPay/pull/86</title>
+        <rect x="684" y="572" width="88" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="728" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Spot PR ↗</text>
       </a><a href="https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md" target="_blank">
         <title>https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md</title>
-        <rect x="756" y="572" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="818" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Case Study ↗</text>
+        <rect x="782" y="572" width="88" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="826" y="589" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Case Study ↗</text>
       </a>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.42s" fill="freeze"/>
     </g><g opacity="0">
@@ -208,16 +215,16 @@
         </a>
       <a href="https://github.com/EslaM-X/production-systems-lab" target="_blank">
         <title>https://github.com/EslaM-X/production-systems-lab</title>
-        <rect x="48" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="110" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Repository ↗</text>
+        <rect x="48" y="820" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="108.5" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Repository ↗</text>
       </a><a href="https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md" target="_blank">
         <title>https://github.com/EslaM-X/production-systems-lab/blob/main/docs/failure-matrix.md</title>
-        <rect x="182" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="244" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Failure Matrix ↗</text>
+        <rect x="179" y="820" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="239.5" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Failure Matrix ↗</text>
       </a><a href="https://github.com/EslaM-X/portfolio/blob/main/case-studies/production-systems-lab.md" target="_blank">
         <title>https://github.com/EslaM-X/portfolio/blob/main/case-studies/production-systems-lab.md</title>
-        <rect x="316" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="378" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Case Study ↗</text>
+        <rect x="310" y="820" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="370.5" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Case Study ↗</text>
       </a>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.54s" fill="freeze"/>
     </g><g opacity="0">
@@ -242,16 +249,16 @@
         </a>
       <a href="https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md" target="_blank">
         <title>https://github.com/EslaM-X/engineering-notes/blob/main/docs/architecture.md</title>
-        <rect x="488" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="550" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Architecture ↗</text>
+        <rect x="488" y="820" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="548.5" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Architecture ↗</text>
       </a><a href="https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr" target="_blank">
         <title>https://github.com/EslaM-X/engineering-notes/tree/main/docs/adr</title>
-        <rect x="622" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="684" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">ADRs ↗</text>
+        <rect x="619" y="820" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="679.5" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">ADRs ↗</text>
       </a><a href="https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks" target="_blank">
         <title>https://github.com/EslaM-X/ai-agent-automation-platform/tree/main/benchmarks</title>
-        <rect x="756" y="820" width="124" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
-        <text x="818" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Benchmarks ↗</text>
+        <rect x="750" y="820" width="121" height="26" rx="6" fill="#171717" stroke="#FFB62733"/>
+        <text x="810.5" y="837" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" text-anchor="middle" fill="#FFB627">Benchmarks ↗</text>
       </a>
       <animate attributeName="opacity" values="0;1" dur="0.7s" begin="0.6599999999999999s" fill="freeze"/>
     </g>
