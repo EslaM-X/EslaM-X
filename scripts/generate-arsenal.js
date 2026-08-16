@@ -214,6 +214,24 @@ function esc(s) {
   return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+/* rough text width in px — mono ≈ 0.6em, sans ≈ 0.55em, emoji wider.
+   Used only to pick truncation/safe spacing, so approximation is fine. */
+function textWidth(s, size, mono) {
+  let w = 0;
+  for (const ch of String(s)) {
+    w += /[\u{1F300}-\u{1FAFF}\u{2705}]/u.test(ch) ? size * 1.2 : size * (mono ? 0.6 : 0.55);
+  }
+  return w;
+}
+
+/* truncate a string to fit within maxW px, appending an ellipsis when cut. */
+function fit(s, size, maxW, mono) {
+  let out = String(s);
+  if (textWidth(out, size, mono) <= maxW) return out;
+  while (out.length > 1 && textWidth(out + "…", size, mono) > maxW) out = out.slice(0, -1);
+  return out + "…";
+}
+
 /* split a phrase into word-bounded chunks of ~2 lines */
 function splitWords(s, maxLen) {
   const words = String(s).split(/\s+/).filter(Boolean);
@@ -695,59 +713,96 @@ function evidence(d) {
 /*    proof-forward: display label + version + engineering proof + CI, */
 /*    with stars/forks/issues demoted to hover metadata (not hero).    */
 /*    Refreshed from the GitHub API on every regeneration.             */
+/*                                                                    */
+/*    Layout: fixed columns with explicit column headers —            */
+/*    PROJECT | VERSION | EVIDENCE | CI — so long labels/proof/        */
+/*    releases cannot collide. Every cell is truncated to its column   */
+/*    width; the raw value is preserved in the row's <title> tooltip.  */
 /* ------------------------------------------------------------------ */
 function repoLive(status) {
-  const w = 920, h = 240, r = 18;
+  const w = 920, h = 264, r = 18;
   const g = slug();
   const ev = loadEvidence();
   const fleet = {};
   ((ev && ev.flagships) || []).forEach((f) => { if (f && f.repo) fleet[f.repo] = f; });
+
+  /* fixed column geometry (inside the 860px-wide rows, x from 46..890) */
+  const COL = {
+    projectX: 46, projectW: 216,
+    versionX: 276, versionW: 76,
+    proofX: 366, proofW: 470,   /* proofW keeps text clear of the CI badge */
+    ciX: 886,                    /* CI text is right-aligned ending here */
+    rowH: 34, rowW: 860,
+  };
+
+  const HEAD_Y = 80;
+  const ROW_TOP = 98;
+  const ROW_GAP = 38;
+
+  /* one row of column-header labels */
+  const headers = `<text x="${COL.projectX}" y="${HEAD_Y}" font-family="${F.mono}" font-size="9" font-weight="700" letter-spacing="2" fill="${C.dim}">PROJECT</text>
+  <text x="${COL.versionX}" y="${HEAD_Y}" font-family="${F.mono}" font-size="9" font-weight="700" letter-spacing="2" fill="${C.dim}">VERSION</text>
+  <text x="${COL.proofX}" y="${HEAD_Y}" font-family="${F.mono}" font-size="9" font-weight="700" letter-spacing="2" fill="${C.dim}">EVIDENCE</text>
+  <text x="${COL.ciX}" y="${HEAD_Y}" font-family="${F.mono}" font-size="9" font-weight="700" letter-spacing="2" text-anchor="end" fill="${C.dim}">CI</text>`;
+
   let rowHtml = "";
   FLAGSHIP_REPOS.forEach((name, i) => {
     const s = status[name] || { stars: 0, forks: 0, issues: 0, pushed: "", release: "", ci: null };
     const meta = fleet[name] || FLAGSHIP_META[name] || { label: name.toUpperCase(), proof: "" };
-    const y = 84 + i * 36;
+    const y = ROW_TOP + i * ROW_GAP;
     const repoUrl = `https://github.com/EslaM-X/${name}`;
     const ci = s.ci || null;
+
+    /* truncate each cell to its column; raw value preserved in tooltip */
+    const label = fit(meta.label, 12, COL.projectW, true);
+    const version = fit(s.release || "—", 11, COL.versionW, true);
+    const proof = fit(meta.proof || "", 11, COL.proofW, false);
+
     let ciBadge;
     if (ci === "success") {
       ciBadge = `<g>
-        <circle cx="886" cy="${y + 14}" r="5" fill="#27c93f">
+        <circle cx="${COL.ciX}" cy="${y + 15}" r="5" fill="#27c93f">
           <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" begin="${i * 0.2}s" repeatCount="indefinite"/>
         </circle>
-        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" font-weight="700" text-anchor="end" fill="#7fe08f">CI PASS</text>
+        <text x="${COL.ciX - 16}" y="${y + 19}" font-family="${F.mono}" font-size="10" font-weight="700" text-anchor="end" fill="#7fe08f">CI PASS</text>
       </g>`;
     } else if (ci === "failure") {
       ciBadge = `<g>
-        <circle cx="886" cy="${y + 14}" r="5" fill="#ff5f56"/>
-        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" font-weight="700" text-anchor="end" fill="#ff8a85">CI FAIL</text>
+        <circle cx="${COL.ciX}" cy="${y + 15}" r="5" fill="#ff5f56"/>
+        <text x="${COL.ciX - 16}" y="${y + 19}" font-family="${F.mono}" font-size="10" font-weight="700" text-anchor="end" fill="#ff8a85">CI FAIL</text>
       </g>`;
     } else {
       ciBadge = `<g>
-        <circle cx="886" cy="${y + 14}" r="5" fill="${C.muted}"/>
+        <circle cx="${COL.ciX}" cy="${y + 15}" r="5" fill="${C.muted}"/>
         <title>no CI workflow — documentation repository, no automated run</title>
-        <text x="868" y="${y + 18}" font-family="${F.mono}" font-size="10" text-anchor="end" fill="${C.muted}">NO CI</text>
+        <text x="${COL.ciX - 16}" y="${y + 19}" font-family="${F.mono}" font-size="10" text-anchor="end" fill="${C.muted}">NO CI</text>
       </g>`;
     }
+
+    const rowTitle = `<title>${repoUrl} — ★ ${s.stars} · ⑂ ${s.forks} · ! ${s.issues} · updated ${s.pushed || "—"} · release ${s.release || "—"} · ${meta.label}</title>`;
+
     rowHtml += `<g opacity="0">
-      <rect x="30" y="${y - 4}" width="860" height="30" rx="8" fill="${i % 2 ? C.panel2 : C.panel}" stroke="${C.line}"/>
+      <rect x="30" y="${y - 5}" width="${COL.rowW}" height="${COL.rowH}" rx="8" fill="${i % 2 ? C.panel2 : C.panel}" stroke="${C.line}"/>
       <a href="${repoUrl}" target="_blank">
-        <title>${repoUrl} — ★ ${s.stars} · ⑂ ${s.forks} · ! ${s.issues} · updated ${s.pushed || "—"}</title>
-        <text x="46" y="${y + 15}" font-family="${F.mono}" font-size="12" font-weight="700" fill="${C.gold}">${esc(meta.label)}</text>
+        ${rowTitle}
+        <text x="${COL.projectX}" y="${y + 16}" font-family="${F.mono}" font-size="12" font-weight="700" fill="${C.gold}">${esc(label)}</text>
       </a>
-      <text x="248" y="${y + 15}" font-family="${F.mono}" font-size="11" fill="${C.goldSoft}">${s.release || "—"}</text>
-      <text x="334" y="${y + 15}" font-family="${F.sans}" font-size="11" fill="${C.text}">${esc(meta.proof || "")}</text>
+      <text x="${COL.versionX}" y="${y + 16}" font-family="${F.mono}" font-size="11" fill="${C.goldSoft}">${esc(version)}</text>
+      <text x="${COL.proofX}" y="${y + 16}" font-family="${F.sans}" font-size="11" fill="${C.text}">${esc(proof)}</text>
       ${ciBadge}
       <animate attributeName="opacity" values="0;1" dur="0.6s" begin="${0.2 + i * 0.12}s" fill="freeze"/>
     </g>`;
   });
+
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" font-rendering="optimizeLegibility">
   <rect width="${w}" height="${h}" rx="${r}" fill="${C.bg}"/>
   ${drawBorder(g, w, h, r)}
-  <text x="30" y="44" font-family="${F.display}" font-size="24" font-weight="700" letter-spacing="4" fill="${C.gold}">ENGINEERING STATUS</text>
-  <text x="30" y="66" font-family="${F.mono}" font-size="12" letter-spacing="2" fill="${C.muted}">LIVE REPOSITORY TELEMETRY · DAILY REFRESH</text>
+  <text x="30" y="40" font-family="${F.display}" font-size="24" font-weight="700" letter-spacing="4" fill="${C.gold}">ENGINEERING STATUS</text>
+  <text x="30" y="62" font-family="${F.mono}" font-size="12" letter-spacing="2" fill="${C.muted}">LIVE REPOSITORY TELEMETRY · DAILY REFRESH</text>
+  ${headers}
+  <line x1="30" y1="${HEAD_Y + 6}" x2="890" y2="${HEAD_Y + 6}" stroke="${C.line}"/>
   ${rowHtml}
-  <text x="30" y="${h - 18}" font-family="${F.mono}" font-size="10" fill="${C.dim}">LIVE FROM GITHUB · DAILY REFRESH — stars · forks · issues · release · last push · CI · hover a repo for the raw telemetry</text>
+  <text x="30" y="${h - 14}" font-family="${F.mono}" font-size="10" fill="${C.dim}">LIVE FROM GITHUB · DAILY REFRESH — stars · forks · issues · release · last push · CI · hover a repo for the raw telemetry</text>
 </svg>`;
 }
 

@@ -20,6 +20,7 @@ for (const f of files) {
   for (const m of texts) {
     const [, x, y, sz, inner] = m;
     const anchor = /text-anchor="middle"/.test(m[0]);
+    const anchorEnd = /text-anchor="end"/.test(m[0]);
     const label = inner.replace(/<[^>]+>/g, "").trim();
     if (!label) continue;
     const w = measure(label, parseFloat(sz));
@@ -27,6 +28,11 @@ for (const f of files) {
     if (anchor) {
       if (xv + w / 2 > W || xv - w / 2 < 0) {
         console.log("OVERFLOW(mid)", f, JSON.stringify(label.slice(0, 44)), "x=" + xv, "w=" + Math.round(w));
+        issues++;
+      }
+    } else if (anchorEnd) {
+      if (xv > W + 4 || xv - w < -4) {
+        console.log("OVERFLOW(end)", f, JSON.stringify(label.slice(0, 44)), "x=" + xv, "w=" + Math.round(w));
         issues++;
       }
     } else {
