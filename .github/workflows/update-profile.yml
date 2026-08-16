@@ -35,6 +35,12 @@ jobs:
           ESLAMX_USER: EslaM-X
         run: node scripts/generate-arsenal.js
 
+      - name: Collect adoption metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ESLAMX_USER: EslaM-X
+        run: node scripts/collect-metrics.js
+
       - name: Commit updates
         run: |
           git config user.name "github-actions[bot]"
