@@ -140,6 +140,11 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 **CV:** [portfolio/CV.md](https://github.com/EslaM-X/portfolio/blob/main/CV.md)
 
+**Distribution & adoption:** launch posts, contributor on-ramp, and the
+measurement log live in the portfolio's
+[`distribution/`](https://github.com/EslaM-X/portfolio/tree/main/distribution)
+folder.
+
 [![Portfolio](https://img.shields.io/badge/PORTFOLIO-0A0A0A?style=for-the-badge&logo=vercel&logoColor=FFB627)](https://eslamx.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A0A0A?style=for-the-badge&logo=linkedin&logoColor=FFB627)](https://www.linkedin.com/in/eslam-hesham-359964192)
 [![X](https://img.shields.io/badge/X_(TWITTER)-0A0A0A?style=for-the-badge&logo=x&logoColor=FFB627)](https://x.com/EslaM_HeshAM_X)
@@ -168,6 +173,8 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 <img width="920" src="assets/domains.svg" alt="Engineering domains" />
 
+<img width="920" src="assets/metrics.svg" alt="Adoption telemetry — daily stars and views across public repos" />
+
 <img width="920" src="assets/tech-matrix.svg" alt="Technology matrix" />
 
 </div>
@@ -176,6 +183,8 @@ the CI badge reflects the real run, never a hard-coded claim.
 > [`update-profile-assets`](.github/workflows/update-profile.yml) workflow.
 > The motion is pure SMIL — no JavaScript, renders everywhere GitHub does.
 > Every metric links to a public repository or PR — evidence, not estimates.
+> The adoption chart above snapshots daily stars, forks, views, and clones
+> (14-day traffic window) into [`profile-data/metrics-history.json`](profile-data/metrics-history.json).
 
 ---
 
