@@ -221,5 +221,5 @@
       <animate attributeName="opacity" values="0.85;0.55;0.85" dur="3s" begin="2.5500000000000003s" repeatCount="indefinite"/>
     </rect>
   <rect x="40" y="254" width="872" height="2" fill="#FFB62733"/>
-  <text x="40" y="282" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">WEEKLY CONTRIBUTIONS — 44,468+ TOTAL THIS YEAR · STREAK 18 DAYS</text>
+  <text x="40" y="282" font-family="'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" fill="#8a8a8a">WEEKLY CONTRIBUTIONS — 44,481+ TOTAL THIS YEAR · STREAK 18 DAYS</text>
 </svg>
