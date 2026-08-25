@@ -2,11 +2,11 @@
   <rect width="920" height="340" rx="18" fill="#0a0a0a"/>
   <rect id="m_b" x="0.5" y="0.5" width="919" height="339" rx="18" fill="none" stroke="#FFB62733" stroke-width="1.5"/>
   <text x="30" y="40" font-family="monospace" font-size="13" font-weight="700" letter-spacing="3" fill="#FFB627">ADOPTION TELEMETRY</text>
-  <text x="30" y="60" font-family="sans-serif" font-size="12" fill="#8a8a8a">Daily stars + views across public repos · last 9 days</text>
+  <text x="30" y="60" font-family="sans-serif" font-size="12" fill="#8a8a8a">Daily stars + views across public repos · last 10 days</text>
 
   <!-- latest snapshot -->
   <rect x="30" y="78" width="340" height="196" rx="10" fill="#131313" stroke="#FFB62733"/>
-  <text x="46" y="98" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#FFB627">LATEST SNAPSHOT · 08-24</text>
+  <text x="46" y="98" font-family="monospace" font-size="10" font-weight="700" letter-spacing="1" fill="#FFB627">LATEST SNAPSHOT · 08-25</text>
   <line x1="46" y1="108" x2="354" y2="108" stroke="#FFB62733"/>
   <text x="46" y="118" font-family="monospace" font-size="8.5" letter-spacing="1" fill="#5c5c5c">REPOSITORY</text>
   <text x="224" y="118" font-family="monospace" font-size="8.5" letter-spacing="1" text-anchor="end" fill="#5c5c5c">STARS</text>
@@ -64,56 +64,61 @@
       <text x="392" y="171.33333333333334" font-family="monospace" font-size="9" text-anchor="end" fill="#5c5c5c">2</text><line x1="400" y1="121.66666666666667" x2="890" y2="121.66666666666667" stroke="#FFB62733" stroke-dasharray="2 5"/>
       <text x="392" y="124.66666666666667" font-family="monospace" font-size="9" text-anchor="end" fill="#5c5c5c">4</text><line x1="400" y1="75" x2="890" y2="75" stroke="#FFB62733" stroke-dasharray="2 5"/>
       <text x="392" y="78" font-family="monospace" font-size="9" text-anchor="end" fill="#5c5c5c">0</text>
-  <rect x="413.61111111111114" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+  <rect x="412.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-16 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0s" repeatCount="indefinite"/>
-    </rect><text x="427.22222222222223" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-16</text><rect x="468.0555555555556" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="424.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-16</text><rect x="461.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-17 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0.15s" repeatCount="indefinite"/>
-    </rect><text x="481.6666666666667" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-17</text><rect x="522.5" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="473.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-17</text><rect x="510.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-18 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0.3s" repeatCount="indefinite"/>
-    </rect><text x="536.1111111111111" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-18</text><rect x="576.9444444444443" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="522.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-18</text><rect x="559.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-19 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0.44999999999999996s" repeatCount="indefinite"/>
-    </rect><text x="590.5555555555554" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-19</text><rect x="631.3888888888889" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="571.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-19</text><rect x="608.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-20 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0.6s" repeatCount="indefinite"/>
-    </rect><text x="645" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-20</text><rect x="685.8333333333333" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="620.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-20</text><rect x="657.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-21 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0.75s" repeatCount="indefinite"/>
-    </rect><text x="699.4444444444443" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-21</text><rect x="740.2777777777777" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="669.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-21</text><rect x="706.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-22 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="0.8999999999999999s" repeatCount="indefinite"/>
-    </rect><text x="753.8888888888888" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-22</text><rect x="794.7222222222222" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="718.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-22</text><rect x="755.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-23 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="1.05s" repeatCount="indefinite"/>
-    </rect><text x="808.3333333333333" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-23</text><rect x="849.1666666666666" y="75" width="27.22222222222222" height="140" rx="3" fill="#FFB627" opacity="0.85">
+    </rect><text x="767.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-23</text><rect x="804.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
       <title>2026-08-24 — total stars 6 (6)</title>
       <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="1.2s" repeatCount="indefinite"/>
-    </rect><text x="862.7777777777777" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-24</text>
-  <polyline points="427.22222222222223,75 481.6666666666667,215 536.1111111111111,215 590.5555555555554,215 645,215 699.4444444444443,215 753.8888888888888,215 808.3333333333333,215 862.7777777777777,215" fill="none" stroke="#FF6A00" stroke-width="2">
+    </rect><text x="816.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-24</text><rect x="853.25" y="75" width="24.5" height="140" rx="3" fill="#FFB627" opacity="0.85">
+      <title>2026-08-25 — total stars 6 (6)</title>
+      <animate attributeName="opacity" values="0.85;0.5;0.85" dur="3s" begin="1.3499999999999999s" repeatCount="indefinite"/>
+    </rect><text x="865.5" y="229" font-family="monospace" font-size="8.5" text-anchor="middle" fill="#8a8a8a">08-25</text>
+  <polyline points="424.5,75 473.5,215 522.5,215 571.5,215 620.5,215 669.5,215 718.5,215 767.5,215 816.5,215 865.5,215" fill="none" stroke="#FF6A00" stroke-width="2">
       <animate attributeName="stroke-dasharray" values="0 2000;2000 0" dur="2s" fill="freeze"/>
-    </polyline><circle cx="427.22222222222223" cy="75" r="3" fill="#FF6A00">
+    </polyline><circle cx="424.5" cy="75" r="3" fill="#FF6A00">
       <title>2026-08-16 — total views 31</title>
-    </circle><circle cx="481.6666666666667" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="473.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-17 — total views 0</title>
-    </circle><circle cx="536.1111111111111" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="522.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-18 — total views 0</title>
-    </circle><circle cx="590.5555555555554" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="571.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-19 — total views 0</title>
-    </circle><circle cx="645" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="620.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-20 — total views 0</title>
-    </circle><circle cx="699.4444444444443" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="669.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-21 — total views 0</title>
-    </circle><circle cx="753.8888888888888" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="718.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-22 — total views 0</title>
-    </circle><circle cx="808.3333333333333" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="767.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-23 — total views 0</title>
-    </circle><circle cx="862.7777777777777" cy="215" r="3" fill="#FF6A00">
+    </circle><circle cx="816.5" cy="215" r="3" fill="#FF6A00">
       <title>2026-08-24 — total views 0</title>
+    </circle><circle cx="865.5" cy="215" r="3" fill="#FF6A00">
+      <title>2026-08-25 — total views 0</title>
     </circle>
   <line x1="400" y1="215" x2="890" y2="215" stroke="#FFB62733"/>
 
-  <text x="30" y="324" font-family="monospace" font-size="10" fill="#8a8a8a">SNAPSHOT: 2026-08-24 · chart auto-scales per day · hover a row/bar for raw numbers · source: api.github.com</text>
+  <text x="30" y="324" font-family="monospace" font-size="10" fill="#8a8a8a">SNAPSHOT: 2026-08-25 · chart auto-scales per day · hover a row/bar for raw numbers · source: api.github.com</text>
 </svg>
