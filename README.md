@@ -37,6 +37,7 @@ it is verifiable.
 | What I state | Where you verify it |
 | --- | --- |
 | I engineer cryptographic verification protocols | [proofx](https://github.com/EslaM-X/proofx) — v0.4.0 stable, 102-case conformance, Go/WASM/Rust, protocol frozen |
+| I build portable verifiable evidence systems | [piproof](https://github.com/EslaM-X/piproof) — PEP/1 protocol, Proof Passports, Dispute Engine, AUREVIA dashboard, zero dependencies |
 | I build payment-gated autonomous robotics | [atlas-shelf-inspection](https://github.com/EslaM-X/atlas-shelf-inspection) — PR [#120](https://github.com/fabricfoundation/RoboPay/pull/120) on RoboPay, real USDC settlement, 3 engines |
 | I engineer robotics + policy systems | [robot-sim-policy-lab](https://github.com/EslaM-X/robot-sim-policy-lab) — 18 tests, 3 physics backends, CI green |
 | I build production AI agent platforms | [ai-agent-automation-platform](https://github.com/EslaM-X/ai-agent-automation-platform) — 17 evaluation cases, 6 dimensions, regression gate |
@@ -86,6 +87,7 @@ The full evidence matrix lives in the **[portfolio repository](https://github.co
 | Project | What it is | Status |
 | --- | --- | --- |
 | [**proofx**](https://github.com/EslaM-X/proofx) | Execution proof protocol — claim → evidence → proof → verification; 102-case conformance, Go/WASM/Rust CLI + GitHub Action | Public · v0.4.0 · protocol frozen |
+| [**piproof**](https://github.com/EslaM-X/piproof) | Portable verifiable evidence — PEP/1 protocol, Proof Passports, Dispute Engine, AUREVIA dashboard | Public · v1.0.0 · zero dependencies |
 | [**atlas-shelf-inspection**](https://github.com/EslaM-X/atlas-shelf-inspection) | Payment-gated Boston Dynamics Atlas shelf inspection — MuJoCo + PyBullet + Webots, real USDC on Base Sepolia | Public · PR [#120](https://github.com/fabricfoundation/RoboPay/pull/120) merged |
 | [**robot-sim-policy-lab**](https://github.com/EslaM-X/robot-sim-policy-lab) | Policy → planner → controller → 3 simulators; measured 0.26 m max sim-to-sim deviation | Public · CI green · v0.1.0 |
 | [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration · 17 evaluation cases · 6 dimensions · regression gate | Public · CI green · v0.3.0 |
@@ -141,6 +143,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 | Case Study | What it covers |
 | --- | --- |
 | [Execution Proofs — ProofX](https://github.com/EslaM-X/proofx) | Claim → evidence → proof → verification protocol; 102-case conformance, Go/WASM/Rust, GitHub Action |
+| [Portable Verifiable Evidence — PiProof](https://github.com/EslaM-X/piproof) | PEP/1 protocol, Proof Passports, Dispute Engine, cross-application proofs, AUREVIA dashboard |
 | [Atlas Shelf Inspection](https://github.com/EslaM-X/atlas-shelf-inspection) | Payment-gated Boston Dynamics Atlas — 3 physics engines, x402 settlement, 3 on-chain transactions |
 | [AI Agent Automation](https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md) | Human-gated agent orchestration, evaluation, regression gate |
 | [Robotics — RoboPay](https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md) | Atlas + Spot + Go2 Tier-1, sim-to-sim validation, x402 · authorship archives: [Go2](https://github.com/EslaM-X/robopay-go2-tier1) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) |
