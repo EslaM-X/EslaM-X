@@ -42,7 +42,12 @@ it is verifiable.
 | I engineer robotics + policy systems | [robot-sim-policy-lab](https://github.com/EslaM-X/robot-sim-policy-lab) — 18 tests, 3 physics backends, CI green |
 | I build production AI agent platforms | [ai-agent-automation-platform](https://github.com/EslaM-X/ai-agent-automation-platform) — 17 evaluation cases, 6 dimensions, regression gate |
 | I engineer financial/API reliability | [production-systems-lab](https://github.com/EslaM-X/production-systems-lab) — 37 Go tests, failure matrix, benchmarks |
-| I write deep engineering analysis | [engineering-notes](https://github.com/EslaM-X/engineering-notes) — 5 problem-first dives, 5 ADRs |
+| I write deep engineering analysis | [engineering-notes](https://github.com/EslaM-X/engineering-notes) — 7 problem-first dives, 7 ADRs |
+| I build AI marketing operating systems | [steinheim-ai-launchpad](https://github.com/EslaM-X/steinheim-ai-launchpad) — verified knowledge base, AI content agents, human QC gate |
+| I build local AI agents for Pi Network | [pi-local-ai-agent](https://github.com/EslaM-X/pi-local-ai-agent) — privacy-first desktop AI gateway, Pi ecosystem |
+| I build Pi ecosystem platforms | [mapcap-ipo-frontendX](https://github.com/EslaM-X/mapcap-ipo-frontendX) · [mapcap-ipo-backendX](https://github.com/EslaM-X/mapcap-ipo-backendX) — equity ownership on Pi Network |
+| I build geo-trading platforms | [maplypi-backend](https://github.com/EslaM-X/maplypi-backend) · [maplypi-frontend](https://github.com/EslaM-X/maplypi-frontend) — Geo-Trading, Supply Chain, Pi Integration |
+| I build enterprise operations systems | [Steinheim ERP](https://github.com/EslaM-X/steinheim-eg) — invoicing, inventory, stock audits, reporting |
 | I contribute to Web3 protocols | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2), [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
 | I contribute to CI/CD supply-chain security | [actionlint PR #729](https://github.com/rhysd/actionlint/pull/729), [buildpacks/pack PR #2681](https://github.com/buildpacks/pack/pull/2681) |
 | I contribute to machine-payable robotics (external OSS) | [fabricfoundation/RoboPay](https://github.com/fabricfoundation/RoboPay) — Atlas [PR #120](https://github.com/fabricfoundation/RoboPay/pull/120), Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89), all Tier-1 |
@@ -92,8 +97,11 @@ The full evidence matrix lives in the **[portfolio repository](https://github.co
 | [**robot-sim-policy-lab**](https://github.com/EslaM-X/robot-sim-policy-lab) | Policy → planner → controller → 3 simulators; measured 0.26 m max sim-to-sim deviation | Public · CI green · v0.1.0 |
 | [**ai-agent-automation-platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited agent orchestration · 17 evaluation cases · 6 dimensions · regression gate | Public · CI green · v0.3.0 |
 | [**production-systems-lab**](https://github.com/EslaM-X/production-systems-lab) | Idempotency, replay, circuit-breakers, HMAC auth, hash-chained audit (Go) · 37 tests | Public · CI green · v0.1.0 |
-| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 5 deep dives + 5 ADRs: robotics → payments → CI → secure APIs | Public · v1.0.0 |
+| [**steinheim-ai-launchpad**](https://github.com/EslaM-X/steinheim-ai-launchpad) | AI marketing OS — verified knowledge base → AI agents → content → human QC gate | Public |
+| [**pi-local-ai-agent**](https://github.com/EslaM-X/pi-local-ai-agent) | Privacy-first local AI agent for Pi Network — install-and-run desktop gateway | Public |
+| [**engineering-notes**](https://github.com/EslaM-X/engineering-notes) | 7 deep dives + 7 ADRs: robotics → payments → CI → secure APIs → verification protocols | Public · v1.0.0 |
 | [**coded-maestro**](https://github.com/EslaM-X/coded-maestro) | Technical architect portfolio — evidence-first AI, security, Web3, engineering systems | Public · TypeScript |
+| [**portfolio**](https://github.com/EslaM-X/portfolio) | Engineering portfolio — case studies, evidence matrix, CV, methodology | Public |
 
 </div>
 
@@ -116,7 +124,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 </div>
 
-> 🛡️ **Governed public engineering** — [25+ public repositories](https://github.com/EslaM-X?tab=repositories) · protected default branches. The process — plan, prove, present, govern — is documented in the [portfolio](https://github.com/EslaM-X/portfolio/blob/main/engineering/methodology.md).
+> 🛡️ **Governed public engineering** — [55+ public repositories](https://github.com/EslaM-X?tab=repositories) · protected default branches. The process — plan, prove, present, govern — is documented in the [portfolio](https://github.com/EslaM-X/portfolio/blob/main/engineering/methodology.md).
 >
 > 📡 **Daily refresh**: stars, forks, open issues, latest release, last push,
 > and the CI conclusion are fetched from `api.github.com` and regenerated by
@@ -146,10 +154,12 @@ the CI badge reflects the real run, never a hard-coded claim.
 | [Portable Verifiable Evidence — PiProof](https://github.com/EslaM-X/piproof) | PEP/1 protocol, Proof Passports, Dispute Engine, cross-application proofs, AUREVIA dashboard |
 | [Atlas Shelf Inspection](https://github.com/EslaM-X/atlas-shelf-inspection) | Payment-gated Boston Dynamics Atlas — 3 physics engines, x402 settlement, 3 on-chain transactions |
 | [AI Agent Automation](https://github.com/EslaM-X/portfolio/blob/main/case-studies/ai-agent-automation.md) | Human-gated agent orchestration, evaluation, regression gate |
-| [Robotics — RoboPay](https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md) | Atlas + Spot + Go2 Tier-1, sim-to-sim validation, x402 · authorship archives: [Go2](https://github.com/EslaM-X/robopay-go2-tier1) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) |
+| [Robotics — RoboPay](https://github.com/EslaM-X/portfolio/blob/main/case-studies/robopay.md) | Atlas + Spot + Go2 Tier-1, sim-to-sim validation, x402 · archives: [Atlas](https://github.com/EslaM-X/atlas-shelf-inspection) · [Go2](https://github.com/EslaM-X/robopay-go2-tier1) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) |
 | [Production Systems](https://github.com/EslaM-X/portfolio/blob/main/case-studies/production-systems-lab.md) | Idempotency, replay, circuit-breakers, HMAC audit |
-| [Pi Network / PiRC](https://github.com/EslaM-X/portfolio/blob/main/case-studies/pi-network.md) | Protocol standards research, consensus |
+| [Pi Network / PiRC](https://github.com/EslaM-X/portfolio/blob/main/case-studies/pi-network.md) | Protocol standards research, consensus · [PiRC1 Standards Pro](https://github.com/EslaM-X/pirc1-standards-pro) |
 | [Systems Engineering](https://github.com/EslaM-X/portfolio/blob/main/case-studies/systems-engineering.md) | Methodology and evidence process |
+| [AI Marketing — Steinheim](https://github.com/EslaM-X/steinheim-ai-launchpad) | Verified knowledge base → AI content agents → human QC gate |
+| [Pi Ecosystem Platforms](https://github.com/EslaM-X/mapcap-ipo-frontendX) | [MapCap IPO](https://github.com/EslaM-X/mapcap-ipo-frontendX) · [Maplypi](https://github.com/EslaM-X/maplypi-frontend) · [Spin4Pi](https://github.com/EslaM-X/spin4pi-vault) · [PiEat-Me](https://github.com/EslaM-X/pi-eats-crypto-now-90) |
 
 **CV:** [portfolio/CV.md](https://github.com/EslaM-X/portfolio/blob/main/CV.md)
 
