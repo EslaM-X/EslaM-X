@@ -89,6 +89,9 @@ The full evidence matrix lives in the **[portfolio repository](https://github.co
 
 ---
 
+
+---
+
 ## 🛡 Founder & CEO — CoreGuard Global
 
 <div align="center">
@@ -97,69 +100,56 @@ The full evidence matrix lives in the **[portfolio repository](https://github.co
   <img src="https://raw.githubusercontent.com/coreguard-global/CoreGuard/main/assets/coreguard-logo-transparent.png" width="130" alt="CoreGuard Global" />
 </a>
 
-**Founder · [coreguard-global](https://github.com/coreguard-global)** — builders of
-**[CoreGuard](https://github.com/coreguard-global/CoreGuard)** — the
-**verifiable execution truth layer + fail-closed agent economy** for Bitcoin DeFi,
-across **three ecosystems: Core DAO · Stellar · Pi Network**.
+### Founder · CoreGuard Global — builders of [CoreGuard](https://github.com/coreguard-global/CoreGuard)
 
-CoreGuard doesn't score risk. It produces **independently verifiable evidence**
-that an execution conformed to what was authorized:
+**The verifiable execution truth layer + fail-closed agent economy for Bitcoin DeFi — across three ecosystems: Core DAO · Stellar · Pi Network.**
 
-`intent → policy → commitment → receipt → independent verifier → on-chain anchor`
+CoreGuard doesn't score risk. It produces independently verifiable evidence that an execution conformed to what was authorized:
 
-Deterministic. Replayable by anyone. **`UNKNOWN` stays HELD** — fail-closed, never guessed.
+```text
+intent → policy → commitment → receipt → independent verifier → on-chain anchor
+```
 
-<a href="https://eslam-x.github.io/coreguard/"><img src="https://eslam-x.github.io/coreguard/assets/badges/cgep-1-receipt.svg" alt="CGEP/1 receipt" /></a>
-<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/PRODUCTS.md"><img src="https://eslam-x.github.io/coreguard/assets/badges/execution-firewall.svg" alt="Execution Firewall" /></a>
+Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, never guessed.
+
+### The Trinity
+
+| Ecosystem | Entry layer | Verdict |
+| --- | --- | --- |
+| **Core DAO** | On-chain commitment anchor — Core Mainnet, chainId **1116** | **LIVE** · `VERIFIED ANCHOR INTEGRITY` |
+| **Stellar** | Soroban anchors · Execution Firewall · AI-agent payment gate | `DRY_RUN / PLAN_ONLY` |
+| **Pi Network** | Browser DApps · Pi Wallet · Pi Commerce · agent shield | `DRY_RUN / PLAN_ONLY` |
+
+### Live status
+
+- 🟢 **Core DAO**: commitment anchor **LIVE** on Core Mainnet (chainId **1116**) — `VERIFIED ANCHOR INTEGRITY`.  
+- 🔵 **Stellar**: execution firewall + Soroban anchors — `DRY_RUN / PLAN_ONLY`.  
+- 🔵 **Pi Network**: agent shield + Browser DApp surfaces — `DRY_RUN / PLAN_ONLY`.  
+- 🧪 CI test gate: **1,412 tests** · Protocol surface — **38 packages** ·  
+[Live playground](https://eslam-x.github.io/coreguard/PLAYGROUND.html) · [Product catalog](https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md) · [Bilingual brand kit](https://eslam-x.github.io/coreguard/BRAND.html).
+
+### Protocol badges
+
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/spec/CGEP-1.md"><img src="https://eslam-x.github.io/coreguard/assets/badges/cgep-1-receipt.svg" alt="CGEP/1 receipt" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md"><img src="https://eslam-x.github.io/coreguard/assets/badges/execution-firewall.svg" alt="Execution Firewall" /></a>
 <a href="https://eslam-x.github.io/coreguard/PRODUCTS.html"><img src="https://eslam-x.github.io/coreguard/assets/badges/verifier-x3.svg" alt="Verifier X3" /></a>
-<a href="https://eslam-x.github.io/coreguard/assets/badges/core-mainnet-anchor.svg"><img src="https://eslam-x.github.io/coreguard/assets/badges/core-mainnet-anchor.svg" alt="Core Mainnet anchor" /></a>
-<a href="https://github.com/coreguard-global/CoreGuard/actions"><img src="https://eslam-x.github.io/coreguard/assets/badges/ci-1412-tests.svg" alt="CI test gate" /></a>
+<a href="https://eslam-x.github.io/coreguard/"><img src="https://eslam-x.github.io/coreguard/assets/badges/core-mainnet-anchor.svg" alt="Core Mainnet anchor" /></a>
+<a href="https://github.com/EslaM-X/coreguard/actions/workflows/ci.yml"><img src="https://eslam-x.github.io/coreguard/assets/badges/ci-1412-tests.svg" alt="CI test gate" /></a>
 <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/TRINITY-CORE-STELLAR-PI.md"><img src="https://img.shields.io/badge/CORE%20%2B%20STELLAR%20%2B%20PI-TRINITY-00D4AA.svg" alt="Trinity" /></a>
 
 </div>
 
-### Trinity — one ladder, three ecosystems
+### Engage & connect
 
-Every network entry pins the same seven rungs (Killer Feature →
-Killer Use → Killer On-Chain → Killer Utility → Killer Adoption →
-Killer Reference → Killer Customer) against committed evidence — no prose claims:
-
-| Ecosystem | Entry surface | Honest status |
-| --- | --- | --- |
-| **Core DAO** | Per-network commitment anchor — **live on chainId 1116**, real mainnet anchor transactions verified | `LIVE` |
-| **Stellar** | Soroban anchors · Freighter & Soroban-DEX gating surfaces | `DRY_RUN / PLAN_ONLY` |
-| **Pi Network** | Browser DApps · Pi Wallet · Pi Commerce shield | `DRY_RUN / PLAN_ONLY` |
-
-The named-customer ladder per network:
-[Core DAO](https://github.com/coreguard-global/CoreGuard/blob/main/docs/COREDAO-KILLER-FEATURES.md) ·
-[Stellar](https://github.com/coreguard-global/CoreGuard/blob/main/docs/STELLAR-KILLER-FEATURES.md) ·
-[Pi Network](https://github.com/coreguard-global/CoreGuard/blob/main/docs/PI-KILLER-FEATURES.md) ·
-[Trinity](https://github.com/coreguard-global/CoreGuard/blob/main/docs/TRINITY-CORE-STELLAR-PI.md)
-
-### Run it, don't trust it
-
-Zero keys · zero money · real code:
-
-- **[▶ Live playground](https://eslam-x.github.io/coreguard/PLAYGROUND.html)** — open a job, lock escrow, carve shares, reserve-before-sign, deliver evidence, watch `ACCEPTED / REJECTED / UNKNOWN`.
-- **[Complete product catalog](https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md)** — every package, script and surface with its honest status (`SHIPPED / LIVE / DRY_RUN / GATED`).
-- **Proof stack** — CGEP/1 receipts ([spec](https://github.com/coreguard-global/CoreGuard/blob/main/spec/CGEP-1.md)) ·
-  x402 reserve-before-sign ·
-  [AgentProof provenance](https://github.com/coreguard-global/CoreGuard/blob/main/docs/ARCHITECTURE.md) ·
-  [DDE/1 dispute boundary](https://github.com/coreguard-global/CoreGuard/blob/main/INTEGRATION.md).
-- **[Bilingual brand kit](https://eslam-x.github.io/coreguard/BRAND.html)** — the audited identity system (Core Orange · Deep Core · Graphite · Ice White).
-
-### Engage with CoreGuard Global
-
-Protocol teams · wallets · DEXs · AI-agent platforms · auditors:
-
-- **Integration pilots** — wrap your action flow with ALLOW/DENY/HOLD + verifiable commitment.
-- **Audit & conformance readiness** — independent verification artifacts your counterpart can replay.
-- **Ecosystem programs** — Core DAO · Stellar · Pi Network grants, incubators, buildathons, summits.
-
-→ [github.com/coreguard-global](https://github.com/coreguard-global) ·
-[LinkedIn](https://www.linkedin.com/company/coreguard-global) ·
-[X/Twitter](https://twitter.com/CoreGuardGlobal) ·
-[Email](mailto:eslam.kora60@gmail.com)
+- 🏢 **CoreGuard Global** — [github.com/coreguard-global](https://github.com/coreguard-global) · [org profile](https://github.com/coreguard-global/.github/blob/main/profile/README.md)  
+- 🧠 **Founder & CEO** — [EslaM-X](https://github.com/EslaM-X)  
+- 📚 **Portfolio & Case Studies** — [EslaM-X/portfolio](https://github.com/EslaM-X/portfolio) — Execution Proofs · Portable Evidence · Atlas · AI Agents · Robotics · Production Systems · PiRC · Systems Engineering · AI Marketing · Pi Ecosystem Platforms  
+- 📄 **CV** — [portfolio/CV.md](https://github.com/EslaM-X/portfolio/blob/main/CV.md)  
+- 🧭 **About** — [EslaM-X — GitHub](https://github.com/EslaM-X)  
+- 🐦 **X** — [@CoreGuardGlobal](https://x.com/CoreGuardGlobal)  
+- 💼 **LinkedIn** — [CoreGuard Global](https://www.linkedin.com/company/coreguard-global)
 
 ---
 
