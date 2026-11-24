@@ -1,5 +1,5 @@
 <!--
-  EslaM-X — GitHub Profile README v6 — Partner Gateway + Ecosystems
+  EslaM-X — GitHub Profile README v7 — Flagship visuals (in-repo SVG brand kit) — Partner Gateway + Ecosystems
   Evidence-first + animated command center, restructured for clarity:
   IDENTITY → ENGINEERING EVIDENCE → ABOUT ME → FLAGSHIP PROJECTS →
   LIVE ENGINEERING STATUS → OPEN-SOURCE CONTRIBUTIONS → CASE STUDIES/CV/CONTACT
@@ -15,16 +15,9 @@
 
 <div align="center">
 
-<a href="https://eslamx.vercel.app">
-  <img src="https://eslamx.vercel.app/x-crown-logo.jpg" width="170" alt="EslaM-X emblem — open portfolio" />
-</a>
+<a href="https://eslamx.vercel.app"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero.svg" width="100%" alt="EslaM HeshAM — MR-X · Founder &amp; CEO CoreGuard Global" /></a>
 
-<a href="https://github.com/EslaM-X">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=30&duration=2200&pause=700&color=FFB627&center=true&vCenter=true&width=1000&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;ROBOTICS+%C2%B7+AI+AGENTS+%C2%B7+PAYMENTS;WEB3+%C2%B7+SECURITY+%C2%B7+FORENSICS;FULL-STACK+ENGINEERING+%E2%80%94+CAIRO+%C2%B7+REMOTE;FOUNDER+%C2%B7+COREGUARD+GLOBAL" alt="EslaM-X" />
-</a>
-
-<h3>EslaM HeshAM — MR-X</h3>
-<p><b>Technical Architect</b> · Business Operations Manager · Web3 &amp; Cyber Security · Cairo, Egypt 🇪🇬 · Remote Worldwide</p>
+<img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2400&pause=800&color=FFB627&center=true&vCenter=true&width=600&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;AI+AGENTS+%C2%B7+ROBOTICS;WEB3+%C2%B7+SECURITY;FOUNDER+%C2%B7+COREGUARD" alt="EslaM-X" />
 
 </div>
 
@@ -32,7 +25,11 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:3A2A00,100:FFB627&height=120&section=header&text=EVIDENCE%20OVER%20CLAIMS&fontColor=FFB627&fontSize=34&fontAlignY=40&desc=Founder%20%26%20CEO%20%C2%B7%20CoreGuard%20Global&descAlignY=65&descSize=16" width="100%" alt="Evidence over claims" />
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-ci.svg" width="24%" alt="ci" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-mainnet.svg" width="24%" alt="mainnet" /></a>
+<a href="https://github.com/EslaM-X/proofx"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-proofx.svg" width="24%" alt="proofx" /></a>
+<a href="#-open-source-contributions"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-oss.svg" width="24%" alt="oss" /></a>
+
 
 <a href="https://github.com/coreguard-global"><img src="https://img.shields.io/badge/FOUNDER-CoreGuard%20Global-FF8A00?style=for-the-badge&labelColor=0A0A0A" /></a>
 <a href="https://github.com/coreguard-global/CoreGuard"><img src="https://img.shields.io/badge/PROTOCOL-CGEP%2F1-FFB627?style=for-the-badge&labelColor=0A0A0A" /></a>
@@ -42,7 +39,7 @@
 
 </div>
 
-## 🛡 CoreGuard Global — the organisation I founded
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-coreguard.svg" width="100%" alt="CoreGuard Global — the organisation I founded" />
 
 <div align="center">
 
@@ -69,7 +66,7 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 
 ---
 
-## 👑 Partner Gateway — choose your path
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-gateway.svg" width="100%" alt="Partner Gateway — choose your path" />
 
 | You are | Start here | What you will find |
 | --- | --- | --- |
@@ -83,7 +80,7 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 ---
 
 
-## ⚜️ Engineering Evidence
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-evidence.svg" width="100%" alt="Engineering Evidence" />
 
 **Evidence over claims** — this profile is built the same way I build systems:
 **every claim below points at a public repository, a PR, or a benchmark that
@@ -126,7 +123,7 @@ The full evidence matrix lives in the **[portfolio repository](https://github.co
 
 ---
 
-## ⚜️ About Me
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-about.svg" width="100%" alt="About Me" />
 
 <div align="center">
 
@@ -150,7 +147,7 @@ The full evidence matrix lives in the **[portfolio repository](https://github.co
 <div align="center">
 
 <a href="https://github.com/coreguard-global">
-  <img src="https://raw.githubusercontent.com/coreguard-global/CoreGuard/main/assets/coreguard-logo-transparent.png" width="130" alt="CoreGuard Global" />
+  <img src="https://raw.githubusercontent.com/coreguard-global/.github/main/brand/coreguard-banner-dark.png" width="520" alt="CoreGuard Global" />
 </a>
 
 ### Founder · CoreGuard Global — builders of [CoreGuard](https://github.com/coreguard-global/CoreGuard)
@@ -185,11 +182,10 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 
 <div align="center">
 
-<a href="https://github.com/coreguard-global/CoreGuard/blob/main/spec/CGEP-1.md"><img src="https://eslam-x.github.io/coreguard/assets/badges/cgep-1-receipt.svg" alt="CGEP/1 receipt" /></a>
-<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md"><img src="https://eslam-x.github.io/coreguard/assets/badges/execution-firewall.svg" alt="Execution Firewall" /></a>
-<a href="https://eslam-x.github.io/coreguard/PRODUCTS.html"><img src="https://eslam-x.github.io/coreguard/assets/badges/verifier-x3.svg" alt="Verifier X3" /></a>
-<a href="https://eslam-x.github.io/coreguard/"><img src="https://eslam-x.github.io/coreguard/assets/badges/core-mainnet-anchor.svg" alt="Core Mainnet anchor" /></a>
-<a href="https://github.com/EslaM-X/coreguard/actions/workflows/ci.yml"><img src="https://eslam-x.github.io/coreguard/assets/badges/ci-1412-tests.svg" alt="CI test gate" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/spec/CGEP-1.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-cgep.svg" width="24%" alt="cgep" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-firewall.svg" width="24%" alt="firewall" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-verifier.svg" width="24%" alt="verifier" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/k-pkgs.svg" width="24%" alt="pkgs" /></a>
 <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/TRINITY-CORE-STELLAR-PI.md"><img src="https://img.shields.io/badge/CORE%20%2B%20STELLAR%20%2B%20PI-TRINITY-00D4AA.svg" alt="Trinity" /></a>
 
 </div>
@@ -206,7 +202,7 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 
 ---
 
-## 🚀 Flagship Projects
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-projects.svg" width="100%" alt="Flagship Projects" />
 
 <div align="center">
 
@@ -233,7 +229,7 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 
 ---
 
-## 📡 Live Engineering Status
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-status.svg" width="100%" alt="Live Engineering Status" />
 
 **Live, not claimed** — the panel below is fetched from the GitHub API every
 day. It shows the **version, the engineering proof, and the real CI result** of
@@ -254,7 +250,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 ---
 
-## 🏆 Open-Source Contributions
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-oss.svg" width="100%" alt="Open-Source Contributions" />
 
 | Protocol | Contribution | Verifiable at |
 | --- | --- | --- |
@@ -267,7 +263,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 ---
 
 
-### 🌐 Ecosystems I build in
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-eco.svg" width="100%" alt="Ecosystems I build in" />
 
 | Organisation | My work there |
 | --- | --- |
@@ -281,7 +277,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 ---
 
-## 📄 Case Studies · CV · Contact
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-cv.svg" width="100%" alt="Case Studies · CV · Contact" />
 
 <div align="center">
 
@@ -324,7 +320,7 @@ folder.
 
 ---
 
-## ⚡ GitHub Arsenal
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-arsenal.svg" width="100%" alt="GitHub Arsenal" />
 
 *ENGINEERING TELEMETRY · SYSTEMS · ACTIVITY · EVIDENCE*
 
@@ -351,7 +347,7 @@ folder.
 
 ---
 
-## ⚔️ Languages & Tools
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-tools.svg" width="100%" alt="Languages & Tools" />
 
 <div align="center">
 
@@ -375,6 +371,6 @@ folder.
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB627,50:3A2A00,100:0A0A0A&height=110&section=footer&text=VERIFY%20%C2%B7%20PROTECT%20%C2%B7%20EMPOWER&fontColor=FFB627&fontSize=22&fontAlignY=70" width="100%" alt="footer" />
+<sub><b>VERIFY · PROTECT · EMPOWER</b> — © EslaM HeshAM · CoreGuard Global</sub>
 
 </div>
