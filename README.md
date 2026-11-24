@@ -20,7 +20,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2400&pause=800&color=FFB627&center=true&vCenter=true&width=600&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;AI+AGENTS+%C2%B7+ROBOTICS;WEB3+%C2%B7+SECURITY;FOUNDER+%C2%B7+COREGUARD" alt="EslaM-X" />
 
 
-<a href="#projects-hub"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/now.svg" width="100%" alt="Now shipping — open the Projects Hub" /></a>
+<a href="https://github.com/EslaM-X/EslaM-X#projects-hub"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/now.svg" width="100%" alt="Now shipping — open the Projects Hub" /></a>
 
 </div>
 
