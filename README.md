@@ -20,7 +20,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2400&pause=800&color=FFB627&center=true&vCenter=true&width=600&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;AI+AGENTS+%C2%B7+ROBOTICS;WEB3+%C2%B7+SECURITY;FOUNDER+%C2%B7+COREGUARD" alt="EslaM-X" />
 
 
-<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/now.svg" width="100%" alt="Now shipping" />
+<a href="#projects-hub"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/now.svg" width="100%" alt="Now shipping — open the Projects Hub" /></a>
 
 </div>
 
@@ -68,6 +68,91 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 </div>
 
 ---
+
+<!-- AI:BEGIN -->
+
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-coreguard.svg" width="100%" alt="CoreGuard — in depth" />
+
+### CoreGuard | Trust Before Execution
+
+**VERIFY · PROTECT · EMPOWER.**  
+**Evidence over claims.**
+
+[**CoreGuard**](https://github.com/coreguard-global/CoreGuard) is **Independent Execution Trust Infrastructure** for AI agents, wallets, payments, and dApps.
+
+**Authorization Firewall. Execution Verification. Verifiable Consent Receipts.**  
+Built around the [**CGEP/1 protocol**](https://github.com/coreguard-global/CoreGuard).
+
+**Live commitment anchor. Explicit integration boundaries.**
+- [Core DAO Mainnet commitment anchor — chainId **1116**](https://github.com/coreguard-global/CoreGuard).
+- [Stellar and Pi Network integrations — **dry-run/plan-only**](https://github.com/coreguard-global/CoreGuard).
+- [CI gate: **1,412 tests · 38 packages**](https://github.com/coreguard-global/CoreGuard).
+
+**Founder-led. Technically grounded.**  
+[**EslaM HeshAM (MR-X)**](https://github.com/EslaM-X) — Technical Architect; Founder & CEO of CoreGuard Global. Cairo, Egypt. Remote worldwide.  
+[Review the founder’s CV](https://github.com/EslaM-X/portfolio/blob/main/CV.md).
+
+**Investors:** [Inspect the investment readiness pack](https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md).  
+**Partners:** [Start a conversation](mailto:eslam.kora60@gmail.com).  
+**Developers:** [Examine the infrastructure](https://github.com/coreguard-global/CoreGuard).
+
+[**Explore CoreGuard**](https://coreguard-trust-and-defense.lovable.app) · [**Connect with the founder**](https://www.linkedin.com/in/eslam-hesham-359964192)
+
+---
+
+### About CoreGuard | Product, Protocol & Evidence
+
+**Independent Execution Trust Infrastructure.**  
+For AI agents, wallets, payments and dApps.
+
+[**CoreGuard**](https://github.com/coreguard-global/CoreGuard) brings together **Authorization Firewall**, **Execution Verification** and **Verifiable Consent Receipts** through the **CGEP/1 protocol**.
+
+**Deployment status. Clearly stated.**
+- **Core DAO Mainnet:** commitment anchor live — chain ID **1116**.
+- **Stellar and Pi Network:** integrations remain **dry-run / plan-only**.
+- **CI gate:** **1,412 tests across 38 packages**.
+
+[Inspect the protocol, implementation and evidence →](https://github.com/coreguard-global/CoreGuard)
+
+**Founder-led. Technically grounded.**  
+[**EslaM HeshAM (MR-X)**](https://eslamx.vercel.app) — Technical Architect; Founder & CEO of CoreGuard Global. Cairo, Egypt. Remote worldwide.
+
+[Review the founder’s CV →](https://github.com/EslaM-X/portfolio/blob/main/CV.md)
+
+**For investors, partners and developers:**  
+Start with the [**Investor Readiness Pack**](https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md), examine the [repository](https://github.com/coreguard-global/CoreGuard), or explore the [website](https://coreguard-trust-and-defense.lovable.app).
+
+[**Discuss investment or collaboration →**](mailto:eslam.kora60@gmail.com)
+
+**VERIFY · PROTECT · EMPOWER.**  
+Evidence over claims.
+
+---
+
+### Open-source contributions to organisations
+
+**Evidence over claims. Contributions over credentials.**
+
+[**EslaM HeshAM (MR-X)**](https://github.com/EslaM-X) — Technical Architect. Founder & CEO of [**CoreGuard Global**](https://github.com/coreguard-global/CoreGuard).
+
+Open-source contributions across blockchain infrastructure, developer tooling and robotics:
+
+- **Pi Network** — PiRC **PR #2**, reviewed by Pi founder **Nicolas Kokkalis**.
+- **Stellar** — stellar-core **PR #5409**.
+- **CNCF** — buildpacks/pack **PR #2681**.
+- **Fabric** — RoboPay **PRs #120, #86 and #89**.
+- **actionlint** — rhysd/actionlint **PR #729**.
+
+Explore the [**GitHub contribution profile**](https://github.com/EslaM-X).
+
+**Building independent execution trust.**  
+[CoreGuard](https://github.com/coreguard-global/CoreGuard) brings an **Authorization Firewall**, **Execution Verification** and **Verifiable Consent Receipts** to AI agents, wallets, payments and dApps. Stellar and Pi Network integrations are **dry-run/plan-only**.
+
+[**Investor readiness pack →**](https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md)
+
+**VERIFY · PROTECT · EMPOWER.**
+
+<!-- AI:END -->
 
 <div align="center">
 
@@ -212,6 +297,21 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 - 💼 **LinkedIn** — [CoreGuard Global](https://www.linkedin.com/company/coreguard-global)
 
 ---
+
+<a name="projects-hub"></a>
+
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-projects.svg" width="100%" alt="Projects Hub" />
+
+> **Projects Hub** — what each project is, where it stands today, and where it is going. Every row links to its public repository.
+
+| Project | Description | Stage today | Next goal |
+| --- | --- | --- | --- |
+| [**CoreGuard**](https://github.com/coreguard-global/CoreGuard) | Independent execution trust for AI agents, wallets, payments and dApps — Authorization Firewall, Execution Verification, Consent Receipts. | LIVE on Core Mainnet (chainId 1116) · Stellar & Pi dry-run | Production integrations on Stellar & Pi · first paying pilots |
+| [**ProofX**](https://github.com/EslaM-X/proofx) | Execution proof protocol: claim → evidence → proof → verification. Go / WASM / Rust CLI + GitHub Action. | v0.4.0 stable · protocol frozen · 102-case conformance | Adoption in CI pipelines via proofx-action & Homebrew |
+| [**PiProof**](https://github.com/EslaM-X/piproof) | Portable verifiable evidence on the PEP/1 protocol — Proof Passports, Dispute Engine, AUREVIA dashboard. | v1.0 · zero dependencies | Pi ecosystem adoption alongside PiRC standards |
+| [**EVMX**](https://github.com/EslaM-X/evmx) | Evidence-backed EVM transaction forensics engine. | Public · active | Forensics evidence feeding CoreGuard verification |
+| [**Atlas · RoboPay**](https://github.com/EslaM-X/atlas-shelf-inspection) | Payment-gated Boston Dynamics Atlas shelf inspection — MuJoCo + PyBullet + Webots, real USDC settlement. | RoboPay PR #120 merged · Spot & Go2 Tier-1 profiles | Machine-payable robotics at scale |
+| [**AI Agent Platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Governed AI agent orchestration: planning, policy and execution. | Flagship · public | Governed agents secured by CoreGuard |
 
 <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-projects.svg" width="100%" alt="Flagship Projects" />
 
@@ -391,12 +491,13 @@ folder.
 
 <div align="center">
 
-<a href="https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-invest.svg" width="30%" alt="Invest" /></a>
+<a href="LEGAL.md#investor-notice"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-invest.svg" width="30%" alt="Invest" /></a>
 <a href="https://coreguard-trust-and-defense.lovable.app/partners"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-partner.svg" width="30%" alt="Partner" /></a>
 <a href="mailto:eslam.kora60@gmail.com"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-call.svg" width="30%" alt="Book a call" /></a>
 
 </div>
 
+<sub><a href="LEGAL.md">Legal · Third-party disclaimer · Privacy · Terms</a></sub><br>
 <sub><b>VERIFY · PROTECT · EMPOWER</b> — © EslaM HeshAM · CoreGuard Global</sub>
 
 </div>
