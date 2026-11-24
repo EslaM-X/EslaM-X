@@ -71,8 +71,6 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 
 <!-- AI:BEGIN -->
 
-<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-coreguard.svg" width="100%" alt="CoreGuard — in depth" />
-
 ### CoreGuard | Trust Before Execution
 
 **VERIFY · PROTECT · EMPOWER.**  
