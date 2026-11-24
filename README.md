@@ -19,6 +19,9 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2400&pause=800&color=FFB627&center=true&vCenter=true&width=600&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;AI+AGENTS+%C2%B7+ROBOTICS;WEB3+%C2%B7+SECURITY;FOUNDER+%C2%B7+COREGUARD" alt="EslaM-X" />
 
+
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/now.svg" width="100%" alt="Now shipping" />
+
 </div>
 
 ---
@@ -65,6 +68,14 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 </div>
 
 ---
+
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust.svg" width="100%" alt="Evidence Index" /></a>
+
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/roadmap.svg" width="100%" alt="CoreGuard roadmap" /></a>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-gateway.svg" width="100%" alt="Partner Gateway — choose your path" />
 
@@ -252,6 +263,13 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-oss.svg" width="100%" alt="Open-Source Contributions" />
 
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/orgs.svg" width="100%" alt="Organisations I contribute to" />
+
+</div>
+
+
 | Protocol | Contribution | Verifiable at |
 | --- | --- | --- |
 | [**Pi Network — PiRC**](https://github.com/PiNetwork/PiRC/pull/2) | Proposed PiRC1 utility standards: escrow lock proofs, dynamic `p_floor`, engagement-weighted PiPower, Sybil-resistant reporting | [PR #2](https://github.com/PiNetwork/PiRC/pull/2) — received technical review and feedback from Pi Network founder Nicolas Kokkalis |
@@ -370,6 +388,14 @@ folder.
 </div>
 
 <div align="center">
+
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-invest.svg" width="30%" alt="Invest" /></a>
+<a href="https://coreguard-trust-and-defense.lovable.app/partners"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-partner.svg" width="30%" alt="Partner" /></a>
+<a href="mailto:eslam.kora60@gmail.com"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-call.svg" width="30%" alt="Book a call" /></a>
+
+</div>
 
 <sub><b>VERIFY · PROTECT · EMPOWER</b> — © EslaM HeshAM · CoreGuard Global</sub>
 
