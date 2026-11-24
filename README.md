@@ -1,5 +1,5 @@
 <!--
-  EslaM-X — GitHub Profile README v5
+  EslaM-X — GitHub Profile README v6 — Partner Gateway + Ecosystems
   Evidence-first + animated command center, restructured for clarity:
   IDENTITY → ENGINEERING EVIDENCE → ABOUT ME → FLAGSHIP PROJECTS →
   LIVE ENGINEERING STATUS → OPEN-SOURCE CONTRIBUTIONS → CASE STUDIES/CV/CONTACT
@@ -29,6 +29,59 @@
 </div>
 
 ---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:3A2A00,100:FFB627&height=120&section=header&text=EVIDENCE%20OVER%20CLAIMS&fontColor=FFB627&fontSize=34&fontAlignY=40&desc=Founder%20%26%20CEO%20%C2%B7%20CoreGuard%20Global&descAlignY=65&descSize=16" width="100%" alt="Evidence over claims" />
+
+<a href="https://github.com/coreguard-global"><img src="https://img.shields.io/badge/FOUNDER-CoreGuard%20Global-FF8A00?style=for-the-badge&labelColor=0A0A0A" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://img.shields.io/badge/PROTOCOL-CGEP%2F1-FFB627?style=for-the-badge&labelColor=0A0A0A" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md"><img src="https://img.shields.io/badge/CORE%20DAO-Mainnet%20anchor-FFB627?style=for-the-badge&labelColor=0A0A0A" /></a>
+<a href="https://github.com/EslaM-X/proofx"><img src="https://img.shields.io/badge/PROOFX-v0.4.0-FFB627?style=for-the-badge&labelColor=0A0A0A" /></a>
+<a href="https://coreguard-trust-and-defense.lovable.app/partners"><img src="https://img.shields.io/badge/OPEN%20TO-Investors%20%C2%B7%20Partners-FF8A00?style=for-the-badge&labelColor=0A0A0A" /></a>
+
+</div>
+
+## 🛡 CoreGuard Global — the organisation I founded
+
+<div align="center">
+
+<a href="https://github.com/coreguard-global">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/coreguard-global/.github/main/brand/coreguard-banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/coreguard-global/.github/main/brand/coreguard-logo-light.png">
+    <img src="https://raw.githubusercontent.com/coreguard-global/.github/main/brand/coreguard-banner-dark.png" width="820" alt="CoreGuard Global — Independent Execution Trust Infrastructure">
+  </picture>
+</a>
+
+**Independent Execution Trust Infrastructure** — security and verification infrastructure for AI agents, wallets, payments and decentralized applications.<br>
+Authorization Firewall · Execution Verification · Verifiable Consent Receipts
+
+<a href="https://github.com/coreguard-global"><img src="https://img.shields.io/badge/GitHub-coreguard--global-FF8A00?style=for-the-badge&logo=github&labelColor=0B0F14" /></a>
+<a href="https://coreguard-trust-and-defense.lovable.app/"><img src="https://img.shields.io/badge/Website-CoreGuard-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md"><img src="https://img.shields.io/badge/Investor-readiness%20pack-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md"><img src="https://img.shields.io/badge/Evidence-mainnet%20records-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
+<a href="https://mcprush.com/eslam-x/coreguard-agent-commerce-mcp"><img src="https://img.shields.io/badge/MCPRush-listed-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
+
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://github-readme-stats.vercel.app/api/pin/?username=coreguard-global&repo=CoreGuard&theme=dark&bg_color=0B0F14&title_color=FF8A00&icon_color=FF8A00&border_color=FF8A00" /></a>
+
+</div>
+
+---
+
+## 👑 Partner Gateway — choose your path
+
+| You are | Start here | What you will find |
+| --- | --- | --- |
+| 💼 **Investor / Fund** | [Investment readiness pack](https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md) | Market, product, funding status, on-chain evidence |
+| 🤝 **Partner / Integrator** | [Discuss a pilot](https://coreguard-trust-and-defense.lovable.app/partners) | Agent execution security for wallets, payments, AI agents |
+| 🚀 **Accelerator / Incubator** | [CoreGuard product](https://github.com/coreguard-global/CoreGuard/blob/main/docs/PRODUCT.md) · [Evidence](https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md) | Founder-led, protocol-grade, CI-gated build |
+| 🧑‍💻 **Developer** | [ProofX](https://github.com/EslaM-X/proofx) · [Agent Commerce MCP](https://www.npmjs.com/package/@coreguard/agent-commerce) | Open protocols, conformance suites, docs |
+| 🌍 **Community / Ecosystem** | [CoreGuard Global](https://github.com/coreguard-global) · [X](https://x.com/CoreGuardGlobal) | Core DAO · Stellar · Pi integrations |
+| 🏢 **M&A / Strategic** | [Email the founder](mailto:eslam.kora60@gmail.com) | Direct line — response from the founder |
+
+---
+
 
 ## ⚜️ Engineering Evidence
 
@@ -213,6 +266,21 @@ the CI badge reflects the real run, never a hard-coded claim.
 
 ---
 
+
+### 🌐 Ecosystems I build in
+
+| Organisation | My work there |
+| --- | --- |
+| **CoreGuard Global** (founder) | [CoreGuard](https://github.com/coreguard-global/CoreGuard) · [org profile](https://github.com/coreguard-global) |
+| **Stellar Development Foundation** | [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) · working forks: [stellar-protocol](https://github.com/EslaM-X/stellar-protocol) · [soroban-examples](https://github.com/EslaM-X/soroban-examples) |
+| **Pi Network** | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2) · [pirc1-standards-pro](https://github.com/EslaM-X/pirc1-standards-pro) · [PiOS](https://github.com/EslaM-X/PiOS) · [pi-local-ai-agent](https://github.com/EslaM-X/pi-local-ai-agent) |
+| **Fabric Foundation** | RoboPay [#120](https://github.com/fabricfoundation/RoboPay/pull/120) · [#86](https://github.com/fabricfoundation/RoboPay/pull/86) · [#89](https://github.com/fabricfoundation/RoboPay/pull/89) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) · [Go2](https://github.com/EslaM-X/robopay-go2-tier1) |
+| **CNCF — Buildpacks** | [pack PR #2681](https://github.com/buildpacks/pack/pull/2681) |
+| **rhysd/actionlint** | [PR #729](https://github.com/rhysd/actionlint/pull/729) |
+| **Agentic Commerce Protocol** | working fork: [agentic-commerce-protocol](https://github.com/EslaM-X/agentic-commerce-protocol) |
+
+---
+
 ## 📄 Case Studies · CV · Contact
 
 <div align="center">
@@ -302,5 +370,11 @@ folder.
 **⚜️ [ESLAM-X · eslamx.vercel.app](https://eslamx.vercel.app) ⚜️**
 
 `Systems & Protocol Engineer · Robotics · AI Agents · Payments · Evidence-First Engineering`
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFB627,50:3A2A00,100:0A0A0A&height=110&section=footer&text=VERIFY%20%C2%B7%20PROTECT%20%C2%B7%20EMPOWER&fontColor=FFB627&fontSize=22&fontAlignY=70" width="100%" alt="footer" />
 
 </div>
