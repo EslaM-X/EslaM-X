@@ -69,6 +69,12 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 
 ---
 
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cg-live.svg" width="100%" alt="CoreGuard live evidence — auto-synced" /></a>
+
+</div>
+
 <!-- AI:BEGIN -->
 
 ### CoreGuard — Execution Trust. Verifiable.
@@ -81,7 +87,7 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 Built around the **CGEP/1 protocol**.
 
 **Inspect the evidence:**
-- **2,103/2,103 tests passing.** **1,595 files scanned. Zero boundary violations.** [Measured snapshot](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json)
+- **<!--cg:tests-->2,103<!--/cg-->/<!--cg:tests-->2,103<!--/cg--> tests passing.** **<!--cg:files-->1,595<!--/cg--> files scanned. Zero boundary violations.** [Measured snapshot](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json)
 - **Commitment anchor live on Core DAO Mainnet**, chainId **1116**. [Mainnet evidence](https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md)
 - **Stellar and Pi Network integrations: dry-run/plan-only.** [Status](https://github.com/coreguard-global/CoreGuard/blob/main/docs/STATUS.md)
 - **Listed on MCPRush.** [Inspect listing](https://mcprush.com/eslam-x/coreguard-agent-commerce-mcp)
@@ -273,17 +279,19 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 
 > **Projects Hub** — every project, where it stands today and where it goes next. **[Open the full projects page →](https://github.com/EslaM-X/EslaM-X/blob/main/PROJECTS.md)**
 
-| Project | What it is | Stage today | Next goal |
-| --- | --- | --- | --- |
-| [**CoreGuard**](https://github.com/coreguard-global/CoreGuard) | Independent execution trust for AI agents, wallets, payments and dApps — CGEP/1 | [Anchor LIVE on Core Mainnet](https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md) (chainId 1116) · [2,103/2,103 tests](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json) | SDK v1 · two external pilots · independent security review |
-| [**ProofX**](https://github.com/EslaM-X/proofx) | Execution proof protocol — Go / WASM / Rust CLI + GitHub Action | v0.4.0 · protocol frozen · 102-case conformance | CI adoption via proofx-action & Homebrew |
-| [**PiProof**](https://github.com/EslaM-X/piproof) | Portable verifiable evidence on PEP/1 — Proof Passports, Dispute Engine | v1.0.0 · zero dependencies | Pi ecosystem adoption alongside PiRC |
-| [**EVMX**](https://github.com/EslaM-X/evmx) | Evidence-backed EVM transaction forensics | Public · active | Forensics evidence feeding CoreGuard |
-| [**Atlas · RoboPay**](https://github.com/EslaM-X/atlas-shelf-inspection) | Payment-gated Boston Dynamics Atlas inspection — real USDC on Base Sepolia | [RoboPay PR #120 merged](https://github.com/fabricfoundation/RoboPay/pull/120) · [Spot](https://github.com/EslaM-X/robopay-spot-tier1) & [Go2](https://github.com/EslaM-X/robopay-go2-tier1) Tier-1 | Machine-payable robotics at scale |
-| [**Robot Sim Lab**](https://github.com/EslaM-X/robot-sim-policy-lab) | Policy → planner → controller across 3 simulators | v0.1.0 · 18 tests · 0.26 m max sim-to-sim deviation | — |
-| [**AI Agent Platform**](https://github.com/EslaM-X/ai-agent-automation-platform) | Human-gated, audited AI agent orchestration | v0.3.0 · 17 evaluation cases · regression gate | Governed agents secured by CoreGuard |
-| [**Production Systems Lab**](https://github.com/EslaM-X/production-systems-lab) | Go building blocks for financial systems — idempotency, replay, HMAC, audit chain | v0.1.0 · 37 tests · CI green | — |
-| [**Pi Local AI Agent**](https://github.com/EslaM-X/pi-local-ai-agent) | Privacy-first local AI agent for Pi Network | Public | — |
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-coreguard.svg" width="49%" alt="coreguard" /></a>
+<a href="https://github.com/EslaM-X/proofx"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-proofx.svg" width="49%" alt="proofx" /></a>
+<a href="https://github.com/EslaM-X/piproof"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-piproof.svg" width="49%" alt="piproof" /></a>
+<a href="https://github.com/EslaM-X/evmx"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-evmx.svg" width="49%" alt="evmx" /></a>
+<a href="https://github.com/EslaM-X/atlas-shelf-inspection"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-atlas.svg" width="49%" alt="atlas" /></a>
+<a href="https://github.com/EslaM-X/robot-sim-policy-lab"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-robotsim.svg" width="49%" alt="robotsim" /></a>
+<a href="https://github.com/EslaM-X/ai-agent-automation-platform"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-agents.svg" width="49%" alt="agents" /></a>
+<a href="https://github.com/EslaM-X/production-systems-lab"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-prodlab.svg" width="49%" alt="prodlab" /></a>
+<a href="https://github.com/EslaM-X/pi-local-ai-agent"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-pilocal.svg" width="49%" alt="pilocal" /></a>
+
+</div>
 
 <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-projects.svg" width="100%" alt="Flagship Projects" />
 

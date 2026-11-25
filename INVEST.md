@@ -22,10 +22,12 @@ Autonomous AI agents are starting to move money and sign transactions. Nobody in
 
 ## 2 · What already exists — verifiable today
 
+<div align="center"><a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cg-live.svg" width="100%" alt="CoreGuard live evidence — auto-synced" /></a></div>
+
 | Evidence | Status | Proof |
 | --- | --- | --- |
-| Test suite | **2,103 / 2,103 passing** | [state-snapshot.json](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json) |
-| Boundary audit | **1,595 files · 0 violations** | [state-snapshot.json](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json) |
+| Test suite | **<!--cg:tests-->2,103<!--/cg--> / <!--cg:tests-->2,103<!--/cg--> passing** | [state-snapshot.json](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json) |
+| Boundary audit | **<!--cg:files-->1,595<!--/cg--> files · 0 violations** | [state-snapshot.json](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json) |
 | Core DAO Mainnet | **Commitment anchor LIVE** · chainId 1116 | [EVIDENCE.md](https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md) |
 | Stellar · Pi Network | Dry-run / plan-only | [STATUS.md](https://github.com/coreguard-global/CoreGuard/blob/main/docs/STATUS.md) |
 | Agent Commerce MCP | Listed on MCPRush | [Listing](https://mcprush.com/eslam-x/coreguard-agent-commerce-mcp) |

@@ -7,6 +7,32 @@
 **EslaM HeshAM (MR-X)** · Technical Architect · Founder & CEO, CoreGuard Global  
 Cairo, Egypt · Remote worldwide
 
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cg-live.svg" width="100%" alt="CoreGuard live evidence — auto-synced" /></a>
+
+<a href="https://github.com/EslaM-X/EslaM-X#projects-hub"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/now.svg" width="100%" alt="Now shipping" /></a>
+
+</div>
+
+## The Portfolio
+
+<div align="center">
+
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-coreguard.svg" width="49%" alt="coreguard" /></a>
+<a href="https://github.com/EslaM-X/proofx"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-proofx.svg" width="49%" alt="proofx" /></a>
+<a href="https://github.com/EslaM-X/piproof"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-piproof.svg" width="49%" alt="piproof" /></a>
+<a href="https://github.com/EslaM-X/evmx"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-evmx.svg" width="49%" alt="evmx" /></a>
+<a href="https://github.com/EslaM-X/atlas-shelf-inspection"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-atlas.svg" width="49%" alt="atlas" /></a>
+<a href="https://github.com/EslaM-X/robot-sim-policy-lab"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-robotsim.svg" width="49%" alt="robotsim" /></a>
+<a href="https://github.com/EslaM-X/ai-agent-automation-platform"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-agents.svg" width="49%" alt="agents" /></a>
+<a href="https://github.com/EslaM-X/production-systems-lab"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-prodlab.svg" width="49%" alt="prodlab" /></a>
+<a href="https://github.com/EslaM-X/pi-local-ai-agent"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/p-pilocal.svg" width="49%" alt="pilocal" /></a>
+
+</div>
+
+---
+
 ## Contents
 
 - [CoreGuard](#coreguard)
@@ -32,7 +58,7 @@ Cairo, Egypt · Remote worldwide
 - Anchors commitments on Core DAO Mainnet, chain ID `1116`.
 - Includes Stellar and Pi Network integrations in **dry-run/plan-only** mode.
 
-**Current stage:** Commitment anchor live on Core DAO Mainnet; listed on MCPRush. The documented state snapshot records **2,103/2,103 tests passing** and **1,595 files scanned with 0 boundary violations**.
+**Current stage:** Commitment anchor live on Core DAO Mainnet; listed on MCPRush. The documented state snapshot records **<!--cg:tests-->2,103<!--/cg-->/<!--cg:tests-->2,103<!--/cg--> tests passing** and **<!--cg:files-->1,595<!--/cg--> files scanned with 0 boundary violations**.
 
 **Commercial truth boundary:** Zero external customers. Zero signed pilots. Funding requested—not awarded. Mainnet evidence and measured engineering state are not claims of commercial traction.
 
