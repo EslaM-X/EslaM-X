@@ -298,7 +298,7 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 
 <a name="projects-hub"></a>
 
-<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-projects.svg" width="100%" alt="Projects Hub" />
+<img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/h-hub.svg" width="100%" alt="Projects Hub" />
 
 > **Projects Hub** — what each project is, where it stands today, and where it is going. Every row links to its public repository.
 
