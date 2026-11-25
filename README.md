@@ -165,8 +165,8 @@ it is verifiable.
 | I build AI marketing operating systems | [steinheim-ai-launchpad](https://github.com/EslaM-X/steinheim-ai-launchpad) — verified knowledge base, AI content agents, human QC gate |
 | I build local AI agents for Pi Network | [pi-local-ai-agent](https://github.com/EslaM-X/pi-local-ai-agent) — privacy-first desktop AI gateway, Pi ecosystem |
 | I build Pi ecosystem platforms | [mapcap-ipo-frontendX](https://github.com/EslaM-X/mapcap-ipo-frontendX) · [mapcap-ipo-backendX](https://github.com/EslaM-X/mapcap-ipo-backendX) — equity ownership on Pi Network |
-| I build geo-trading platforms | [maplypi-backend](https://github.com/EslaM-X/maplypi-backend) · [maplypi-frontend](https://github.com/EslaM-X/maplypi-frontend) — Geo-Trading, Supply Chain, Pi Integration |
-| I build enterprise operations systems | [Steinheim ERP](https://github.com/EslaM-X/steinheim-eg) — invoicing, inventory, stock audits, reporting |
+| I build geo-trading platforms | **maplypi-backend** · **maplypi-frontend** — Geo-Trading, Supply Chain, Pi Integration |
+| I build enterprise operations systems | **Steinheim ERP** — invoicing, inventory, stock audits, reporting |
 | I contribute to Web3 protocols | [PiRC PR #2](https://github.com/PiNetwork/PiRC/pull/2), [stellar-core PR #5409](https://github.com/stellar/stellar-core/pull/5409) |
 | I contribute to CI/CD supply-chain security | [actionlint PR #729](https://github.com/rhysd/actionlint/pull/729), [buildpacks/pack PR #2681](https://github.com/buildpacks/pack/pull/2681) |
 | I contribute to machine-payable robotics (external OSS) | [fabricfoundation/RoboPay](https://github.com/fabricfoundation/RoboPay) — Atlas [PR #120](https://github.com/fabricfoundation/RoboPay/pull/120), Spot [PR #86](https://github.com/fabricfoundation/RoboPay/pull/86) · Go2 [PR #89](https://github.com/fabricfoundation/RoboPay/pull/89), all Tier-1 |
@@ -241,7 +241,7 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 - 🔵 **Stellar**: execution firewall + Soroban anchors — `DRY_RUN / PLAN_ONLY`.  
 - 🔵 **Pi Network**: agent shield + Browser DApp surfaces — `DRY_RUN / PLAN_ONLY`.  
 - 🧪 CI test gate: **1,412 tests** · Protocol surface — **38 packages** ·  
-[Live playground](https://eslam-x.github.io/coreguard/PLAYGROUND.html) · [Product catalog](https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md) · [Bilingual brand kit](https://eslam-x.github.io/coreguard/BRAND.html).
+[Live playground](https://github.com/coreguard-global/CoreGuard) · [Product catalog](https://github.com/coreguard-global/CoreGuard/blob/main/docs/ALL-IN-ONE-CATALOG.md) · [Bilingual brand kit](https://github.com/coreguard-global/CoreGuard).
 
 ### Protocol badges
 
@@ -291,7 +291,7 @@ Deterministic. Replayable by anyone. **UNKNOWN stays HELD** — fail-closed, nev
 
 | Project | What it is | Status |
 | --- | --- | --- |
-| [**🛡 CoreGuard**](https://github.com/coreguard-global/CoreGuard) — founder flagship of [coreguard-global](https://github.com/coreguard-global) | Verifiable execution truth + fail-closed agent economy — CGEP/1 receipts, x402 reserve-before-sign, Execution Firewall, DDE/1 disputes; anchor live on Core Mainnet (chainId 1116) | Public · CI-gated · [live docs](https://eslam-x.github.io/coreguard/) |
+| [**🛡 CoreGuard**](https://github.com/coreguard-global/CoreGuard) — founder flagship of [coreguard-global](https://github.com/coreguard-global) | Verifiable execution truth + fail-closed agent economy — CGEP/1 receipts, x402 reserve-before-sign, Execution Firewall, DDE/1 disputes; anchor live on Core Mainnet (chainId 1116) | Public · CI-gated · [live docs](https://github.com/coreguard-global/CoreGuard) |
 | [**proofx**](https://github.com/EslaM-X/proofx) | Execution proof protocol — claim → evidence → proof → verification; 102-case conformance, Go/WASM/Rust CLI + GitHub Action | Public · v0.4.0 · protocol frozen |
 | [**piproof**](https://github.com/EslaM-X/piproof) | Portable verifiable evidence — PEP/1 protocol, Proof Passports, Dispute Engine, AUREVIA dashboard | Public · v1.0.0 · zero dependencies |
 | [**atlas-shelf-inspection**](https://github.com/EslaM-X/atlas-shelf-inspection) | Payment-gated Boston Dynamics Atlas shelf inspection — MuJoCo + PyBullet + Webots, real USDC on Base Sepolia | Public · PR [#120](https://github.com/fabricfoundation/RoboPay/pull/120) merged |
@@ -382,7 +382,7 @@ the CI badge reflects the real run, never a hard-coded claim.
 | [Pi Network / PiRC](https://github.com/EslaM-X/portfolio/blob/main/case-studies/pi-network.md) | Protocol standards research, consensus · [PiRC1 Standards Pro](https://github.com/EslaM-X/pirc1-standards-pro) |
 | [Systems Engineering](https://github.com/EslaM-X/portfolio/blob/main/case-studies/systems-engineering.md) | Methodology and evidence process |
 | [AI Marketing — Steinheim](https://github.com/EslaM-X/steinheim-ai-launchpad) | Verified knowledge base → AI content agents → human QC gate |
-| [Pi Ecosystem Platforms](https://github.com/EslaM-X/mapcap-ipo-frontendX) | [MapCap IPO](https://github.com/EslaM-X/mapcap-ipo-frontendX) · [Maplypi](https://github.com/EslaM-X/maplypi-frontend) · [Spin4Pi](https://github.com/EslaM-X/spin4pi-vault) · [PiEat-Me](https://github.com/EslaM-X/pi-eats-crypto-now-90) |
+| [Pi Ecosystem Platforms](https://github.com/EslaM-X/mapcap-ipo-frontendX) | [MapCap IPO](https://github.com/EslaM-X/mapcap-ipo-frontendX) · **Maplypi** · [Spin4Pi](https://github.com/EslaM-X/spin4pi-vault) · [PiEat-Me](https://github.com/EslaM-X/pi-eats-crypto-now-90) |
 
 **CV:** [portfolio/CV.md](https://github.com/EslaM-X/portfolio/blob/main/CV.md)
 
