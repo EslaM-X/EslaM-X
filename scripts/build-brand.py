@@ -44,7 +44,7 @@ dur = int(x / 2 / 40)
 body = f'<style>.m{{animation:m {dur}s linear infinite}}@keyframes m{{to{{transform:translateX(-{x/2:.0f}px)}}}}</style>'
 body += '<rect width="1200" height="72" rx="36" fill="url(#r)" stroke="url(#g)" stroke-opacity=".6" stroke-width="2"/><clipPath id="c"><rect x="214" y="0" width="976" height="72"/></clipPath>'
 body += f'<g clip-path="url(#c)"><g transform="translate(222,0)"><g class="m">{pills}</g></g></g>'
-body += '<rect x="8" y="8" width="196" height="56" rx="28" fill="url(#g)"/><circle cx="34" cy="36" r="6" fill="#0A0A0C"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>' + t(116, 42, "NOW SHIPPING", 17, "#0A0A0C", 900, "middle", 'letter-spacing="2"')
+body += '<rect x="8" y="8" width="196" height="56" rx="28" fill="url(#g)"/><circle cx="30" cy="36" r="5" fill="#0A0A0C"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>' + t(122, 42, "NOW SHIPPING", 16, "#0A0A0C", 900, "middle", 'letter-spacing="2"')
 write("now.svg", body, 1200, 72)
 
 P = [("coreguard", "CoreGuard", "FLAGSHIP · EXECUTION TRUST", "Authorization Firewall · Execution Verification · Receipts", f'{V["tests"]} tests · Mainnet anchor LIVE', "Next: SDK v1 · two pilots"),
