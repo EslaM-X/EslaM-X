@@ -59,7 +59,7 @@ Authorization Firewall · Execution Verification · Verifiable Consent Receipts
 
 <a href="https://github.com/coreguard-global"><img src="https://img.shields.io/badge/GitHub-coreguard--global-FF8A00?style=for-the-badge&logo=github&labelColor=0B0F14" /></a>
 <a href="https://coreguard-trust-and-defense.lovable.app/"><img src="https://img.shields.io/badge/Website-CoreGuard-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
-<a href="https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md"><img src="https://img.shields.io/badge/Investor-page-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
+<a href="https://eslamx-coreguard-showcase.lovable.app/en/invest"><img src="https://img.shields.io/badge/Investor-page-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
 <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md"><img src="https://img.shields.io/badge/Evidence-mainnet%20records-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
 <a href="https://mcprush.com/eslam-x/coreguard-agent-commerce-mcp"><img src="https://img.shields.io/badge/MCPRush-listed-FF8A00?style=for-the-badge&labelColor=0B0F14" /></a>
 
@@ -86,15 +86,38 @@ Built around the **CGEP/1 protocol**.
 - **Stellar and Pi Network integrations: dry-run/plan-only.** [Status](https://github.com/coreguard-global/CoreGuard/blob/main/docs/STATUS.md)
 - **Listed on MCPRush.** [Inspect listing](https://mcprush.com/eslam-x/coreguard-agent-commerce-mcp)
 
-**Truth boundary:** zero external customers. Zero signed pilots. Funding **requested—not awarded**. [Investor page](https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md)
+**Truth boundary:** zero external customers. Zero signed pilots. Funding **requested—not awarded**. [Investor page](https://eslamx-coreguard-showcase.lovable.app/en/invest)
 
 **Next milestones—not completed:** SDK v1, Soroban authorized lane on testnet, two external pilots, independent security review. [Milestone plan](https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md)
 
-**Investors:** [Review the investment case](https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md).  
+**Investors:** [Review the investment case](https://eslamx-coreguard-showcase.lovable.app/en/invest).  
 **Partners:** [Discuss pilot opportunities](mailto:eslam.kora60@gmail.com).  
 **Developers:** [Inspect the repository](https://github.com/coreguard-global/CoreGuard).
 
 [**Website**](https://coreguard-trust-and-defense.lovable.app) · [**All projects →**](https://github.com/EslaM-X/EslaM-X/blob/main/PROJECTS.md)
+
+---
+
+### Projects
+
+**VERIFY · PROTECT · EMPOWER.**  
+Nine projects. **Evidence over claims.**
+
+| Project | Scope & verifiable evidence |
+|---|---|
+| [CoreGuard](https://github.com/coreguard-global/CoreGuard) | **Execution trust infrastructure.** [Core DAO Mainnet anchor](https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md). [<!--cg:tests-->2,207<!--/cg--> tests passing; <!--cg:files-->1,672<!--/cg--> files scanned; zero boundary violations](https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json). |
+| [ProofX](https://github.com/EslaM-X/proofx) | **Execution proof protocol.** v0.4.0 stable; frozen protocol; 102-case conformance. |
+| [PiProof](https://github.com/EslaM-X/piproof) | **Portable evidence on PEP/1.** Proof Passports, Dispute Engine; v1.0.0, zero dependencies. |
+| [EVMX](https://github.com/EslaM-X/evmx) | **Evidence-backed EVM forensics.** Public, active. |
+| [Atlas · RoboPay](https://github.com/EslaM-X/atlas-shelf-inspection) | **Payment-gated robotics.** USDC on Base Sepolia; [RoboPay PR #120 merged](https://github.com/fabricfoundation/RoboPay/pull/120). |
+| [Robot Sim Lab](https://github.com/EslaM-X/robot-sim-policy-lab) | **Policy-to-control pipeline.** Three simulators; 18 tests; 0.26 m maximum sim-to-sim deviation. |
+| [AI Agent Platform](https://github.com/EslaM-X/ai-agent-automation-platform) | **Human-gated, audited orchestration.** 17 evaluation cases, six dimensions, regression gate. |
+| [Production Systems Lab](https://github.com/EslaM-X/production-systems-lab) | **Go financial-system primitives.** Idempotency, replay, HMAC authentication, hash-chained audit; 37 tests. |
+| [Pi Local AI Agent](https://github.com/EslaM-X/pi-local-ai-agent) | **Privacy-first local AI for Pi Network.** Public install-and-run desktop gateway. |
+
+**CoreGuard commercial boundary:** [zero external customers, zero signed pilots; funding requested—not awarded](https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md).
+
+[**Investor page**](https://eslamx-coreguard-showcase.lovable.app/en/invest) · [**صفحة المستثمرين**](https://eslamx-coreguard-showcase.lovable.app/invest) · [**Full project dossier**](https://github.com/EslaM-X/EslaM-X/blob/main/PROJECTS.md)
 
 ---
 
@@ -112,12 +135,12 @@ Open-source contributions across blockchain infrastructure, developer tooling an
 - **Fabric** — RoboPay **PRs [#120](https://github.com/fabricfoundation/RoboPay/pull/120), [#86](https://github.com/fabricfoundation/RoboPay/pull/86) and [#89](https://github.com/fabricfoundation/RoboPay/pull/89)**.
 - **actionlint** — [rhysd/actionlint **PR #729**](https://github.com/rhysd/actionlint/pull/729).
 
-Explore the [**GitHub contribution profile**](https://github.com/EslaM-X).
+Explore the [**GitHub contribution profile**](https://github.com/EslaM-X) · Meet the [**CoreGuard team →**](https://github.com/EslaM-X/EslaM-X/blob/main/TEAM.md)
 
 **Building independent execution trust.**  
 [CoreGuard](https://github.com/coreguard-global/CoreGuard) brings an **Authorization Firewall**, **Execution Verification** and **Verifiable Consent Receipts** to AI agents, wallets, payments and dApps. Stellar and Pi Network integrations are **dry-run/plan-only**.
 
-[**Investor page →**](https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md)
+[**Investor page →**](https://eslamx-coreguard-showcase.lovable.app/en/invest)
 
 **VERIFY · PROTECT · EMPOWER.**
 
@@ -135,7 +158,7 @@ Explore the [**GitHub contribution profile**](https://github.com/EslaM-X).
 
 | You are | Start here | What you will find |
 | --- | --- | --- |
-| 💼 **Investor / Fund** | [Investor page](https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md) | Market, product, funding status, on-chain evidence |
+| 💼 **Investor / Fund** | [Investor page](https://eslamx-coreguard-showcase.lovable.app/en/invest) | Market, product, funding status, on-chain evidence |
 | 🤝 **Partner / Integrator** | [Discuss a pilot](https://coreguard-trust-and-defense.lovable.app/partners) | Agent execution security for wallets, payments, AI agents |
 | 🚀 **Accelerator / Incubator** | [CoreGuard product](https://github.com/coreguard-global/CoreGuard/blob/main/docs/PRODUCT.md) · [Evidence](https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md) | Founder-led, protocol-grade, CI-gated build |
 | 🧑‍💻 **Developer** | [ProofX](https://github.com/EslaM-X/proofx) · [Agent Commerce MCP](https://www.npmjs.com/package/@coreguard/agent-commerce) | Open protocols, conformance suites, docs |
@@ -463,12 +486,13 @@ folder.
 
 <div align="center">
 
-<a href="https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-invest.svg" width="30%" alt="Invest" /></a>
-<a href="https://coreguard-trust-and-defense.lovable.app/partners"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-partner.svg" width="30%" alt="Partner" /></a>
+<a href="https://eslamx-coreguard-showcase.lovable.app/en/invest"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-invest.svg" width="30%" alt="Invest" /></a>
+<a href="https://github.com/EslaM-X/EslaM-X/blob/main/TEAM.md"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-partner.svg" width="30%" alt="Partner" /></a>
 <a href="mailto:eslam.kora60@gmail.com"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/cta-call.svg" width="30%" alt="Book a call" /></a>
 
 </div>
 
+<sub><a href="https://eslamx-coreguard-showcase.lovable.app/en/invest">Investor page</a> · <a href="https://eslamx-coreguard-showcase.lovable.app/invest">صفحة المستثمرين</a> · <a href="https://eslamx-coreguard-showcase.lovable.app/pro">Professional site</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/COREGUARD-INVESTMENT-READINESS.md">Official investment pack</a></sub><br>
 <sub><a href="LEGAL.md">Legal · Third-party disclaimer · Privacy · Terms</a></sub><br>
 <sub><b>VERIFY · PROTECT · EMPOWER</b> — © EslaM HeshAM · CoreGuard Global</sub>
 

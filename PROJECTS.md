@@ -172,4 +172,4 @@ Cairo, Egypt · Remote worldwide
 
 For investment, partnership, or developer conversations: [eslam.kora60@gmail.com](mailto:eslam.kora60@gmail.com) · [LinkedIn](https://linkedin.com/in/eslam-hesham-359964192) · [X](https://x.com/EslaM_HeshAM_X)
 
-[Back to EslaM-X](https://github.com/EslaM-X) · [Investor page](https://github.com/EslaM-X/EslaM-X/blob/main/INVEST.md)
+[Back to EslaM-X](https://github.com/EslaM-X) · [Investor page](https://eslamx-coreguard-showcase.lovable.app/en/invest)
