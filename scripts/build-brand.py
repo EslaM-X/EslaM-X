@@ -71,3 +71,6 @@ for md in ["README.md", "INVEST.md", "PROJECTS.md"]:
         new = re.sub(r"<!--cg:(\w+)-->.*?<!--/cg-->", lambda m: f"<!--cg:{m[1]}-->{V.get(m[1], m[0])}<!--/cg-->", txt)
         if new != txt: p.write_text(new, encoding="utf-8")
 print("synced", V)
+import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from trust_engine import build as _te
+(B / "trust-engine.svg").write_text(_te(V["tests"], V["files"], V["violations"], V["commits"], when), encoding="utf-8")
