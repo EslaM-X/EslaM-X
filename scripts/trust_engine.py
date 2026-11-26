@@ -65,16 +65,23 @@ def build(T, Fi, Vi, commits, when):
              '<path d="M0,-38 L30,-25 L30,4 C30,24 16,36 0,43 C-16,36 -30,24 -30,4 L-30,-25 Z" fill="none" stroke="#FFB627" stroke-opacity=".35"/>'
              '<path d="M-17,3 L-4,16 L20,-12" fill="none" stroke="#3DDC84" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></path></g>')
     o.append(tx(SX, SY + 128, "VERIFIED", 17, "#3DDC84", 900, "middle", 6) + tx(SX, SY + 150, "cryptographic receipt issued", 11, "#8F8674", 500, "middle", 1))
+    # data packets flowing from each input into the network
+    for i, y in enumerate(IY):
+        o.append(f'<rect width="12" height="6" rx="3" fill="#FFE29A" filter="url(#gl)"><animateMotion begin="-{i*.6:.1f}s" dur="2.2s" repeatCount="indefinite" path="M212,{y} L330,{LY[0][i+1]}"/></rect>')
+    # threats-blocked counter (cycles through rising digits)
+    o.append('<rect x="880" y="96" width="132" height="54" rx="14" fill="#1A0606" stroke="#FF3B3B" stroke-opacity=".55"/>' + tx(946, 116, "THREATS BLOCKED", 8, "#FF8A8A", 800, "middle", 1.5))
+    for n in range(6):
+        vals = ";".join("1" if m == n else "0" for m in range(6))
+        o.append(f'<g opacity="{1 if n==0 else 0}"><animate attributeName="opacity" values="{vals}" calcMode="discrete" dur="4.8s" repeatCount="indefinite"/>' + tx(946, 141, f"+{(n+1)*3}", 20, "#FF5A5A", 900, "middle") + '</g>')
+    o.append('<rect x="1030" y="96" width="134" height="54" rx="14" fill="#06180D" stroke="#3DDC84" stroke-opacity=".55"/>' + tx(1097, 116, "ANCHOR", 8, "#8CF0B5", 800, "middle", 1.5) + tx(1097, 140, "Core Mainnet", 13, "#3DDC84", 900, "middle"))
+    # chain satellites orbiting the shield
+    for k, (lab, r, dur) in enumerate([("STELLAR", 126, 26), ("CORE", 126, 26), ("PI", 126, 26)]):
+        o.append(f'<g><animateTransform attributeName="transform" type="rotate" from="{k*120} {SX} {SY}" to="{k*120+360} {SX} {SY}" dur="{dur}s" repeatCount="indefinite"/><circle cx="{SX+r}" cy="{SY}" r="15" fill="#0E0D0B" stroke="url(#g)" stroke-width="1.5"/>' + tx(SX + r, SY + 3, lab[:2], 9, "url(#g)", 900, "middle") + '</g>')
     # header
     o.append('<circle cx="48" cy="44" r="6" fill="#3DDC84"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>'
              + tx(64, 50, "COREGUARD · NEURAL TRUST ENGINE", 17, "url(#g)", 900, ls=4) + tx(1164, 50, f"LIVE · {when}", 12, "#8F8674", 600, "end", 2))
     # stats chips top-right of shield
     chips = [(f"{T}/{T}", "TESTS"), (Fi, "FILES AUDITED"), (str(Vi), "VIOLATIONS"), (commits, "COMMITS")]
-    for i, (v, l) in enumerate(chips):
-        x = 890 + (i % 2) * 140; y = 470 + (i // 2) * 0
-    cx = 870
-    for v, l in chips:
-        o.append(f'<rect x="{cx}" y="76" width="70" height="0"/>')
     # stats bar
     o.append('<rect x="880" y="470" width="284" height="64" rx="16" fill="#0E0D0B" stroke="#FFB627" stroke-opacity=".3"/>')
     for i, (v, l) in enumerate(chips[:3]):
@@ -85,4 +92,21 @@ def build(T, Fi, Vi, commits, when):
     o.append('<rect x="250" y="70" width="600" height="26" rx="13" fill="#0E0D0B" stroke="#FFB627" stroke-opacity=".2"/><clipPath id="tc"><rect x="262" y="70" width="576" height="26"/></clipPath>'
              f'<g clip-path="url(#tc)"><g class="tk">{tx(262, 88, hx + hx, 11, "#B8AE98", 600, ls=1, extra="font-family=\"monospace\"")}</g></g>')
     o.append('</g><rect x="1" y="1" width="1198" height="558" rx="30" fill="none" stroke="url(#g)" stroke-opacity=".7" stroke-width="2"/>')
+    return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">{"".join(o)}</svg>'
+
+def divider(label):
+    """Thin animated neural divider: gold nodes with travelling pulses + centered label."""
+    W, H = 1200, 64
+    xs = list(range(40, 1161, 56))
+    o = ['<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#FFB627" stop-opacity="0"/><stop offset=".2" stop-color="#FFE29A"/><stop offset=".5" stop-color="#FFB627"/><stop offset=".8" stop-color="#FF8A00"/><stop offset="1" stop-color="#FF8A00" stop-opacity="0"/></linearGradient>'
+         '<filter id="gl"><feGaussianBlur stdDeviation="2.5"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
+         '<style>.p{stroke:#FFE29A;stroke-width:2.5;stroke-dasharray:24 1200;animation:f 4s linear infinite}@keyframes f{from{stroke-dashoffset:1224}to{stroke-dashoffset:0}}.n{animation:b 2s ease-in-out infinite}@keyframes b{50%{opacity:.25}}</style>']
+    pts = [(x, 32 + (14 if i % 2 else -14) * (0 if i % 3 == 0 else 1)) for i, x in enumerate(xs)]
+    d = "M" + " L".join(f"{x},{y}" for x, y in pts)
+    o.append(f'<path d="{d}" fill="none" stroke="url(#g)" stroke-opacity=".45" stroke-width="1.2"/><path class="p" d="{d}" fill="none" filter="url(#gl)"/>')
+    for i, (x, y) in enumerate(pts):
+        if abs(x - 600) < 150: continue
+        o.append(f'<circle class="n" style="animation-delay:-{i*.15:.2f}s" cx="{x}" cy="{y}" r="3.5" fill="#0B0A08" stroke="url(#g)" stroke-width="2"/>')
+    o.append(f'<rect x="452" y="14" width="296" height="36" rx="18" fill="#0B0A08" stroke="#FFB627" stroke-opacity=".6"/>'
+             + tx(600, 38, label, 14, "#FFB627", 900, "middle", 5))
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">{"".join(o)}</svg>'
