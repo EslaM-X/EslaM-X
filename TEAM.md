@@ -17,6 +17,13 @@
 | Open source | [Pi Network PiRC #2](https://github.com/PiNetwork/PiRC/pull/2) · [stellar-core #5409](https://github.com/stellar/stellar-core/pull/5409) · [CNCF pack #2681](https://github.com/buildpacks/pack/pull/2681) · [Fabric RoboPay #120](https://github.com/fabricfoundation/RoboPay/pull/120) · [actionlint #729](https://github.com/rhysd/actionlint/pull/729) |
 | Links | [GitHub](https://github.com/EslaM-X) · [LinkedIn](https://www.linkedin.com/in/eslam-hesham-359964192) · [X](https://x.com/EslaM_HeshAM_X) · [CV](https://github.com/EslaM-X/portfolio/blob/main/CV.md) |
 
+## Core team
+
+| Member | Role at CoreGuard | Focus | Links |
+| --- | --- | --- | --- |
+| **Wissal Yahia** (SEVEN JUNE) | AI & Decision-Intelligence Engineer | Machine-learning and analytics for AI-agent risk scoring, execution insights and evidence dashboards | [GitHub](https://github.com/sevenjunebaby) · [LinkedIn](https://www.linkedin.com/in/wissalyahia) · [Portfolio](https://wissalyahia.vercel.app/) |
+| **Yiğit Efe Kaya** | Developer Tooling & Quality Engineer | Rust/TypeScript tooling, automated quality and bug scanning, network hardening for the SDK and CI | [GitHub](https://github.com/YigitEfe-DEV) · [LinkedIn](https://www.linkedin.com/in/efe-yigit-kaya-250392271) · [Website](https://efeyigit.me) |
+
 ## Open roles — funded by the milestone plan
 
 | Role | Focus | Funded by |
