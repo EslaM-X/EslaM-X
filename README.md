@@ -19,6 +19,10 @@
 
 <a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine-v3.svg" width="100%" alt="CoreGuard Trust Engine — every action authorized, verified and receipted" /></a>
 
+<sub>🔗 <a href="https://github.com/coreguard-global/CoreGuard/blob/main/README.md"><b>Official docs</b></a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/ARCHITECTURE.md">Architecture</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md">Evidence</a> · <a href="https://github.com/coreguard-global/CoreGuard/tree/main/test">Test suite</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json">Live snapshot</a> · <a href="https://github.com/coreguard-global/CoreGuard/tree/main/src">Source</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/DEVELOPER-QUICKSTART.md">Quickstart</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/SECURITY.md">Security</a></sub>
+
+
+
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2400&pause=800&color=FFB627&center=true&vCenter=true&width=600&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;AI+AGENTS+%C2%B7+ROBOTICS;WEB3+%C2%B7+SECURITY;FOUNDER+%C2%B7+COREGUARD" alt="EslaM-X" />
 
 
@@ -499,3 +503,5 @@ folder.
 <sub><b>VERIFY · PROTECT · EMPOWER</b> — © EslaM HeshAM · CoreGuard Global</sub>
 
 </div>
+
+<div align="center"><a href="https://eslamx-coreguard-showcase.lovable.app/pro"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero-mini.svg" width="560" alt="EslaM HeshAM · CoreGuard — live card" /></a></div>
