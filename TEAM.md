@@ -25,7 +25,7 @@ Builds [CoreGuard](https://github.com/coreguard-global/CoreGuard) · [ProofX](ht
 <table><tr><td width="150" align="center"><a href="https://www.linkedin.com/in/wissalyahia"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/av-wissal.png" width="120" alt="Wissal Yahia · SEVEN JUNE" /></a></td><td>
 
 ### Wissal Yahia · SEVEN JUNE
-**AI &amp; Decision-Intelligence Engineer**
+**AI &amp; Decision-Intelligence Engineer**<br>
 Machine learning for AI-agent risk scoring, execution insights and evidence dashboards.
 
 [GitHub](https://github.com/sevenjunebaby) · [LinkedIn](https://www.linkedin.com/in/wissalyahia) · [Portfolio](https://wissalyahia.vercel.app/)
@@ -35,7 +35,7 @@ Machine learning for AI-agent risk scoring, execution insights and evidence dash
 <table><tr><td width="150" align="center"><a href="https://www.linkedin.com/in/efe-yigit-kaya-250392271"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/av-yigit.png" width="120" alt="Yiğit Efe Kaya" /></a></td><td>
 
 ### Yiğit Efe Kaya
-**Developer Tooling &amp; Quality Engineer**
+**Developer Tooling &amp; Quality Engineer**<br>
 Rust/TypeScript tooling, automated quality and bug scanning, network hardening for the SDK and CI.
 
 [GitHub](https://github.com/YigitEfe-DEV) · [LinkedIn](https://www.linkedin.com/in/efe-yigit-kaya-250392271) · [Website](https://efeyigit.me)
