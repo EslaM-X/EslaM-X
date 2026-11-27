@@ -9,7 +9,7 @@
 
 <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/div-founder.svg" width="100%" alt="Founder" />
 
-<a href="https://www.linkedin.com/in/eslam-hesham-359964192"><img src="https://github.com/EslaM-X.png?size=240" width="120" alt="EslaM HeshAM" /></a>
+<a href="https://www.linkedin.com/in/eslam-hesham-359964192"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/av-eslam.png" width="120" alt="EslaM HeshAM" /></a>
 
 ### EslaM HeshAM · MR-X
 **Technical Architect · Founder & CEO, CoreGuard Global** · Cairo → remote worldwide
@@ -22,7 +22,7 @@ Builds [CoreGuard](https://github.com/coreguard-global/CoreGuard) · [ProofX](ht
 
 <img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/div-team.svg" width="100%" alt="Core team" />
 
-<table><tr><td width="150" align="center"><a href="https://www.linkedin.com/in/wissalyahia"><img src="https://github.com/sevenjunebaby.png?size=240" width="120" alt="Wissal Yahia · SEVEN JUNE" /></a></td><td>
+<table><tr><td width="150" align="center"><a href="https://www.linkedin.com/in/wissalyahia"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/av-wissal.png" width="120" alt="Wissal Yahia · SEVEN JUNE" /></a></td><td>
 
 ### Wissal Yahia · SEVEN JUNE
 **AI &amp; Decision-Intelligence Engineer**
@@ -32,7 +32,7 @@ Machine learning for AI-agent risk scoring, execution insights and evidence dash
 
 </td></tr></table>
 
-<table><tr><td width="150" align="center"><a href="https://www.linkedin.com/in/efe-yigit-kaya-250392271"><img src="https://github.com/YigitEfe-DEV.png?size=240" width="120" alt="Yiğit Efe Kaya" /></a></td><td>
+<table><tr><td width="150" align="center"><a href="https://www.linkedin.com/in/efe-yigit-kaya-250392271"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/av-yigit.png" width="120" alt="Yiğit Efe Kaya" /></a></td><td>
 
 ### Yiğit Efe Kaya
 **Developer Tooling &amp; Quality Engineer**
