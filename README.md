@@ -15,9 +15,9 @@
 
 <div align="center">
 
-<a href="https://eslamx.vercel.app"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero.svg" width="100%" alt="EslaM HeshAM — MR-X · Founder &amp; CEO CoreGuard Global" /></a>
+<a href="https://eslamx.vercel.app"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero-v2.svg" width="100%" alt="EslaM HeshAM — MR-X · Founder &amp; CEO CoreGuard Global" /></a>
 
-<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine.svg" width="100%" alt="CoreGuard Trust Engine — every action authorized, verified and receipted" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine-v3.svg" width="100%" alt="CoreGuard Trust Engine — every action authorized, verified and receipted" /></a>
 
 <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=700&size=22&duration=2400&pause=800&color=FFB627&center=true&vCenter=true&width=600&lines=SYSTEMS+%26+PROTOCOL+ENGINEER;AI+AGENTS+%C2%B7+ROBOTICS;WEB3+%C2%B7+SECURITY;FOUNDER+%C2%B7+COREGUARD" alt="EslaM-X" />
 
