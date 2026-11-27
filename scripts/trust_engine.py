@@ -92,6 +92,10 @@ def build(snap):
     hx = f"commit {sha} ✓ · {T}/{T} tests PASS · boundary audit {A.get('check','PASS')} · {Fi} files · {Vi} violations · {n(D.get('executed',0))} doc checks · {D.get('docsCovered',0)} docs covered · harness {'READY' if 'READY' in snap.get('peoplesCourtHarness','') else '—'} · measured {snap['measuredAtUtc'][:16].replace('T',' ')} UTC · "
     o.append('<rect x="250" y="70" width="600" height="26" rx="13" fill="#0E0D0B" stroke="#FFB627" stroke-opacity=".2"/><clipPath id="tc"><rect x="262" y="70" width="576" height="26"/></clipPath>'
              f'<g clip-path="url(#tc)"><g class="tk">{tx(262, 88, hx + hx, 11, "#B8AE98", 600, ls=1, extra="font-family=\"monospace\"")}</g></g>')
+    for (x, y, dx, dy) in [(16, 16, 1, 1), (1184, 16, -1, 1), (16, 544, 1, -1), (1184, 544, -1, -1)]:
+        o.append(f'<path d="M{x},{y+dy*24} L{x},{y} L{x+dx*24},{y}" fill="none" stroke="url(#g)" stroke-width="2.5"/>')
+    ecg = "M560,44 L620,44 L630,30 L642,58 L652,36 L660,44 L760,44 L770,26 L782,60 L792,44 L880,44"
+    o.append(f'<path d="{ecg}" fill="none" stroke="#FFB627" stroke-opacity=".25" stroke-width="1.5"/><path d="{ecg}" fill="none" stroke="#3DDC84" stroke-width="2" stroke-dasharray="40 400" filter="url(#gl)"><animate attributeName="stroke-dashoffset" values="440;0" dur="2.4s" repeatCount="indefinite"/></path>')
     o.append('</g><rect x="1" y="1" width="1198" height="558" rx="30" fill="none" stroke="url(#g)" stroke-opacity=".7" stroke-width="2"/>')
     return f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">{"".join(o)}</svg>'
 
