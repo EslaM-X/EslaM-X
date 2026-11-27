@@ -1,8 +1,8 @@
 <div align="center">
 
-<a href="https://github.com/coreguard-global"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero.svg" width="100%" alt="CoreGuard Global team" /></a>
+<a href="https://github.com/coreguard-global"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero-v2.svg" width="100%" alt="CoreGuard Global team" /></a>
 
-<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine.svg" width="100%" alt="CoreGuard Neural Trust Engine" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine-v3.svg" width="100%" alt="CoreGuard Neural Trust Engine" /></a>
 
 # The CoreGuard Team
 
