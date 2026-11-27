@@ -22,10 +22,10 @@ def build(snap):
          '<pattern id="hex" width="28" height="48" patternUnits="userSpaceOnUse"><path d="M14 0l14 8v16l-14 8-14-8V8z M14 32v16" fill="none" stroke="#FFB627" stroke-opacity=".05"/></pattern>'
          '<filter id="gl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3.2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
          '<clipPath id="cl"><rect x="2" y="2" width="1196" height="556" rx="30"/></clipPath></defs>']
-    o.append('<style>.w{stroke:#FFB627;stroke-opacity:.09}.p{stroke:url(#g);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-dasharray:10 500;animation:f 2.8s linear infinite}'
+    o.append('<style>.w{stroke:#FFB627;stroke-opacity:.09}.t{stroke-width:7!important;stroke-opacity:.18;stroke-dasharray:34 476!important;filter:blur(1px)}.p{stroke:url(#g);stroke-width:2.2;fill:none;stroke-linecap:round;stroke-dasharray:10 500;animation:f 2.8s linear infinite}'
              '@keyframes f{from{stroke-dashoffset:510}to{stroke-dashoffset:0}}.n{animation:b 2.6s ease-in-out infinite}@keyframes b{50%{opacity:.3}}'
              '.sp{transform-origin:1010px 290px;animation:s 18s linear infinite}.sp2{transform-origin:1010px 290px;animation:s 11s linear infinite reverse}@keyframes s{to{transform:rotate(360deg)}}'
-             '.tk{animation:t 14s linear infinite}@keyframes t{to{transform:translateX(-600px)}}.sc{animation:sc 5s ease-in-out infinite}@keyframes sc{0%{transform:translateX(250px)}50%{transform:translateX(860px)}100%{transform:translateX(250px)}}</style>')
+             '.sc{animation:sc 5s ease-in-out infinite}@keyframes sc{0%{transform:translateX(250px)}50%{transform:translateX(860px)}100%{transform:translateX(250px)}}</style>')
     o.append('<g clip-path="url(#cl)"><rect width="1200" height="560" fill="url(#r)"/><rect width="1200" height="560" fill="url(#hex)"/>')
     o.append(f'<circle cx="{SX}" cy="{SY}" r="190" fill="url(#core)"/><rect class="sc" x="0" y="80" width="120" height="420" fill="url(#scan)"/>')
     pts = [[(212, y) for y in IY]] + [[(x, y) for y in ys] for x, ys in zip(LX, LY)]
@@ -35,6 +35,7 @@ def build(snap):
             for (x2, y2) in b:
                 w += f'<line class="w" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}"/>'
                 if (k * 7) % 6 == 0:
+                    p += f'<line class="p t" style="animation-delay:-{(k*.41)%2.8:.2f}s" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}"/>'
                     p += f'<line class="p" style="animation-delay:-{(k*.41)%2.8:.2f}s" x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}"/>'
                 k += 1
     for (x, y) in pts[-1]:
@@ -48,7 +49,7 @@ def build(snap):
             big = i == len(ys) // 2
             o.append(f'<circle class="n" style="animation-delay:-{(i*.35+j*.5):.2f}s" cx="{x}" cy="{y}" r="{9 if big else 6.5}" fill="#0E0D0B" stroke="url(#g)" stroke-width="2.5" filter="url(#gl)"/>')
             o.append(f'<circle cx="{x}" cy="{y}" r="2.4" fill="#FFE29A"/>')
-        o.append(tx(x, 524, names[j], 12, "url(#g)", 800, "middle", 3) + tx(x, 543, subs[j], 9, "#B8AE98", 700, "middle", 1))
+        o.append(f'<rect x="{x-56}" y="504" width="112" height="42" rx="12" fill="#0E0D0B" stroke="url(#g)" stroke-opacity=".45"/><rect x="{x-20}" y="504" width="40" height="2" fill="url(#g)"/>' + tx(x, 522, names[j], 11, "url(#g)", 900, "middle", 2.5) + tx(x, 538, subs[j], 8.5, "#D8CFBC", 700, "middle", .5))
     # inputs
     for (ic, t), y in zip(ins, IY):
         o.append(f'<rect x="36" y="{y-19}" width="176" height="38" rx="19" fill="#121009" stroke="url(#g)" stroke-opacity=".55"/>'
@@ -61,22 +62,23 @@ def build(snap):
                  f'<animate begin="{d}" attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.56;1" dur="4.8s" repeatCount="indefinite"/></circle>')
         o.append(f'<g opacity="0"><animate begin="{d}" attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.5;.54;.82;1" dur="4.8s" repeatCount="indefinite"/>'
                  f'<circle cx="{bx}" cy="{by}" r="16" fill="none" stroke="#FF3B3B" stroke-width="2"><animate begin="{d}" attributeName="r" values="10;30" dur="4.8s" repeatCount="indefinite"/></circle>'
-                 f'<rect x="{bx-62}" y="{by-46}" width="124" height="22" rx="11" fill="#2A0707" stroke="#FF3B3B" stroke-opacity=".7"/>' + tx(bx, by - 31, f"✕ {lab}", 10, "#FF6B6B", 900, "middle", 2) + '</g>')
+                 f'<rect x="{bx-62}" y="{by-46}" width="124" height="22" rx="11" fill="#2A0707" stroke="#FF3B3B" stroke-opacity=".7"/>' + tx(bx, by - 31, f"✕ {lab}", 10, "#FF6B6B", 900, "middle", 2) + f'<g transform="rotate(-8 {bx} {by+34})"><rect x="{bx-38}" y="{by+22}" width="76" height="20" rx="4" fill="none" stroke="#FF3B3B" stroke-width="1.6"/>' + tx(bx, by + 36, "BLOCKED", 10, "#FF3B3B", 900, "middle", 3) + '</g></g>')
     # shield core with orbits
     o.append(f'<g class="sp"><circle cx="{SX}" cy="{SY}" r="104" fill="none" stroke="url(#g)" stroke-opacity=".35" stroke-dasharray="2 10"/><circle cx="{SX+104}" cy="{SY}" r="5" fill="#FFE29A" filter="url(#gl)"/><circle cx="{SX-104}" cy="{SY}" r="3" fill="#FFB627"/></g>')
     o.append(f'<g class="sp2"><circle cx="{SX}" cy="{SY}" r="82" fill="none" stroke="#3DDC84" stroke-opacity=".3" stroke-dasharray="40 14"/><circle cx="{SX}" cy="{SY-82}" r="4" fill="#3DDC84" filter="url(#gl)"/></g>')
     o.append(f'<circle cx="{SX}" cy="{SY}" r="66" fill="none" stroke="url(#g)" stroke-width="2"><animate attributeName="r" values="62;78;62" dur="2.8s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".7;0;.7" dur="2.8s" repeatCount="indefinite"/></circle>')
+    o.append(f'<circle cx="{SX}" cy="{SY}" r="66" fill="none" stroke="#FFE29A" stroke-width="3"><animate attributeName="r" values="66;160" dur="4s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values=".8;0" dur="4s" repeatCount="indefinite"/><animate attributeName="stroke-width" values="4;.5" dur="4s" repeatCount="indefinite"/></circle>')
     o.append(f'<g transform="translate({SX},{SY})" filter="url(#gl)"><path d="M0,-52 L43,-34 L43,6 C43,34 23,50 0,59 C-23,50 -43,34 -43,6 L-43,-34 Z" fill="#0E0D0B" stroke="url(#g)" stroke-width="3.5"/>'
              '<path d="M0,-38 L30,-25 L30,4 C30,24 16,36 0,43 C-16,36 -30,24 -30,4 L-30,-25 Z" fill="none" stroke="#FFB627" stroke-opacity=".35"/>'
              '<path d="M-17,3 L-4,16 L20,-12" fill="none" stroke="#3DDC84" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="stroke-opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></path></g>')
-    o.append(tx(SX, SY + 128, "VERIFIED", 17, "#3DDC84", 900, "middle", 6) + tx(SX, SY + 150, "cryptographic receipt issued", 11, "#8F8674", 500, "middle", 1))
+    o.append(tx(SX, SY + 150, "VERIFIED", 18, "#3DDC84", 900, "middle", 7, extra='filter="url(#gl)"') + tx(SX, SY + 168, f"receipt #{sha} · signed", 10, "#8F8674", 600, "middle", 1.5))
     # data packets flowing from each input into the network
     for i, y in enumerate(IY):
         o.append(f'<rect width="12" height="6" rx="3" fill="#FFE29A" filter="url(#gl)"><animateMotion begin="-{i*.6:.1f}s" dur="2.2s" repeatCount="indefinite" path="M212,{y} L330,{LY[0][i+1]}"/></rect>')
     o.append('<rect x="880" y="96" width="132" height="54" rx="14" fill="#06180D" stroke="#3DDC84" stroke-opacity=".55"/>' + tx(946, 116, "BOUNDARY AUDIT", 8, "#8CF0B5", 800, "middle", 1.5) + tx(946, 140, f"{A.get('check','PASS')} · {Vi}", 15, "#3DDC84", 900, "middle"))
     o.append('<rect x="1030" y="96" width="134" height="54" rx="14" fill="#06180D" stroke="#3DDC84" stroke-opacity=".55"/>' + tx(1097, 116, "LIVE COMMIT", 8, "#8CF0B5", 800, "middle", 1.5) + tx(1097, 140, sha, 15, "#3DDC84", 900, "middle", 2))
     # chain satellites orbiting the shield
-    for k, (lab, r, dur) in enumerate([("STELLAR", 126, 26), ("CORE", 126, 26), ("PI", 126, 26)]):
+    for k, (lab, r, dur) in enumerate([("STELLAR", 116, 26), ("CORE", 116, 26), ("PI", 116, 26)]):
         o.append(f'<g><animateTransform attributeName="transform" type="rotate" from="{k*120} {SX} {SY}" to="{k*120+360} {SX} {SY}" dur="{dur}s" repeatCount="indefinite"/><circle cx="{SX+r}" cy="{SY}" r="15" fill="#0E0D0B" stroke="url(#g)" stroke-width="1.5"/>' + tx(SX + r, SY + 3, lab[:2], 9, "url(#g)", 900, "middle") + '</g>')
     # header
     o.append('<circle cx="48" cy="44" r="6" fill="#3DDC84"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>'
@@ -90,8 +92,11 @@ def build(snap):
         o.append(tx(x, 500, v, 16 if i == 0 else 18, "url(#g)", 900, "middle") + tx(x, 520, l, 8, "#B8AE98", 700, "middle", 1.5))
     # receipt ticker
     hx = f"commit {sha} ✓ · {T}/{T} tests PASS · boundary audit {A.get('check','PASS')} · {Fi} files · {Vi} violations · {n(D.get('executed',0))} doc checks · {D.get('docsCovered',0)} docs covered · harness {'READY' if 'READY' in snap.get('peoplesCourtHarness','') else '—'} · measured {snap['measuredAtUtc'][:16].replace('T',' ')} UTC · "
-    o.append('<rect x="250" y="70" width="600" height="26" rx="13" fill="#0E0D0B" stroke="#FFB627" stroke-opacity=".2"/><clipPath id="tc"><rect x="262" y="70" width="576" height="26"/></clipPath>'
-             f'<g clip-path="url(#tc)"><g class="tk">{tx(262, 88, hx + hx, 11, "#B8AE98", 600, ls=1, extra="font-family=\"monospace\"")}</g></g>')
+    L = round(len(hx) * 7.4)
+    o.append(f'<style>.tk{{animation:t {L/45:.0f}s linear infinite}}@keyframes t{{to{{transform:translateX(-{L}px)}}}}</style>')
+    o.append('<rect x="250" y="66" width="600" height="30" rx="15" fill="#0B0A08" stroke="url(#g)" stroke-opacity=".45"/><clipPath id="tc"><rect x="266" y="66" width="568" height="30"/></clipPath>'
+             f'<g clip-path="url(#tc)"><g class="tk">' + "".join(tx(266 + L * m, 86, hx, 11, "#D8CFBC", 600, ls=1, extra=f'font-family="monospace" textLength="{L}" lengthAdjust="spacingAndGlyphs"') for m in range(2)) + '</g></g>'
+             '<rect x="250" y="66" width="40" height="30" rx="15" fill="#0B0A08" opacity=".8"/><rect x="810" y="66" width="40" height="30" rx="15" fill="#0B0A08" opacity=".8"/>')
     for (x, y, dx, dy) in [(16, 16, 1, 1), (1184, 16, -1, 1), (16, 544, 1, -1), (1184, 544, -1, -1)]:
         o.append(f'<path d="M{x},{y+dy*24} L{x},{y} L{x+dx*24},{y}" fill="none" stroke="url(#g)" stroke-width="2.5"/>')
     ecg = "M560,44 L620,44 L630,30 L642,58 L652,36 L660,44 L760,44 L770,26 L782,60 L792,44 L880,44"
