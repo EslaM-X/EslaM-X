@@ -73,7 +73,7 @@ for md in ["README.md", "INVEST.md", "PROJECTS.md"]:
 print("synced", V)
 import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 from trust_engine import build as _te
-(B / "trust-engine.svg").write_text(_te(V["tests"], V["files"], V["violations"], V["commits"], when), encoding="utf-8")
+(B / "trust-engine.svg").write_text(_te(s), encoding="utf-8")
 from trust_engine import divider as _dv
 for _k, _l in {"founder": "FOUNDER", "team": "CORE TEAM", "roles": "OPEN ROLES", "partner": "PARTNER", "projects": "PROJECTS", "evidence": "LIVE EVIDENCE", "oss": "OPEN SOURCE", "invest": "INVEST"}.items():
     (B / f"div-{_k}.svg").write_text(_dv(_l), encoding="utf-8")
