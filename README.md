@@ -17,7 +17,7 @@
 
 <a href="https://eslamx.vercel.app"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/hero-v3.svg" width="100%" alt="EslaM HeshAM — MR-X · Founder &amp; CEO CoreGuard Global" /></a>
 
-<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine-v4.svg" width="100%" alt="CoreGuard Trust Engine — every action authorized, verified and receipted" /></a>
+<a href="https://github.com/coreguard-global/CoreGuard"><img src="https://raw.githubusercontent.com/EslaM-X/EslaM-X/main/assets/brand/trust-engine-v5.svg" width="100%" alt="CoreGuard — 10 illustrative inputs, 8 conceptual trust checks, live repository evidence" /></a>
 
 <sub>🔗 <a href="https://github.com/coreguard-global/CoreGuard/blob/main/README.md"><b>Official docs</b></a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/ARCHITECTURE.md">Architecture</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/EVIDENCE.md">Evidence</a> · <a href="https://github.com/coreguard-global/CoreGuard/tree/main/test">Test suite</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/state-snapshot.json">Live snapshot</a> · <a href="https://github.com/coreguard-global/CoreGuard/tree/main/src">Source</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/docs/DEVELOPER-QUICKSTART.md">Quickstart</a> · <a href="https://github.com/coreguard-global/CoreGuard/blob/main/SECURITY.md">Security</a></sub>
 
