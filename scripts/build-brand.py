@@ -83,6 +83,7 @@ _logo = (B / "logo-x.b64").read_text().strip()
 (B / "hero-v3.svg").write_text(_hero(V, _logo, commit), encoding="utf-8")
 (B / "trust-engine-v4.svg").write_text((B / "trust-engine.svg").read_text(encoding="utf-8"), encoding="utf-8")
 (B / "trust-engine-v5.svg").write_text(_te(s), encoding="utf-8")
+(B / "trust-engine-v6.svg").write_text(_te(s), encoding="utf-8")
 (B / "trust-engine-v3.svg").write_text((B / "trust-engine.svg").read_text(encoding="utf-8"), encoding="utf-8")
 from extras import static as _st, mini as _mini
 (B / "trust-engine-static.svg").write_text(_te(s, animated=False), encoding="utf-8")
