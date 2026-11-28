@@ -72,7 +72,7 @@ for md in ["README.md", "INVEST.md", "PROJECTS.md"]:
         if new != txt: p.write_text(new, encoding="utf-8")
 print("synced", V)
 import sys; sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from trust_engine import build as _te
+from neural_engine import build as _te
 (B / "trust-engine.svg").write_text(_te(s), encoding="utf-8")
 from trust_engine import divider as _dv
 for _k, _l in {"founder": "FOUNDER", "team": "CORE TEAM", "roles": "OPEN ROLES", "partner": "PARTNER", "projects": "PROJECTS", "evidence": "LIVE EVIDENCE", "oss": "OPEN SOURCE", "invest": "INVEST"}.items():
@@ -82,7 +82,8 @@ _logo = (B / "logo-x.b64").read_text().strip()
 (B / "hero-v2.svg").write_text(_hero(V, _logo, commit), encoding="utf-8")
 (B / "hero-v3.svg").write_text(_hero(V, _logo, commit), encoding="utf-8")
 (B / "trust-engine-v4.svg").write_text((B / "trust-engine.svg").read_text(encoding="utf-8"), encoding="utf-8")
+(B / "trust-engine-v5.svg").write_text(_te(s), encoding="utf-8")
 (B / "trust-engine-v3.svg").write_text((B / "trust-engine.svg").read_text(encoding="utf-8"), encoding="utf-8")
 from extras import static as _st, mini as _mini
-(B / "trust-engine-static.svg").write_text(_st((B / "trust-engine.svg").read_text(encoding="utf-8")), encoding="utf-8")
+(B / "trust-engine-static.svg").write_text(_te(s, animated=False), encoding="utf-8")
 (B / "hero-mini.svg").write_text(_mini(V, _logo, commit), encoding="utf-8")
